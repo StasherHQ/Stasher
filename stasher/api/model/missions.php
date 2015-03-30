@@ -49,6 +49,18 @@ function newPaymentRequest($Array) {
 		return $result1;
 	}
 	
+	function getCountOfCompletedMissionByChildId($childId){
+		$fields = array("count(id) as totalcompletedmission");
+		$tables = array($this->missions);
+		if($childId){
+			$where  = array("childId= '".$childId."' AND status='3'");
+		}
+		$result = $this->SelectData($fields,$tables, $where, $order = array(), $group=array(),$limit = "",0,0); 
+		$result1 = $this->FetchRow($result);
+		return $result1['totalcompletedmission'];
+	}
+
+
 	function checkTheCreatorOfMission($missionId,$parentId){
 		$fields = array();
 		$tables = array($this->missions);

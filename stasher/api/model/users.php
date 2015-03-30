@@ -40,6 +40,13 @@ class Model_Users extends Database
 	function editUserInformation($array, $Id){
 		$this->UpdateData($this->user_personal,$array,"userId",$Id,0);
 	}
+
+	function editRelation($array, $where){
+		
+		$this->UpdateDataWithWhere($this->user_relation,$array,$where,0);
+	}
+
+
 	function checkEmailExists($email,$id){
 		$fields = array();
 		$tables = array($this->user);
@@ -161,7 +168,7 @@ class Model_Users extends Database
 		$fields = array();
 		$tables = array($this->user_relation);
 		if($userId){
-			$where  = array("parentId='".$userId."'");
+			$where  = array("parentId='".$userId."' AND status='2'");
 		}
 		$result = $this->SelectData($fields,$tables, $where, $order = array(), $group=array(),$limit = "",0,0); 
 		$result1 = $this->FetchAll($result);
@@ -171,7 +178,7 @@ class Model_Users extends Database
 		$fields = array();
 		$tables = array($this->user_relation);
 		if($userId){
-			$where  = array("childId='".$userId."'");
+			$where  = array("childId='".$userId."' AND status='2'");
 		}
 		$result = $this->SelectData($fields,$tables, $where, $order = array(), $group=array(),$limit = "",0,0); 
 		$result1 = $this->FetchAll($result);

@@ -46,6 +46,7 @@ if($_POST['userId'] != '' )
 						$marray[$k]['description'] = $activityArray[$k]['description'];
 						$marray[$k]['inserted_date'] = $activityArray[$k]['inserted_date'];						
 						$marray[$k]['activity_type'] = $activityArray[$k]['activity_type'];
+						$marray[$k]['seenstatus'] = $activityArray[$k]['seenstatus'];
 						
 						$k++;
 					}

@@ -30,7 +30,7 @@ has been sent to your Commander.";
 $parentId = $missionArray['parentId'];
 
 							$childDetails = $usrObj->getUserInformationByUserId($childId);
-							$description = 'Mission is completed by :'.$childDetails['fname'].' '.$childDetails['lname'];
+							$description = 'Mission is completed by '.$childDetails['fname'].' '.$childDetails['lname'];
 							$activityArray1 = array();
 							$activityArray1['userId'] = $parentId;	
 							$activityArray1['description'] = $description;	
@@ -43,7 +43,7 @@ $parentId = $missionArray['parentId'];
                                                           
 							// send ios push  notification to the child.
                                                         $devicetoken = $parentDetails['devicetoken'];
-                                                        $message = 'Mission is completed by :'.$childDetails['fname'].' '.$childDetails['lname'];
+                                                        $message = 'Mission is completed by '.$childDetails['fname'].' '.$childDetails['lname'];
                                                         sendPushNotificationToIOSDevice($devicetoken,$message);	
 
 

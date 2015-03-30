@@ -54,7 +54,7 @@ if($_POST['parentId'] != '' )
 				else
 				{
 					$marray['error']['code'] = "101";
-					$marray['error']['message'] = "There is no compelted missions";
+					$marray['error']['message'] = "There is no completed missions.";
 					
 				}
 				

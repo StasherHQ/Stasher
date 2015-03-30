@@ -4,20 +4,7 @@ include('model/badges.php');
 $usrObj = new Model_Users();
 $badgeObj = new Model_Badges();
 
-
-/*
-$notification_type = 4;//type 4 for following
-$notification_message = "test msg";
-									   
-									   
-$device_token= '03139b86477ac37d8d8d7267a9c1da628d73d1ab';
-
-							
-$badge = 1;                
-$push_notification = push_notification($notification_type,$device_token,$notification_message,$userId,$user_like_name,$badge,$auther_id,$user_id);
-echo $push_notification;exit;						
-								
-*/		
+		
 $marray = array();
 if($_POST['username'] != '' && $_POST['password'] != '' && $_POST['email'] != ''  && $_POST['isparent'] != '' )
 //if(count($_GET) > 1)
@@ -55,11 +42,6 @@ if($_POST['username'] != '' && $_POST['password'] != '' && $_POST['email'] != ''
 				$array['email'] = $email;
 				
 				$array['devicetoken'] = $uid;
-				//$array['lname'] = "123456";
-				//$array['dob'] = "vipul@yahoo.com";
-				
-				//$array['country'] = "vipul";
-				//$array['isparent'] = "123456";
 				if($isparent == 'yes')
 				{
 					$array['usertype'] = "4";
@@ -91,7 +73,7 @@ if($_POST['username'] != '' && $_POST['password'] != '' && $_POST['email'] != ''
 				$parray['fname'] = $fname;
 				$parray['lname'] = $lname;
 				$parray['dob'] = $dob;
-				$parray['country'] = $country;
+				//$parray['country'] = $country;
 				//$parray['isparent'] = $isparent;
 				$parray['avatar'] = $avatarname;
 				$parray['userId'] = $userId;
@@ -146,10 +128,12 @@ if($_POST['username'] != '' && $_POST['password'] != '' && $_POST['email'] != ''
 					$marray['usedetails']['gender'] = $userArray['info']['gender'];
 					$marray['usedetails']['country'] = $userArray['info']['country'];
 					$marray['usedetails']['dob'] = $userArray['info']['dob'];
+
 					if($userArray['info']['avatar'])
 					$marray['usedetails']['avatar'] = SITEURL.'/dynamicAssets/users/avatar/'.$userArray['info']['avatar'];
 					else
 					$marray['usedetails']['avatar'] = '';
+
 					if($userArray['usertype'] == '4')
 					{
 						$childArray  = $usrObj->getAllChildrenOfParentByUserId($userArray['userId']);
@@ -194,7 +178,7 @@ if($_POST['username'] != '' && $_POST['password'] != '' && $_POST['email'] != ''
 						$barray = array();
 						$barray['badgeId'] = 1;
 						$barray['childId'] = $userArray['userId'];
-						$barray['parentId'] = 1;
+						//$barray['parentId'] = 1;
 						$barray['inserted_date'] = date("Y-m-d H:i:s");
 
 						$userbadge = $badgeObj->addUserBadge($barray);

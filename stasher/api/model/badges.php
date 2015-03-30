@@ -17,9 +17,9 @@ function addUserBadge($Array) {
 	
 
 function getAllUserBadges($userId){
-		$fields = array();
+		$fields = array("ub.*,b.title,b.inserted_date as badgedate");
 		$tables = array($this->user_badges.' as ub',$this->badges.' as b');
-		$where  = array("childId= '".$userId."' AND ub.badgeId = b.id");
+		$where  = array("ub.childId= '".$userId."' AND ub.badgeId = b.id");
 		$result = $this->SelectData($fields,$tables, $where, $order = array(), $group=array(),$limit = "",0,0); 
 		$result1 = $this->FetchAll($result);
 		return $result1;

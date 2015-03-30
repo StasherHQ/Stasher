@@ -36,7 +36,7 @@ if($_POST['parentId'] != ''  &&  $_POST['childId'] != '' &&  $_POST['missionId']
 						
 							$parentDetails = $usrObj->getUserInformationByUserId($parentId);
 						
-							$description = 'Reminder from :'.$parentDetails['fname'].' '.$parentDetails['lname'].''.$message;
+							$description = 'Reminder from '.$parentDetails['fname'].' '.$parentDetails['lname'].''.$message;
 							$activityArray1 = array();
 							$activityArray1['userId'] = $childId;	
 							$activityArray1['description'] = $description;	
@@ -50,7 +50,7 @@ if($_POST['parentId'] != ''  &&  $_POST['childId'] != '' &&  $_POST['missionId']
                                                           
 							// send ios push  notification to the child.
                                                         $devicetoken = $childDetails['devicetoken'];
-                                                        $message ='Reminder from :'.$parentDetails['fname'].' '.$parentDetails['lname'].''.$message;
+                                                        $message ='Reminder from '.$parentDetails['fname'].' '.$parentDetails['lname'].''.$message;
                                                         sendPushNotificationToIOSDevice($devicetoken,$message);	
 							
 							$marray['success']['code'] = "102";

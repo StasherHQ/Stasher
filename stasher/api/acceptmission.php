@@ -30,10 +30,11 @@ if($_POST['missionId'] != '' && $_POST['childId'])
 				
 				
 							$childDetails = $usrObj->getUserInformationByUserId($childId);
-							$description = 'Mission is accepted by'.$childDetails['fname'].' '.$childDetails['lname'].' :'.$missionDetails['title'];
+							$description = 'Mission is accepted by '.$childDetails['fname'].' '.$childDetails['lname'].' :'.$missionDetails['title'];
 							$activityArray = array();
 							$activityArray['userId'] = $missionDetails['parentId'];	
 							$activityArray['description'] = $description;	
+							$activityArray['title'] = $missionDetails['parentId'];	
 							$activityArray['activity_type'] = '2';
 							$activityArray['inserted_date'] = date("Y-m-d H:i:s");	
 							$usrObj->addActivity($activityArray);
@@ -45,7 +46,7 @@ if($_POST['missionId'] != '' && $_POST['childId'])
                                                           
 							// send ios push  notification to the parent.
                                                         $devicetoken = $parentDetails['devicetoken'];
-                                                        $message =  'Mission is accepted by'.$childDetails['fname'].' '.$childDetails['lname'].' :'.$missionDetails['title'];
+                                                        $message =  'Mission is accepted by '.$childDetails['fname'].' '.$childDetails['lname'].' :'.$missionDetails['title'];
                                                         sendPushNotificationToIOSDevice($devicetoken,$message)
 
 

@@ -39,6 +39,9 @@ if($_POST['userId'] != '')
 					$marray['usedetails']['gender'] = $userArray['info']['gender'];
 					$marray['usedetails']['country'] = $userArray['info']['country'];
 					$marray['usedetails']['dob'] = $userArray['info']['dob'];
+					$marray['usedetails']['tutorialshow'] = $userArray['info']['tutorialshow'];
+
+
 					if($userArray['info']['avatar'])
 					$marray['usedetails']['avatar'] = SITEURL.'/dynamicAssets/users/avatar/'.$userArray['info']['avatar'];
 					else
@@ -57,7 +60,7 @@ if($_POST['userId'] != '')
 					$marray['usedetails']['missioncount']['pending'] =	$msnObj->getCountOfPendingMissionsByParentId($userId);
 					$marray['usedetails']['missioncount']['completed'] =	$msnObj->getCountOfCompletedMissionsByParentId($userId);
 
-									$marray['usedetails']['amount']['deposit'] =	'1000';
+									$marray['usedetails']['amount']['deposit'] =	'0';
 					
 						$childArray  = $usrObj->getAllChildrenOfParentByUserId($userArray['userId']);
 						//echo "<pre>";print_r($childArray);exit;
@@ -114,16 +117,10 @@ if($_POST['userId'] != '')
 						
 						$badgeUser[$k] = $usrObj->getUserInformationByUserId($badgeArray[$k]['childId']);
 						$marray['usedetails']['badgedetails'][$k]['title']  = $badgeArray[$k]['title'];
-						$marray['usedetails']['badgedetails'][$k]['image']  = $badgeArray[$k]['image'];
-						$marray['usedetails']['badgedetails'][$k]['inserted_date']  = $badgeArray[$k]['inserted_date'];
+						//$marray['usedetails']['badgedetails'][$k]['image']  = $badgeArray[$k]['image'];
+						$marray['usedetails']['badgedetails'][$k]['badgedate']  = $badgeArray[$k]['badgedate'];
 						
-						$marray['usedetails']['badgedetails'][$k]['parent']['fname']  = $badgeUser[$k]['fname'];
-						$marray['usedetails']['badgedetails'][$k]['parent']['lname']  = $badgeUser[$k]['lname'];
-						if($badgeUser[$k]['avatar'])
-						$marray['usedetails']['badgedetails'][$k]['parent']['avatar']  = SITEURL.'/dynamicAssets/users/avatar/'.$badgeUser[$k]['avatar'];
-						else
-						$marray['usedetails']['badgedetails'][$k]['parent']['avatar']='';
-						$marray['usedetails']['badgedetails'][$k]['parent']['userId']  = $badgeUser[$k]['userId'];
+						
 						$k++;
 					}
 					
@@ -133,7 +130,7 @@ if($_POST['userId'] != '')
 					$marray['usedetails']['missioncount']['completed'] =	$msnObj->getCountOfCompletedMissionsByChildId($userId);
 
 									
-					$marray['usedetails']['amount']['saving'] =	'150';
+					$marray['usedetails']['amount']['saving'] =	'0';
 						$parentArray  = $usrObj->getAllParentdOfChildByUserId($userArray['userId']);
 						if($parentArray)
 						{

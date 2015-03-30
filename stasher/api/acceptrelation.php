@@ -16,68 +16,64 @@ if($_POST['parentId'] != ''  &&  $_POST['childId'] != '')
 			
 					if($userArray2)
 					{
-						$userArray3 = $usrObj->checkRelationExistOrNot($childId,$parentId);
-						if(count($userArray3) < 1)
-						{
-						
-							if($relation_type == '2')
-							$relation = 'Family';
-							elseif($relation_type == '3')					
-							$relation = 'Friend';
-							else
-							$relation = 'Parent';
-							
+					
 
-
+							$where = "childId = '".$childId."' AND parentId = '".$parentId."' ";
 							$userArray = array();	
-							$userArray['childId'] = $childId;	
-							$userArray['parentId'] = $parentId;
-							$userArray['requestfrom'] = $parentId;	
-							$userArray['requestto'] = $childId;	
-							$userArray['parent_type'] = $relation_type;	
-							$userArray['relation_name'] = $relation;	
-							$userArray['inserted_date'] = date("Y-m-d H:i:s");	
-							$userArray['status'] = 1;	
-							$usrObj->addRelation($userArray);
+							$userArray['status'] = $status;	
+							$usrObj->editRelation($userArray,$where);
+						
+						if($status == '2')
+						{	
+							$barray = array();
+							$barray['badgeId'] = 2;
+							$barray['childId'] = $userArray['userId'];
+							//$barray['parentId'] = 1;
+							$barray['inserted_date'] = date("Y-m-d H:i:s");
+
+							$userbadge = $badgeObj->addUserBadge($barray);
+						}
 
 
+							$childDetails = $usrObj->getUserInformationByUserId($childId);
+							if($status = '2')
+							{
+							$description = 'Your request has beeb accepted by '.$childDetails['fname'].' '.$childDetails['lname'].' : a Secret Agent (child) is added to the list.';	
+							}
+							if($status = '0')
+							{
+							$description = 'Your request has beeb rejected by '.$childDetails['fname'].' '.$childDetails['lname'].' : a Secret Agent (child) is added to the list.';	
+							}
 
 							
-							$childDetails = $usrObj->getUserInformationByUserId($childId);
-							$parentDetails = $usrObj->getUserInformationByUserId($parentId);
-
-							$description = 'New commander request from '.$parentDetails['fname'].' '.$parentDetails['lname'];
 							$activityArray = array();
-							$activityArray['userId'] = $childId;	
+							$activityArray['userId'] = $parentId;	
 							$activityArray['description'] = $description;	
 							$activityArray['activity_type'] = '3';
 							$activityArray['inserted_date'] = date("Y-m-d H:i:s");	
 							$usrObj->addActivity($activityArray);
 							
-							
-							
+							$parentDetails = $usrObj->getUserInformationByUserId($parentId);
 							
 							
 							// send ios push  notification to the child.
-                                                        $devicetoken = $childDetails['devicetoken'];
+                                                        $devicetoken = $parentDetails['devicetoken'];
                                                        
                                                         sendPushNotificationToIOSDevice($devicetoken,$description);
                                                         
+
+
+
 							
 							$marray['success']['code'] = "102";
-							$marray['success']['message'] = "A Secret Agent (child) request has been sent!";
-						}
-						else
-						{
-							$marray['error']['code'] = "102";
-							$marray['error']['message'] = "A Secret Agent (child) is already added or request already sent!";
-						}
+							$marray['success']['message'] = $description;
+						
 								
 					}
 					else
 					{
 						$marray['error']['code'] = "102";
-						$marray['error']['message'] = "Invalid parent";
+						$marray['error']['message'] = "Invalid child";
 					}
 			
 		}

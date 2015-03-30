@@ -37,7 +37,7 @@ if($_POST['parentId'] != ''  &&  $_POST['childId'] != '')
 							$usrObj->addRelation($userArray);
 							
 							$childDetails = $usrObj->getUserInformationByUserId($childId);
-							$description = ''.$childDetails['fname'].' '.$childDetails['lname'].' : a Secret Agent (child) is added to the list.';
+							$description = ''.$childDetails['fname'].' '.$childDetails['lname'].'  a Secret Agent (child) is added to the list.';
 							$activityArray = array();
 							$activityArray['userId'] = $userId;	
 							$activityArray['description'] = $description;	
@@ -46,7 +46,7 @@ if($_POST['parentId'] != ''  &&  $_POST['childId'] != '')
 							$usrObj->addActivity($activityArray);
 							
 							$parentDetails = $usrObj->getUserInformationByUserId($parentId);
-							$description = 'New commander request from:'.$parentDetails['fname'].' '.$parentDetails['lname'];
+							$description = 'New commander request from '.$parentDetails['fname'].' '.$parentDetails['lname'];
 							$activityArray1 = array();
 							$activityArray1['userId'] = $parentId;	
 							$activityArray1['description'] = $description;	

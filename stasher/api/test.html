@@ -1,0 +1,1504 @@
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script>
+$(document).ready(function(){
+	$(".addCF").click(function(){
+		$("#customFields").append('<tr valign="top"><th scope="row"><label for="customFieldName"></label></th><td><input type="text" class="code" id="customFieldName" name="childId[]" value="" placeholder="Input Name" /> &nbsp; <a href="javascript:void(0);" class="remCF">Remove</a></td></tr>');
+	});
+    $("#customFields").on('click','.remCF',function(){
+        $(this).parent().parent().remove();
+    });
+});
+</script>
+</head>
+<body>
+
+<div style="border:1px solid #000;width:100%;">
+<h1>Registration</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>Email (email)
+</td>
+<td>
+<input type="text" name="email" value="Email">
+</td>
+</tr>
+
+<tr>
+<td>Passowrd (password)
+</td>
+<td>
+<input type="text" name="password" value="password">
+</td>
+</tr>
+
+<tr>
+<td>Username (username)
+</td>
+<td><input type="text" name="username" value="username">
+</td>
+</tr>
+
+<tr>
+<td>First Name (fname)
+</td>
+<td><input type="text" name="fname" value="fname">
+</td>
+</tr>
+
+<tr>
+<td>Last Name (lname)
+</td>
+<td><input type="text" name="lname" value="lname">
+</td>
+</tr>
+
+<tr>
+<td>
+Is Parent? (isparent >> y/n)
+</td>
+<td>
+<select  name="isparent">
+	<option value="yes">yes</option>
+	<option value="no"></option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>
+DOB (don >> YYYY-mm-dd)
+</td>
+<td>
+<input type="text" name="dob" value="dob">
+</td>
+</tr>
+
+<tr>
+<td>
+Avatar (avatar)
+</td>
+<td>
+<input type="text" name="avatar" value="avatar">
+</td>
+</tr>
+
+
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="register">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Login</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>Username (username)
+</td>
+<td><input type="text" name="username" value="username">
+</td>
+</tr>
+<tr>
+<td>Passowrd (password)
+</td>
+<td>
+<input type="text" name="password" value="password">
+</td>
+</tr>
+
+
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="login">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>All Countries</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="allcountries">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Forgot Password</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>Username (username)
+</td>
+<td><input type="text" name="username" value="username">
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="forgotpassword">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Add Child</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>Child Id (childId)
+</td>
+<td><input type="text" name="childId" value="childId">
+</td>
+</tr>
+<tr>
+<td>Parent Id (parentId)
+</td>
+<td><input type="text" name="parentId" value="parentId">
+</td>
+</tr>
+<tr>
+<td>Relation Type (relation_type)
+</td>
+<td>
+	<select name="relation_type">
+		<option value="1">Parent</option>
+		<option value="2">Family</option>
+		<option value="3">Friend</option>
+	</select>
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="addchild">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Search Child</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>Search child by name/email/username
+</td>
+<td><input type="text" name="q" value="q">
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="searchchild">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Profile</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>userId
+</td>
+<td><input type="text" name="userId" value="userId">
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="profile">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Change Password</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>userId
+</td>
+<td><input type="text" name="userId" value="userId">
+</td>
+</tr>
+<tr>
+<td>oldpassword
+</td>
+<td><input type="text" name="oldpassword" value="oldpassword">
+</td>
+</tr>
+<tr>
+<td>newpassword
+</td>
+<td><input type="text" name="newpassword" value="newpassword">
+</td>
+</tr>
+<tr>
+<td>comfirmpassword
+</td>
+<td><input type="text" name="comfirmpassword" value="comfirmpassword">
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="changepassword">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+<div style="border:1px solid #000;width:100%;">
+<h1>Edit Profile</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>UserId (userId)
+</td>
+<td><input type="text" name="userId" value="userId">
+</td>
+</tr>
+<tr>
+<td>Email (email)
+</td>
+<td>
+<input type="text" name="email" value="Email">
+</td>
+</tr>
+<tr>
+<td>Username (username)
+</td>
+<td><input type="text" name="username" value="username">
+</td>
+</tr>
+
+<tr>
+<td>First Name (fname)
+</td>
+<td><input type="text" name="fname" value="fname">
+</td>
+</tr>
+
+<tr>
+<td>Last Name (lname)
+</td>
+<td><input type="text" name="lname" value="lname">
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+DOB (don >> YYYY-mm-dd)
+</td>
+<td>
+<input type="text" name="dob" value="dob">
+</td>
+</tr>
+
+<tr>
+<td>
+Avatar (avatar)
+</td>
+<td>
+<input type="text" name="avatar" value="avatar">
+</td>
+</tr>
+
+
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="editprofile">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Search Parent</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>Search child by name/email/username
+</td>
+<td><input type="text" name="q" value="q">
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="searchparent">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Add Parent</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>Child Id (childId)
+</td>
+<td><input type="text" name="childId" value="childId">
+</td>
+</tr>
+<tr>
+<td>Parent Id (parentId)
+</td>
+<td><input type="text" name="parentId" value="parentId">
+</td>
+</tr>
+<tr>
+<td>Relation Type (relation_type)
+</td>
+<td>
+	<select name="relation_type">
+		<option value="1">Parent</option>
+		<option value="2">Family</option>
+		<option value="3">Friend</option>
+	</select>
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="addparent">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Add Mission</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>Title (title)
+</td>
+<td><input type="text" name="title" value="title">
+</td>
+</tr>
+
+<tr>
+<td>Description (description)
+</td>
+<td><input type="text" name="description" value="description">
+</td>
+</tr>
+
+<tr>
+<td>parentId (parentId)
+</td>
+<td><input type="text" name="parentId" value="parentId">
+</td>
+</tr>
+
+<tr>
+<td>childId (childId)
+</td>
+<td><table class="form-table" id="customFields">
+	<tr valign="top">
+		<th scope="row"><label for="customFieldName"></label></th>
+		<td>
+			<input type="text" class="code" id="customFieldName" name="childId[]" value="" placeholder="Input Name" /> &nbsp;
+			<a href="javascript:void(0);" class="addCF">Add</a>
+		</td>
+	</tr>
+</table>
+</td>
+</tr>
+
+
+<tr>
+<td>isTimebase (isTimebase)
+</td>
+<td>
+	<select name="isTimebase">
+		<option value="yes">Yes</option>
+		<option value="no">No</option>
+	</select>
+</td>
+</tr>
+
+<tr>
+<td>totaltime (totaltime)
+</td>
+<td><input type="text" name="totaltime" value="totaltime">
+</td>
+</tr>
+
+<tr>
+<td>Reward Type (rewardtype)
+</td>
+<td>
+	<select name="rewardtype">
+		<option value="cash">Cash</option>
+		<option value="gift">Gift</option>
+	</select>
+</td>
+</tr>
+<tr>
+<td>rewards (rewards)
+</td>
+<td><input type="text" name="rewards" value="rewards">
+</td>
+</tr>
+
+
+<tr>
+<td>ispublic (ispublic)
+</td>
+<td>
+	<select name="ispublic">
+		<option value="yes">Yes</option>
+		<option value="no">No</option>
+	</select>
+</td>
+</tr>
+
+<tr>
+<td>isdraft (isdraft)
+</td>
+<td>
+	<select name="isdraft">
+		<option value="yes">Yes</option>
+		<option value="no">No</option>
+	</select>
+</td>
+</tr>
+
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="addmission">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Active Missions (Parent)</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>Parent Id (parentId)
+</td>
+<td><input type="text" name="parentId" value="parentId">
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="activemissions">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Active Missions (Child)</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>Child Id (childId)
+</td>
+<td><input type="text" name="childId" value="childId">
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="activemissions">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Edit Mission</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>missionId (missionId)
+</td>
+<td><input type="text" name="missionId" value="missionId">
+</td>
+</tr>
+
+<tr>
+<td>Title (title)
+</td>
+<td><input type="text" name="title" value="title">
+</td>
+</tr>
+
+<tr>
+<td>Description (description)
+</td>
+<td><input type="text" name="description" value="description">
+</td>
+</tr>
+
+<tr>
+<td>parentId (parentId)
+</td>
+<td><input type="text" name="parentId" value="parentId">
+</td>
+</tr>
+
+<tr>
+<td>childId (childId)
+</td>
+<td><table class="form-table" id="customFields">
+	<tr valign="top">
+		<th scope="row"><label for="customFieldName"></label></th>
+		<td>
+			<input type="text" class="code" id="customFieldName" name="childId[]" value="" placeholder="Input Name" /> &nbsp;
+			<a href="javascript:void(0);" class="addCF">Add</a>
+		</td>
+	</tr>
+</table>
+</td>
+</tr>
+
+
+<tr>
+<td>isTimebase (isTimebase)
+</td>
+<td>
+	<select name="isTimebase">
+		<option value="yes">Yes</option>
+		<option value="no">No</option>
+	</select>
+</td>
+</tr>
+
+<tr>
+<td>totaltime (totaltime)
+</td>
+<td><input type="text" name="totaltime" value="totaltime">
+</td>
+</tr>
+
+<tr>
+<td>Reward Type (rewardtype)
+</td>
+<td>
+	<select name="rewardtype">
+		<option value="cash">Cash</option>
+		<option value="gift">Gift</option>
+	</select>
+</td>
+</tr>
+<tr>
+<td>rewards (rewards)
+</td>
+<td><input type="text" name="rewards" value="rewards">
+</td>
+</tr>
+
+
+<tr>
+<td>ispublic (ispublic)
+</td>
+<td>
+	<select name="ispublic">
+		<option value="yes">Yes</option>
+		<option value="no">No</option>
+	</select>
+</td>
+</tr>
+
+<tr>
+<td>isdraft (isdraft)
+</td>
+<td>
+	<select name="isdraft">
+		<option value="yes">Yes</option>
+		<option value="no">No</option>
+	</select>
+</td>
+</tr>
+
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="editmission">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Completed Missions (Parent)</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>Parent Id (parentId)
+</td>
+<td><input type="text" name="parentId" value="parentId">
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="activemissions">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Completed Missions (Child)</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>childId (childId)
+</td>
+<td><input type="text" name="childId" value="childId">
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="activemissions">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Pending Missions (Parent)</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>Parent Id (parentId)
+</td>
+<td><input type="text" name="parentId" value="parentId">
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="pendingmissions">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Pending Missions (Chlid)</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>childId (childId)
+</td>
+<td><input type="text" name="childId" value="childId">
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="pendingmissions">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Complete The Mission</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>missionId (missionId)
+</td>
+<td><input type="text" name="missionId" value="missionId">
+</td>
+</tr>
+<tr>
+<td>parentId (parentId)
+</td>
+<td><input type="text" name="parentId" value="parentId">
+</td>
+</tr>
+
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="actiononmission">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Search Mission</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>Search mission by title
+</td>
+<td><input type="text" name="q" value="q">
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="searchmission">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>My Activities</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>userId
+</td>
+<td><input type="text" name="userId" value="userId">
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="myactivities">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Global Activities</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>userId
+</td>
+<td><input type="text" name="userId" value="userId">
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="activities">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Payment Request</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>childId
+</td>
+<td><input type="text" name="childId" value="childId">
+</td>
+</tr>
+<tr>
+<td>parentId
+</td>
+<td><input type="text" name="parentId" value="parentId">
+</td>
+</tr>
+<tr>
+<td>price
+</td>
+<td><input type="text" name="price" value="price">
+</td>
+</tr>
+<tr>
+<td>comment
+</td>
+<td><input type="text" name="comment" value="comment">
+</td>
+</tr>
+
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="paymentrequest">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Add Note</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>Child Id (childId)
+</td>
+<td><input type="text" name="childId" value="childId">
+</td>
+</tr>
+<tr>
+<td>Parent Id (parentId)
+</td>
+<td><input type="text" name="parentId" value="parentId">
+</td>
+</tr>
+<tr>
+<td>mission Id (missionId)
+</td>
+<td><input type="text" name="missionId" value="missionId">
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="remind">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Invite Parent</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>Child Id (childId)
+</td>
+<td><input type="text" name="childId" value="childId">
+</td>
+</tr>
+<tr>
+<td>email
+</td>
+<td><input type="text" name="email" value="email">
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="inviteparent">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Terms And Condition</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="terms">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Delete Mission</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>Parent Id (parentId)
+</td>
+<td><input type="text" name="parentId" value="parentId">
+</td>
+</tr>
+<tr>
+<td>mission Id (missionId)
+</td>
+<td><input type="text" name="missionId" value="missionId">
+</td>
+</tr>
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="deletemission">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>make Payment</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+
+<tr>
+<td>
+transactionId
+</td>
+<td>
+<input type="text" name="transactionId" value="Y9rcdhr">
+</td>
+</tr>
+
+
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="makepayment">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+    
+    <div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>ALl badges</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+    <tr>
+<td>
+Access token
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+<tr>
+<td>
+<input type="hidden" name="action" value="allbadges">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+    
+    <div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Add Bank Account</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+
+<tr>
+<td>
+transactionId
+</td>
+<td>
+<input type="text" name="transactionId" value="f276e314954a0f1d8047130e64fc70a4d67744e5">
+</td>
+</tr>
+
+
+<tr>
+<td>
+parentId
+</td>
+<td>
+<input type="text" name="parentId" value="">
+</td>
+</tr>
+
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+
+<tr>
+<td>
+<input type="hidden" name="action" value="addbankaccount">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+    
+  
+
+    <div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Add Bank Account</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+
+<tr>
+<td>
+transactionId
+</td>
+<td>
+<input type="text" name="transactionId" value="f276e314954a0f1d8047130e64fc70a4d67744e5">
+</td>
+</tr>
+
+
+<tr>
+<td>
+parentId
+</td>
+<td>
+<input type="text" name="parentId" value="">
+</td>
+</tr>
+
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+
+<tr>
+<td>
+<input type="hidden" name="action" value="addbankaccount">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+     
+</body>
+</html>

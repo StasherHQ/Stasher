@@ -64,7 +64,7 @@ if($_POST['title'] != ''  && $_POST['isTimebase'] != ''  && $_POST['parentId'] !
 					
 					
 							$parentDetails = $usrObj->getUserInformationByUserId($parentId);
-							$description = 'New mission added by :'.$parentDetails['fname'].' '.$parentDetails['lname'];
+							$description = 'New mission added by '.$parentDetails['fname'].' '.$parentDetails['lname'];
 							$activityArray1 = array();
 							$activityArray1['userId'] = $childIdArray[$k];	
 							$activityArray1['description'] = $description;	

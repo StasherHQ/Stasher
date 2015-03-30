@@ -32,6 +32,9 @@ if($_REQUEST['action'])
 			break;
 			case 'addchild' : $file ="addchild.php";
 			break;
+			case 'acceptrelation' : $file ="acceptrelation.php";
+			break;
+
 			case 'createchild' : $file ="createchild.php";
 			break;
 			case 'searchchild' : $file ="searchchild.php";
@@ -41,10 +44,12 @@ if($_REQUEST['action'])
 			case 'addparent' : $file ="addparent.php";
 			break; 
 			
-				case 'inviteparent' : $file ="inviteparent.php";
+			case 'inviteparent' : $file ="inviteparent.php";
 			break; 
 			
-			
+			case 'changetutorialflag' : $file ="changetutorialflag.php";
+			break;
+
 			case 'register' : $file ="register.php";
 			break; 
 			case 'registerstep1' : $file ="registerstep1.php";
@@ -107,6 +112,9 @@ if($_REQUEST['action'])
                         case 'parent_graph' : $file ="parent_graph.php";
 			break;
                      case 'child_graph' : $file ="child_graph.php";
+			break;
+
+  			case 'allbadges' : $file ="badges.php";
 			break;
 
 

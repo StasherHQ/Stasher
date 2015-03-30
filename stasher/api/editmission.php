@@ -64,7 +64,7 @@ if($_POST['title'] != ''  && $_POST['isTimebase'] != ''  && $_POST['parentId'] !
 						$missionId = $msnObj->editMission($array,$missionId);
 
 $parentDetails = $usrObj->getUserInformationByUserId($parentId);
-							$description = 'Mission is edited by :'.$parentDetails['fname'].' '.$parentDetails['lname'];
+							$description = 'Mission is edited by '.$parentDetails['fname'].' '.$parentDetails['lname'];
 							$activityArray1 = array();
 							$activityArray1['userId'] = $childIdArray[$k];	
 							$activityArray1['description'] = $description;	
@@ -76,7 +76,7 @@ $parentDetails = $usrObj->getUserInformationByUserId($parentId);
                                                           
 							// send ios push  notification to the child.
                                                         $devicetoken = $childDetails['devicetoken'];
-                                                        $message = 'Mission is edited by :'.$parentDetails['fname'].' '.$parentDetails['lname'];
+                                                        $message = 'Mission is edited by '.$parentDetails['fname'].' '.$parentDetails['lname'];
                                                         sendPushNotificationToIOSDevice($devicetoken,$message);	
 	
 						
