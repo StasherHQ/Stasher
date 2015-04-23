@@ -54,7 +54,7 @@ if($_POST['userId'] != '' )
 				else
 				{
 					$marray['error']['code'] = "404";
-					$marray['error']['message'] = "There is no activity";
+					$marray['error']['message'] = "You have no recent activity. No capitals, and no exclamation.";
 					
 				}
 				

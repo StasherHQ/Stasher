@@ -1,0 +1,10 @@
+2014/12/21 08:51:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "webServic".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webServic')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/thirst/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/thirst/webServic
+---
+
+--------------------------------------------------------------------------------------------------------------------------

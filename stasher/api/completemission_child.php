@@ -25,16 +25,18 @@ if($_POST['missionId'] != '' && $_POST['childId'])
 	
 				$marray['success']['code'] = "100";
 				$marray['success']['message'] = "Good work! You have marked your Mission complete. A confirmation request 
-has been sent to your Commander.";
+has been sent to your parent.";
 
 $parentId = $missionArray['parentId'];
 
 							$childDetails = $usrObj->getUserInformationByUserId($childId);
-							$description = 'Mission is completed by '.$childDetails['fname'].' '.$childDetails['lname'];
+	$description = 'Congrats, '.$childDetails['fname'].' '.$childDetails['lname'].' completed their Mission! Approve now to send reward!'.$childDetails['fname'].' '.$childDetails['lname'];
 							$activityArray1 = array();
 							$activityArray1['userId'] = $parentId;	
-							$activityArray1['description'] = $description;	
-							$activityArray1['activity_type'] = '2';
+$activityArray1['title'] = "Mission completed by ".$childDetails['fname'].' '.$childDetails['lname'];
+							$activityArray1['description'] = $description;
+							$activityArray1['requestfrom'] = $childId;		
+							$activityArray1['activity_type'] = '7';
 							$activityArray1['inserted_date'] = $inserted_date;	
 							$usrObj->addActivity($activityArray1);
 
@@ -43,7 +45,7 @@ $parentId = $missionArray['parentId'];
                                                           
 							// send ios push  notification to the child.
                                                         $devicetoken = $parentDetails['devicetoken'];
-                                                        $message = 'Mission is completed by '.$childDetails['fname'].' '.$childDetails['lname'];
+                                                        $message = "Mission complete, ".$childDetails['fname']."".$childDetails['lname']."! On to the next one!";
                                                         sendPushNotificationToIOSDevice($devicetoken,$message);	
 
 

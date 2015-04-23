@@ -1,0 +1,270 @@
+2015/04/03 09:47:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:47:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/images/logo.svg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/images/logo.svg
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:47:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:47:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:47:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:47:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/images/logo.svg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/images/logo.svg
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:47:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:47:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:47:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:47:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---
+2015/04/03 09:48:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/index.php/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/index.php/cmsAdmin/login
+---

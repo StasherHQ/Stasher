@@ -25,11 +25,13 @@ if($_POST['missionId'] != ''  && $_POST['parentId'] != '' )
 $childId = $missionArray['childId'];
 
 $childDetails = $usrObj->getUserInformationByUserId($childId);
-							$description = 'Mission has been cancelled by '.$childDetails['fname'].' '.$childDetails['lname'];
+							$description = $childDetails['fname'].' '.$childDetails['lname'].' has canceled your Mission! Start another? ';
 							$activityArray1 = array();
 							$activityArray1['userId'] = $childId;	
+$activityArray1['title'] = "Mission canceled by ".$childDetails['fname'].' '.$childDetails['lname'];	
 							$activityArray1['description'] = $description;	
-							$activityArray1['activity_type'] = '2';
+							$activityArray1['activity_type'] = '5';
+							$activityArray1['requestfrom'] = $parentId;	
 							$activityArray1['inserted_date'] = $inserted_date;	
 							$usrObj->addActivity($activityArray1);
 
@@ -38,13 +40,13 @@ $childDetails = $usrObj->getUserInformationByUserId($childId);
                                                           
 							// send ios push  notification to the child.
                                                         $devicetoken = $parentDetails['devicetoken'];
-                                                        $message = 'Mission has been cancelled by '.$childDetails['fname'].' '.$childDetails['lname'];
+                                                        $message = $childDetails['fname'].' '.$childDetails['lname'].' has canceled your Mission! Start another? ';
                                                         sendPushNotificationToIOSDevice($devicetoken,$message);	
 
 
 								
 				$marray['success']['code'] = "100";
-				$marray['success']['message'] = "Your Mission has been cancelled.";	
+				$marray['success']['message'] = "Oh no, ".$childDetails['fname']." ".$childDetails['lname'].". You’ve canceled Parents name’s Mission! Start another?";	
 			}
 			else
 			{

@@ -1,8 +1,8 @@
 <?php
 include('model/missions.php');
-
+include('model/users.php');
 $msnObj = new Model_Mission();
-
+$usrObj = new Model_Users();
 //echo "<pre>";print_r($_POST);exit;
 	
 		
@@ -58,16 +58,17 @@ if($_POST['title'] != ''  && $_POST['isTimebase'] != ''  && $_POST['parentId'] !
 						$array['end_time'] = $totaltime;
 						$array['isPublic'] = $ispublic;
 						$array['inserted_date'] = $inserted_date;
-						$array['status'] = $isdraft;	
+						//$array['status'] = $isdraft;	
 					
 						//print_r($array);
 						$missionId = $msnObj->editMission($array,$missionId);
 
-$parentDetails = $usrObj->getUserInformationByUserId($parentId);
+						$parentDetails = $usrObj->getUserInformationByUserId($parentId);
 							$description = 'Mission is edited by '.$parentDetails['fname'].' '.$parentDetails['lname'];
 							$activityArray1 = array();
 							$activityArray1['userId'] = $childIdArray[$k];	
-							$activityArray1['description'] = $description;	
+							$activityArray1['description'] = $description;
+							$activityArray1['requestfrom'] = $parentId;	
 							$activityArray1['activity_type'] = '2';
 							$activityArray1['inserted_date'] = $inserted_date;	
 							$usrObj->addActivity($activityArray1);

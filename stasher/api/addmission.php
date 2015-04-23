@@ -64,11 +64,13 @@ if($_POST['title'] != ''  && $_POST['isTimebase'] != ''  && $_POST['parentId'] !
 					
 					
 							$parentDetails = $usrObj->getUserInformationByUserId($parentId);
-							$description = 'New mission added by '.$parentDetails['fname'].' '.$parentDetails['lname'];
+							$description = 'Heads up! You have a new Mission waiting to be tackled! Accept right now. '.$parentDetails['fname'].' '.$parentDetails['lname'];
 							$activityArray1 = array();
-							$activityArray1['userId'] = $childIdArray[$k];	
+							$activityArray1['userId'] = $childIdArray[$k];
+							$activityArray1['title'] = "Heads up! You have a new Mission waiting to be tackled! Accept right now.".$parentDetails['fname'].' '.$parentDetails['lname'];;		
 							$activityArray1['description'] = $description;	
-							$activityArray1['activity_type'] = '2';
+							$activityArray1['requestfrom'] = $parentId;
+							$activityArray1['activity_type'] = '3';
 							$activityArray1['inserted_date'] = $inserted_date;	
 							$usrObj->addActivity($activityArray1);
 
@@ -86,7 +88,7 @@ if($_POST['title'] != ''  && $_POST['isTimebase'] != ''  && $_POST['parentId'] !
 				}
 				
 			$marray['success']['code'] = "100";
-			$marray['success']['message'] = "Mission has been added.";	
+			$marray['success']['message'] = "Standby, your Mission has been sent to Childs name";	
 								
 }
 else

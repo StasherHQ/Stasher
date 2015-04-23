@@ -1,0 +1,1518 @@
+2015/02/11 02:12:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 02:12:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 02:13:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 03:46:22 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'stasher.admin' doesn't exist. The SQL statement executed was: SELECT *
+		        FROM admin
+		        WHERE email_id = :email_id
+						AND password = md5(:password)
+						AND admin_status = 'active'
+						LIMIT 1. Bound with :email_id='vipul@gmail.com', :password='123456'.
+in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/models/adminModel.php (26)
+in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/controllers/cmsAdmin/LoginController.php (28)
+in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php (13)
+2015/02/11 03:46:22 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'stasher.admin' doesn't exist. The SQL statement executed was: SELECT *
+		        FROM admin
+		        WHERE email_id = :email_id
+						AND password = md5(:password)
+						AND admin_status = 'active'
+						LIMIT 1. Bound with :email_id='vipul@gmail.com', :password='123456'' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/models/adminModel.php(26): CDbCommand->queryRow()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/controllers/cmsAdmin/LoginController.php(28): adminModel->chkAdminLogin('vipul@gmail.com', '123456')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/actions/CInlineAction.php(49): LoginController->actionIndex()
+#4 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(282): CController->run('index')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/login/...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/vipul/stasher/admin/cmsAdmin/login/index
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 03:48:33 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT *
+		        FROM tbl_users
+		        WHERE email = :email_id
+						AND password = password
+						AND status = '2'
+						LIMIT 1. Bound with :email_id='vipul@gmail.com', :password='123456'.
+in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/models/adminModel.php (26)
+in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/controllers/cmsAdmin/LoginController.php (28)
+in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php (13)
+2015/02/11 03:48:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT *
+		        FROM tbl_users
+		        WHERE email = :email_id
+						AND password = password
+						AND status = '2'
+						LIMIT 1. Bound with :email_id='vipul@gmail.com', :password='123456'' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/models/adminModel.php(26): CDbCommand->queryRow()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/controllers/cmsAdmin/LoginController.php(28): adminModel->chkAdminLogin('vipul@gmail.com', '123456')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/actions/CInlineAction.php(49): LoginController->actionIndex()
+#4 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(282): CController->run('index')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/login/...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/vipul/stasher/admin/cmsAdmin/login/index
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 03:48:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login/index
+---
+2015/02/11 03:48:56 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT *
+		        FROM tbl_users
+		        WHERE email = :email_id
+						AND password = password
+						AND status = '2'
+						LIMIT 1. Bound with :email_id='vipul@gmail.com', :password='123456'.
+in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/models/adminModel.php (26)
+in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/controllers/cmsAdmin/LoginController.php (28)
+in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php (13)
+2015/02/11 03:48:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: SELECT *
+		        FROM tbl_users
+		        WHERE email = :email_id
+						AND password = password
+						AND status = '2'
+						LIMIT 1. Bound with :email_id='vipul@gmail.com', :password='123456'' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/models/adminModel.php(26): CDbCommand->queryRow()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/controllers/cmsAdmin/LoginController.php(28): adminModel->chkAdminLogin('vipul@gmail.com', '123456')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/actions/CInlineAction.php(49): LoginController->actionIndex()
+#4 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(282): CController->run('index')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/login/...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/vipul/stasher/admin/cmsAdmin/login/index
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login/index
+---
+2015/02/11 03:50:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login/index
+---
+2015/02/11 03:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 04:03:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 04:42:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 04:49:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login/index
+---
+2015/02/11 05:13:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login/index
+---
+2015/02/11 05:13:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:14:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:15:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.woff".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/font-awesome.min.css
+---
+2015/02/11 05:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.ttf".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/font-awesome.min.css
+---
+2015/02/11 05:15:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:19:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:31:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:31:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:31:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:32:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.woff".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/font-awesome.min.css
+---
+2015/02/11 05:32:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.ttf".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/font-awesome.min.css
+---
+2015/02/11 05:32:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:32:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:32:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.woff".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/font-awesome.min.css
+---
+2015/02/11 05:32:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.ttf".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/font-awesome.min.css
+---
+2015/02/11 05:35:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:35:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:36:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:36:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.woff".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/font-awesome.min.css
+---
+2015/02/11 05:36:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.ttf".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/font-awesome.min.css
+---
+2015/02/11 05:36:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:37:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:37:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:37:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:37:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.woff".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/font-awesome.min.css
+---
+2015/02/11 05:37:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.ttf".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/font-awesome.min.css
+---
+2015/02/11 05:37:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login/index
+---
+2015/02/11 05:37:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.woff".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/font-awesome.min.css
+---
+2015/02/11 05:37:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login/index
+---
+2015/02/11 05:37:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.ttf".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/font-awesome.min.css
+---
+2015/02/11 05:37:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+---
+2015/02/11 05:37:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.eot".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.eot?
+---
+2015/02/11 05:37:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+---
+2015/02/11 05:38:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login/index
+---
+2015/02/11 05:38:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+---
+2015/02/11 05:38:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.eot".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.eot?
+---
+2015/02/11 05:38:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login/index
+---
+2015/02/11 05:38:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login/index
+---
+2015/02/11 05:38:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.woff".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/font-awesome.min.css
+---
+2015/02/11 05:38:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login/index
+---
+2015/02/11 05:38:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.ttf".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/font-awesome.min.css
+---
+2015/02/11 05:38:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+---
+2015/02/11 05:38:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.eot".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.eot?
+---
+2015/02/11 05:38:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login/index
+---
+2015/02/11 05:39:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login/index
+---
+2015/02/11 05:39:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+---
+2015/02/11 05:39:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.eot".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.eot?
+---
+2015/02/11 05:39:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login/index
+---
+2015/02/11 05:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login/loginaction
+---
+2015/02/11 05:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.woff".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.woff?v=4.2.0
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/font-awesome.min.css
+---
+2015/02/11 05:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.ttf".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.ttf?v=4.2.0
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/font-awesome.min.css
+---
+2015/02/11 05:41:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:41:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:41:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:41:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:42:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:42:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:43:52 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'stasher.user_order' doesn't exist. The SQL statement executed was: SELECT IFNULL(SUM(o.total_price),0) AS total_sale, u.full_name
+						FROM user_order o, user u
+						WHERE o.user_id = u.user_id
+						AND u.user_status =  'active'
+						
+						GROUP BY o.user_id
+						ORDER BY total_sale DESC 
+						LIMIT 4.
+in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/models/statsModel.php (253)
+in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/controllers/cmsAdmin/DashboardController.php (44)
+in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php (13)
+2015/02/11 05:43:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'stasher.user_order' doesn't exist. The SQL statement executed was: SELECT IFNULL(SUM(o.total_price),0) AS total_sale, u.full_name
+						FROM user_order o, user u
+						WHERE o.user_id = u.user_id
+						AND u.user_status =  'active'
+						
+						GROUP BY o.user_id
+						ORDER BY total_sale DESC 
+						LIMIT 4' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/models/statsModel.php(253): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/controllers/cmsAdmin/DashboardController.php(44): StatsModel->calculate_top_billing('')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/actions/CInlineAction.php(49): DashboardController->actionIndex()
+#4 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(282): CController->run('')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/dashbo...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/vipul/stasher/admin/cmsAdmin/dashboard
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:44:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('images/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/images/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:45:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'stasher.user_order' doesn't exist. The SQL statement executed was: SELECT IFNULL(SUM(o.total_price),0) AS total_sale, u.full_name
+						FROM user_order o, user u
+						WHERE o.user_id = u.user_id
+						AND u.user_status =  'active'
+						
+						GROUP BY o.user_id
+						ORDER BY total_sale DESC 
+						LIMIT 4.
+in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/models/statsModel.php (253)
+in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/controllers/cmsAdmin/DashboardController.php (44)
+in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php (13)
+2015/02/11 05:45:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'stasher.user_order' doesn't exist. The SQL statement executed was: SELECT IFNULL(SUM(o.total_price),0) AS total_sale, u.full_name
+						FROM user_order o, user u
+						WHERE o.user_id = u.user_id
+						AND u.user_status =  'active'
+						
+						GROUP BY o.user_id
+						ORDER BY total_sale DESC 
+						LIMIT 4' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/models/statsModel.php(253): CDbCommand->queryAll()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/protected/controllers/cmsAdmin/DashboardController.php(44): StatsModel->calculate_top_billing('')
+#3 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/actions/CInlineAction.php(49): DashboardController->actionIndex()
+#4 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(282): CController->run('')
+#8 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/dashbo...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/vipul/stasher/admin/cmsAdmin/dashboard
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/login
+---
+2015/02/11 05:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bootstrap-w...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fullcalendar/fullcalendar.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/fullcalenda...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/fullcalendar/fullcalendar.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/chosen/chosen.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/chosen/chos...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/chosen/chosen.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:45:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/daterangepicker/daterangepicker-bs3.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/daterangepi...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/daterangepicker/daterangepicker-bs3.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:45:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:45:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/avatar3.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/avatar3.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:45:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.woff".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/bootstrap.min.css
+---
+2015/02/11 05:45:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.ttf".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/bootstrap.min.css
+---
+2015/02/11 05:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_75_ffffff_40x100.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/date-time.css
+---
+2015/02/11 05:48:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/ionicons.eot".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/ionicons....')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/ionicons.eot?v=1.4.0
+---
+2015/02/11 05:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fullcalendar/fullcalendar.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/fullcalenda...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/fullcalendar/fullcalendar.css
+---
+2015/02/11 05:48:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/daterangepicker/daterangepicker-bs3.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/daterangepi...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/daterangepicker/daterangepicker-bs3.css
+---
+2015/02/11 05:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.eot".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.eot?
+---
+2015/02/11 05:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bootstrap-w...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css
+---
+2015/02/11 05:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/avatar3.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/avatar3.png
+---
+2015/02/11 05:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/chosen/chosen.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/chosen/chos...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/chosen/chosen.css
+---
+2015/02/11 05:48:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/logo.png
+---
+2015/02/11 05:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_75_ffffff_40x100.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/images/ui-bg_flat_75_ffffff_40x100.png
+---
+2015/02/11 05:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/logo.png
+---
+2015/02/11 05:48:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/avatar3.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/avatar3.png
+---
+2015/02/11 05:48:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fullcalendar/fullcalendar.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/fullcalenda...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/fullcalendar/fullcalendar.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:48:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/daterangepicker/daterangepicker-bs3.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/daterangepi...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/daterangepicker/daterangepicker-bs3.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:48:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/chosen/chosen.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/chosen/chos...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/chosen/chosen.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:48:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bootstrap-w...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:48:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:48:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/avatar3.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/avatar3.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:48:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/avatar3.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/avatar3.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:48:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:48:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.woff".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/bootstrap.min.css
+---
+2015/02/11 05:48:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.ttf".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/bootstrap.min.css
+---
+2015/02/11 05:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_75_ffffff_40x100.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/date-time.css
+---
+2015/02/11 05:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/logo.png
+---
+2015/02/11 05:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/avatar3.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/avatar3.png
+---
+2015/02/11 05:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/ionicons.eot".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/ionicons....')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/ionicons.eot?v=1.4.0
+---
+2015/02/11 05:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.eot".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.eot?
+---
+2015/02/11 05:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_75_ffffff_40x100.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/images/ui-bg_flat_75_ffffff_40x100.png
+---
+2015/02/11 05:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/avatar3.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/avatar3.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:48:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:50:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fullcalendar/fullcalendar.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/fullcalenda...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/fullcalendar/fullcalendar.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:50:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/daterangepicker/daterangepicker-bs3.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/daterangepi...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/daterangepicker/daterangepicker-bs3.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:50:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/chosen/chosen.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/chosen/chos...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/chosen/chosen.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:50:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bootstrap-w...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:50:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/avatar3.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/avatar3.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:50:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:50:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.woff".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/bootstrap.min.css
+---
+2015/02/11 05:50:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.ttf".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/bootstrap.min.css
+---
+2015/02/11 05:50:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_75_ffffff_40x100.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/date-time.css
+---
+2015/02/11 05:50:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:50:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/avatar3.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/avatar3.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:50:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/avatar3.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/avatar3.png
+---
+2015/02/11 05:50:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/logo.png
+---
+2015/02/11 05:50:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/ionicons.eot".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/ionicons....')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/ionicons.eot?v=1.4.0
+---
+2015/02/11 05:50:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.eot".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.eot?
+---
+2015/02/11 05:50:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_75_ffffff_40x100.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/images/ui-bg_flat_75_ffffff_40x100.png
+---
+2015/02/11 05:51:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bootstrap-w...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:51:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/daterangepicker/daterangepicker-bs3.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/daterangepi...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/daterangepicker/daterangepicker-bs3.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:51:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fullcalendar/fullcalendar.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/fullcalenda...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/fullcalendar/fullcalendar.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:51:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/chosen/chosen.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/chosen/chos...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/chosen/chosen.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:51:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/avatar3.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/avatar3.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:51:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:51:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.woff".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/bootstrap.min.css
+---
+2015/02/11 05:51:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.ttf".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/bootstrap.min.css
+---
+2015/02/11 05:51:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_75_ffffff_40x100.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/date-time.css
+---
+2015/02/11 05:51:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:51:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/avatar3.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/avatar3.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:51:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/logo.png
+---
+2015/02/11 05:51:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/avatar3.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/avatar3.png
+---
+2015/02/11 05:51:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.eot".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.eot?
+---
+2015/02/11 05:51:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/ionicons.eot".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/ionicons....')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/ionicons.eot?v=1.4.0
+---
+2015/02/11 05:51:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_75_ffffff_40x100.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/images/ui-bg_flat_75_ffffff_40x100.png
+---
+2015/02/11 05:52:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/bootstrap-w...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:52:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/chosen/chosen.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/chosen/chos...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/chosen/chosen.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:52:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/daterangepicker/daterangepicker-bs3.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/daterangepi...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/daterangepicker/daterangepicker-bs3.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:52:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/fullcalendar/fullcalendar.css".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/fullcalenda...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/fullcalendar/fullcalendar.css
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:52:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:52:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/avatar3.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/avatar3.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:52:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.woff".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/glyphicons-halflings-regular.woff
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/bootstrap.min.css
+---
+2015/02/11 05:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/glyphicons-halflings-regular.ttf".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/glyphicon...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/glyphicons-halflings-regular.ttf
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/bootstrap.min.css
+---
+2015/02/11 05:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_75_ffffff_40x100.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/images/ui-bg_flat_75_ffffff_40x100.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/css/date-time.css
+---
+2015/02/11 05:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/avatar3.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/avatar3.png
+---
+2015/02/11 05:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/logo.png
+---
+2015/02/11 05:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/ionicons.eot".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/ionicons....')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/ionicons.eot?v=1.4.0
+---
+2015/02/11 05:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fonts/fontawesome-webfont.eot".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('fonts/fontaweso...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/fonts/fontawesome-webfont.eot?
+---
+2015/02/11 05:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/images/ui-bg_flat_75_ffffff_40x100.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('css/images/ui-b...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/css/images/ui-bg_flat_75_ffffff_40x100.png
+---
+2015/02/11 05:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar3.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/avatar3.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/avatar3.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---
+2015/02/11 05:52:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo.png".' in /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/web/CWebApplication.php(141): CWebApplication->runController('img/logo.png')
+#1 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/vipul/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/vipul/stasher/admin/img/logo.png
+HTTP_REFERER=http://localhost/vipul/stasher/admin/cmsAdmin/dashboard
+---

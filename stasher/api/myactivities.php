@@ -19,6 +19,8 @@ if($_POST['userId'] != '' )
 					while($k < count($activityArray) )
 					{
 						$marray[$k]['userId'] = $activityArray[$k]['userId'];
+$marray[$k]['requestfrom'] = $activityArray[$k]['requestfrom'];
+$marray[$k]['title'] = $activityArray[$k]['title'];
 						$marray[$k]['description'] = $activityArray[$k]['description'];
 						$marray[$k]['inserted_date'] = $activityArray[$k]['inserted_date'];						
 						$marray[$k]['activity_type'] = $activityArray[$k]['activity_type'];

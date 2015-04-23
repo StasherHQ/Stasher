@@ -35,21 +35,25 @@ if($_POST['parentId'] != ''  &&  $_POST['childId'] != '')
 						}
 
 
+$activityArray = array();
 							$childDetails = $usrObj->getUserInformationByUserId($childId);
 							if($status = '2')
 							{
-							$description = 'Your request has beeb accepted by '.$childDetails['fname'].' '.$childDetails['lname'].' : a Secret Agent (child) is added to the list.';	
+							$description = 'Your request has been accepted by '.$childDetails['fname'].' '.$childDetails['lname'].' : a child is added to the list.';	
+$activityArray['activity_type'] = '13';
 							}
 							if($status = '0')
 							{
-							$description = 'Your request has beeb rejected by '.$childDetails['fname'].' '.$childDetails['lname'].' : a Secret Agent (child) is added to the list.';	
+							$description = 'Your request has been rejected by '.$childDetails['fname'].' '.$childDetails['lname'].' : a child is added to the list.';
+$activityArray['activity_type'] = '13';	
 							}
 
 							
-							$activityArray = array();
+							
 							$activityArray['userId'] = $parentId;	
-							$activityArray['description'] = $description;	
-							$activityArray['activity_type'] = '3';
+							$activityArray['description'] = $description;
+							$activityArray['requestfrom'] = $childId;	
+							
 							$activityArray['inserted_date'] = date("Y-m-d H:i:s");	
 							$usrObj->addActivity($activityArray);
 							

@@ -1,0 +1,169 @@
+2014/12/17 00:45:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/venue_images/3/staff_profile".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/venue_i...')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/thirst/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/thirst/uploads/venue_images/3/staff_profile/
+HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/3
+---
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/17 00:48:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/venue_images/3/staff_profile".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/venue_i...')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/thirst/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/thirst/uploads/venue_images/3/staff_profile/
+HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/3
+---
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/17 00:50:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/venue_images/3/staff_profile".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/venue_i...')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/thirst/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/thirst/uploads/venue_images/3/staff_profile/
+HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/3
+---
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/17 01:57:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/venue_images/3/staff_profile".' in /var/www/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/venue_i...')
+#1 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/thirst/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/thirst/uploads/venue_images/3/staff_profile/
+HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/3
+---
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/17 01:58:51 [error] [Image Name == profile_1411636599.jpeg] In Signup Function
+in /var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php (518)
+in /var/www/thirst/index.php (13)
+
+2014/12/17 01:58:51 [error] [Update venue section- File uploaded'.venue_1418799531.jpeg] In Venue Function
+in /var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php (546)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/17 06:41:02 [error] [php] Undefined variable: adminModel (/var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php:165)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): AdminVenueController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): AdminVenueController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): AdminVenueController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/thirst/index.php(13): CWebApplication->run()
+REQUEST_URI=/thirst/index.php/cmsAdmin/AdminVenue/changeVenueStatus
+in /var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php (165)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/17 06:41:20 [error] [php] Undefined variable: adminModel (/var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php:165)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): AdminVenueController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): AdminVenueController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): AdminVenueController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/thirst/index.php(13): CWebApplication->run()
+REQUEST_URI=/thirst/index.php/cmsAdmin/AdminVenue/changeVenueStatus
+in /var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php (165)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/17 06:41:23 [error] [php] Undefined variable: adminModel (/var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php:165)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): AdminVenueController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): AdminVenueController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): AdminVenueController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/thirst/index.php(13): CWebApplication->run()
+REQUEST_URI=/thirst/index.php/cmsAdmin/AdminVenue/changeVenueStatus
+in /var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php (165)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/17 06:41:26 [error] [php] Undefined variable: adminModel (/var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php:165)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): AdminVenueController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): AdminVenueController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): AdminVenueController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/thirst/index.php(13): CWebApplication->run()
+REQUEST_URI=/thirst/index.php/cmsAdmin/AdminVenue/changeVenueStatus
+in /var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php (165)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/17 06:41:28 [error] [php] Undefined variable: adminModel (/var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php:165)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): AdminVenueController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): AdminVenueController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): AdminVenueController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/thirst/index.php(13): CWebApplication->run()
+REQUEST_URI=/thirst/index.php/cmsAdmin/AdminVenue/changeVenueStatus
+in /var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php (165)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/17 06:41:37 [error] [php] Undefined variable: adminModel (/var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php:165)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): AdminVenueController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): AdminVenueController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): AdminVenueController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/thirst/index.php(13): CWebApplication->run()
+REQUEST_URI=/thirst/index.php/cmsAdmin/AdminVenue/changeVenueStatus
+in /var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php (165)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/17 06:42:34 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = sonam@oabstudios.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (125)
+in /var/www/thirst/protected/models/commonModel.php (162)
+in /var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php (199)
+
+2014/12/17 06:42:34 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = sonammahto@gmail.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (125)
+in /var/www/thirst/protected/models/commonModel.php (162)
+in /var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php (199)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/17 06:45:42 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = sonam@oabstudios.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (125)
+in /var/www/thirst/protected/models/commonModel.php (162)
+in /var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php (275)
+
+2014/12/17 06:45:42 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = sonammahto@gmail.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (125)
+in /var/www/thirst/protected/models/commonModel.php (162)
+in /var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php (275)
+
+--------------------------------------------------------------------------------------------------------------------------

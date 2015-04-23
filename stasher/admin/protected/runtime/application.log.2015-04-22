@@ -1,0 +1,370 @@
+2015/04/22 02:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/22 02:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/22 02:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/22 02:09:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/22 02:17:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sendpassword".' in /var/www/html/stasher/admin/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(270): CController->missingAction('sendpassword')
+#1 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): CController->run('sendpassword')
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/report...')
+#3 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/sendpassword
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/reports
+---
+2015/04/22 02:18:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sendpassword".' in /var/www/html/stasher/admin/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(270): CController->missingAction('sendpassword')
+#1 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): CController->run('sendpassword')
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/report...')
+#3 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/sendpassword
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/reports
+---
+2015/04/22 02:30:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sendpassword".' in /var/www/html/stasher/admin/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(270): CController->missingAction('sendpassword')
+#1 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): CController->run('sendpassword')
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/report...')
+#3 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/sendpassword
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/reports
+---
+2015/04/22 02:30:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sendpassword".' in /var/www/html/stasher/admin/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(270): CController->missingAction('sendpassword')
+#1 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): CController->run('sendpassword')
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/report...')
+#3 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/sendpassword
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/reports
+---
+2015/04/22 02:33:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajaxReportsByDates".' in /var/www/html/stasher/admin/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(270): CController->missingAction('ajaxReportsByDa...')
+#1 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): CController->run('ajaxReportsByDa...')
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/report...')
+#3 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxReportsByDates
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/reports
+---
+2015/04/22 03:17:53 [error] [php] Missing argument 2 for missionModel::getAllMissions(), called in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php on line 42 and defined (/var/www/html/stasher/admin/protected/models/missionModel.php:43)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#2 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#4 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports
+in /var/www/html/stasher/admin/protected/models/missionModel.php (43)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (42)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/22 03:19:01 [error] [php] Undefined variable: m (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:72)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxReportsByDates
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (72)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/22 04:51:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/22 04:51:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/22 04:51:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/22 04:51:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/22 05:11:56 [error] [php] Undefined variable: missionArray (/var/www/html/stasher/admin/protected/views/cmsAdmin/reports/report_date_ajax_view.php:2)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(869): ReportsController->renderFile()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(782): ReportsController->renderPartial()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php(75): ReportsController->render()
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): ReportsController->actionAjaxReportsByDates()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxReportsByDates
+in /var/www/html/stasher/admin/protected/views/cmsAdmin/reports/report_date_ajax_view.php (2)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (75)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/22 06:51:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/22 06:51:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/22 06:51:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/22 06:51:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/22 09:27:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/22 09:27:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/22 09:27:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/22 09:27:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/22 09:39:45 [error] [php] Undefined property: stdClass::$avatar (/var/www/html/stasher/admin/protected/views/cmsAdmin/user_profile_view.php:111)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(869): UserController->renderFile()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(782): UserController->renderPartial()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php(166): UserController->render()
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): UserController->actionDetails()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): UserController->runAction()
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): UserController->run()
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/user/details/?id=Mzc=
+in /var/www/html/stasher/admin/protected/views/cmsAdmin/user_profile_view.php (111)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php (166)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/22 09:40:32 [error] [php] Undefined property: stdClass::$avatar (/var/www/html/stasher/admin/protected/views/cmsAdmin/user_profile_view.php:111)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(869): UserController->renderFile()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(782): UserController->renderPartial()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php(166): UserController->render()
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): UserController->actionDetails()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): UserController->runAction()
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): UserController->run()
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/user/details/?id=Mzc=
+in /var/www/html/stasher/admin/protected/views/cmsAdmin/user_profile_view.php (111)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php (166)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/22 09:46:07 [error] [php] Undefined property: stdClass::$avatar (/var/www/html/stasher/admin/protected/views/cmsAdmin/user_profile_view.php:111)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(869): UserController->renderFile()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(782): UserController->renderPartial()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php(166): UserController->render()
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): UserController->actionDetails()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): UserController->runAction()
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): UserController->run()
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/user/details/?id=Mzc=
+in /var/www/html/stasher/admin/protected/views/cmsAdmin/user_profile_view.php (111)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php (166)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/22 09:47:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.parentId' in 'on clause'. The SQL statement executed was: SELECT u.*,i.*,fname,p.lname,p.avatar
+		        FROM tbl_user_relation as u left join tbl_users as i on u.childId = i.userId left join tbl_user_information as p on p.parentId = i.userId
+						
+						WHERE  u.childId = :user_id			
+						. Bound with :user_id='37'.
+in /var/www/html/stasher/admin/protected/models/adminModel.php (139)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php (162)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/22 09:47:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.parentId' in 'on clause'. The SQL statement executed was: SELECT u.*,i.*,fname,p.lname,p.avatar
+		        FROM tbl_user_relation as u left join tbl_users as i on u.childId = i.userId left join tbl_user_information as p on p.parentId = i.userId
+						
+						WHERE  u.childId = :user_id			
+						. Bound with :user_id='37'' in /var/www/html/stasher/admin/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/html/stasher/admin/protected/models/adminModel.php(139): CDbCommand->queryAll()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php(162): adminModel->getChildListByParentId('37')
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): UserController->actionDetails()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): CController->run('details')
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/user/d...')
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/user/details/?id=Mzc=
+---
+2015/04/22 09:47:55 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.parentId' in 'on clause'. The SQL statement executed was: SELECT u.*,i.*,p.fname,p.lname,p.avatar 
+		        FROM tbl_user_relation as u left join tbl_users as i on u.childId = i.userId left join tbl_user_information as p on p.parentId = i.userId
+						
+						WHERE  u.childId = :user_id			
+						. Bound with :user_id='37'.
+in /var/www/html/stasher/admin/protected/models/adminModel.php (139)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php (162)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/22 09:47:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p.parentId' in 'on clause'. The SQL statement executed was: SELECT u.*,i.*,p.fname,p.lname,p.avatar 
+		        FROM tbl_user_relation as u left join tbl_users as i on u.childId = i.userId left join tbl_user_information as p on p.parentId = i.userId
+						
+						WHERE  u.childId = :user_id			
+						. Bound with :user_id='37'' in /var/www/html/stasher/admin/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/html/stasher/admin/protected/models/adminModel.php(139): CDbCommand->queryAll()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php(162): adminModel->getChildListByParentId('37')
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): UserController->actionDetails()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): CController->run('details')
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/user/d...')
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/user/details/?id=Mzc=
+---
+2015/04/22 09:51:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p' in 'field list'. The SQL statement executed was: SELECT u.*,i.*,p,fname,p.lname,p.avatar
+		        FROM tbl_user_relation as u left join tbl_users as i on u.parentId = i.userId left join tbl_user_information as p on p.userId = i.userId WHERE  u.parentId = :user_id. Bound with :user_id='41'.
+in /var/www/html/stasher/admin/protected/models/adminModel.php (124)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php (158)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/22 09:51:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'p' in 'field list'. The SQL statement executed was: SELECT u.*,i.*,p,fname,p.lname,p.avatar
+		        FROM tbl_user_relation as u left join tbl_users as i on u.parentId = i.userId left join tbl_user_information as p on p.userId = i.userId WHERE  u.parentId = :user_id. Bound with :user_id='41'' in /var/www/html/stasher/admin/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/html/stasher/admin/protected/models/adminModel.php(124): CDbCommand->queryAll()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php(158): adminModel->getParentListByChildId('41')
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): UserController->actionDetails()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): CController->run('details')
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/user/d...')
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/user/details/?id=NDE=
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user
+---

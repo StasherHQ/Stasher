@@ -71,23 +71,27 @@ $userbadge = $badgeObj->addUserBadge($barray);
 							$activityArray1 = array();
 							$activityArray2 = array();
 							$activityArray2['userId'] = $missionArray['childId'];	
-							$activityArray1['userId'] = $missionArray['childId'];	
+							$activityArray1['userId'] = $missionArray['childId'];
+							$activityArray1['requestfrom'] = $parentId;
+							$activityArray2['requestfrom'] = $parentId;
+$activityArray1['title'] = "Mission completion request accepted by  ".$parentDetails['fname']." ".$parentDetails['lname'];		
 							$activityArray1['description'] = $description;	
-							$activityArray1['activity_type'] = '2';
+							$activityArray1['activity_type'] = '8';
 							$activityArray1['inserted_date'] = date("Y-m-d H:i:s");	
 							$usrObj->addActivity($activityArray1);
 
 							if($missionInfoArray['rewardtype'] == 'cash')
 {
 
- $description = $missionInfoArray['rewards']." amount of Money is transfered by ".$parentDetails['fname']." ".$parentDetails['lname'];
+ $description = "Amazing! You’ve just earned ".$missionInfoArray['rewards']." from ".$parentDetails['fname']." ".$parentDetails['lname']."  Keep Stashing!";
+$title = "Money transfered by ".$parentDetails['fname']." ".$parentDetails['lname'];
 } 
 else
 {
- $description = "Please check with   ".$parentDetails['fname']." ".$parentDetails['lname']." fr your rewards." ;
-	
+ $description = "Please check with   ".$parentDetails['fname']." ".$parentDetails['lname']." for your rewards." ;
+$title = "Check your rewards with ".$parentDetails['fname']." ".$parentDetails['lname'];	
 }
-							
+	$activityArray2['title'] = $title;							
 $activityArray2['description'] = $description;	
 							$activityArray2['activity_type'] = '2';
 							$activityArray2['inserted_date'] = date("Y-m-d H:i:s");	
@@ -123,7 +127,7 @@ else
 
 
 				$marray['success']['code'] = "100";
-				$marray['success']['message'] = "Mission is completed.";	
+				$marray['success']['message'] = "You’ve transferred $x to Child name. Time for the next Mission!";	
 			}
 			else
 			{

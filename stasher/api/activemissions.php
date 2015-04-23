@@ -52,7 +52,7 @@ if($_POST['parentId'] != '' )
 				else
 				{
 					$marray['error']['code'] = "101";
-					$marray['error']['message'] = "There are no active missions.";
+					$marray['error']['message'] = "You have no active missions. Create a new mission and stash your cash!";
 					
 				}
 				

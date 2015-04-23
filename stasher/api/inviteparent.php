@@ -84,7 +84,7 @@ if($_POST['childId'] != ''  && $_POST['email'] != ''   )
 		else
 		{
 			$marray['error']['code'] = "102";
-			$marray['error']['message'] = $userArray['username']." is already one of your commanders";
+			$marray['error']['message'] = $userArray['username']." is already one of your parents";
 		}
 }
 else

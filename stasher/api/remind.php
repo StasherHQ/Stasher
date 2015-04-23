@@ -33,28 +33,31 @@ if($_POST['parentId'] != ''  &&  $_POST['childId'] != '' &&  $_POST['missionId']
 							$userArray['status'] = 2;	
 							$msnObj->addNoteToMission($userArray);
 							
-						
+							$missionArray = $msnObj->getMissionDetailsById($missionId);
 							$parentDetails = $usrObj->getUserInformationByUserId($parentId);
+							$childDetails = $usrObj->getUserInformationByUserId($childId);
 						
-							$description = 'Reminder from '.$parentDetails['fname'].' '.$parentDetails['lname'].''.$message;
+							$description = ' Don’t forget! You have Mission '.$missionArray['title'].' from '.$parentDetails['fname'].' '.$parentDetails['lname'].' waiting to be tackled!';
 							$activityArray1 = array();
 							$activityArray1['userId'] = $childId;	
+							$activityArray1['title'] = $parentDetails['fname'].' '.$parentDetails['lname'];	
 							$activityArray1['description'] = $description;	
-							$activityArray1['activity_type'] = '3';
+							$activityArray['requestfrom'] = $parentId;
+							$activityArray1['activity_type'] = '9';
 							$activityArray1['inserted_date'] = date("Y-m-d H:i:s");	
 							$usrObj->addActivity($activityArray1);
 							
 							
-
+							
 							$childDetails = $usrObj->getUserDetailsByUserId($childId);
                                                           
 							// send ios push  notification to the child.
                                                         $devicetoken = $childDetails['devicetoken'];
-                                                        $message ='Reminder from '.$parentDetails['fname'].' '.$parentDetails['lname'].''.$message;
+                                                        $message = ' Don’t forget! You have Mission '.$missionArray['title'].' from '.$parentDetails['fname'].' '.$parentDetails['lname'].' waiting to be tackled!';
                                                         sendPushNotificationToIOSDevice($devicetoken,$message);	
 							
 							$marray['success']['code'] = "102";
-							$marray['success']['message'] = "Reminder has been sent successfully!";
+							$marray['success']['message'] = "You’ve reminded ".$childDetails['fname'].' '.$childDetails['lname']." about Mission ".$missionArray['title'].".";
 						
 								
 					}

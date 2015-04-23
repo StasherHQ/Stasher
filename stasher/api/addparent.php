@@ -41,11 +41,13 @@ $userArray['parent_type'] = $relation_type;
 							
 							
 							$childDetails = $usrObj->getUserInformationByUserId($childId);
-							$description = 'New commander request from '.$childDetails['fname'].' '.$childDetails['lname'];
+							$description = $childDetails['fname'].' '.$childDetails['lname'].' has requested to add you as a Parent. Accept now!';
 							$activityArray = array();
 							$activityArray['userId'] = $parentId;	
-							$activityArray['description'] = $description;	
-							$activityArray['activity_type'] = '3';
+$activityArray['title'] = 'commander request from '.$childDetails['fname'].' '.$childDetails['lname'];
+							$activityArray['description'] = $description;
+							$activityArray['requestfrom'] = $childId;	
+							$activityArray['activity_type'] = '10';
 							$activityArray['inserted_date'] = date("Y-m-d H:i:s");	
 							$usrObj->addActivity($activityArray);
 							
@@ -61,26 +63,26 @@ $userArray['parent_type'] = $relation_type;
                                                         
                                                         
 							$marray['success']['code'] = "102";
-							$marray['success']['message'] = "A Commander request has been sent!";
+							$marray['success']['message'] = "You’ve sent a Parent Request to ".$parentDetails['fname']." ".$parentDetails['lname']." Hope to hear back soon!";
 						}
 						else
 						{
 							$marray['error']['code'] = "102";
-							$marray['error']['message'] = "A Commander is already added or request laready sent.";
+							$marray['error']['message'] = "A parent is already added or request already sent.";
 						}
 						
 			}
 			else
 			{
 				$marray['error']['code'] = "102";
-				$marray['error']['message'] = "Invalid Commander";
+				$marray['error']['message'] = "Invalid Parent";
 			}
 			
 		}
 		else
 		{
 			$marray['error']['code'] = "102";
-			$marray['error']['message'] = "Invalid Commander";
+			$marray['error']['message'] = "Invalid Parent";
 		}
 	
 }

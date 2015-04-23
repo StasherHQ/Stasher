@@ -37,36 +37,40 @@ if($_POST['parentId'] != ''  &&  $_POST['childId'] != '')
 							$usrObj->addRelation($userArray);
 							
 							$childDetails = $usrObj->getUserInformationByUserId($childId);
-							$description = ''.$childDetails['fname'].' '.$childDetails['lname'].'  a Secret Agent (child) is added to the list.';
+							$description = ''.$childDetails['fname'].' '.$childDetails['lname'].'  a child is added to the list.';
 							$activityArray = array();
 							$activityArray['userId'] = $userId;	
-							$activityArray['description'] = $description;	
+$activityArray['title'] = "A child added ".$childDetails['fname'].' '.$childDetails['lname'];
+							$activityArray['description'] = $description;
+							$activityArray['requestfrom'] = $childId;		
 							$activityArray['activity_type'] = '3';
 							$activityArray['inserted_date'] = date("Y-m-d H:i:s");	
 							$usrObj->addActivity($activityArray);
 							
 							$parentDetails = $usrObj->getUserInformationByUserId($parentId);
-							$description = 'New commander request from '.$parentDetails['fname'].' '.$parentDetails['lname'];
+							$description = 'New parent request from '.$parentDetails['fname'].' '.$parentDetails['lname'];
 							$activityArray1 = array();
 							$activityArray1['userId'] = $parentId;	
-							$activityArray1['description'] = $description;	
+$activityArray1['title'] = "Parent request by ".$parentDetails['fname'].' '.$parentDetails['lname'];
+							$activityArray1['description'] = $description;
+							$activityArray1['requestfrom'] = $parentId;	
 							$activityArray1['activity_type'] = '3';
 							$activityArray1['inserted_date'] = date("Y-m-d H:i:s");	
 							$usrObj->addActivity($activityArray1);
 							
 							// send ios push  notification to the child.
                                                         $devicetoken = $userArray2['devicetoken'];
-                                                        $message = "You are added as a secret agent for the commander ".$parentDetails['fname']." ".$parentDetails['lname'];
+                                                        $message = "You are added as a child for the parent ".$parentDetails['fname']." ".$parentDetails['lname'];
                                                         sendPushNotificationToIOSDevice($devicetoken,$message);
                                                         
 							
 							$marray['success']['code'] = "102";
-							$marray['success']['message'] = "A Secret Agent (child) request has been sent!";
+							$marray['success']['message'] = "A child request has been sent!";
 						}
 						else
 						{
 							$marray['error']['code'] = "102";
-							$marray['error']['message'] = "A Secret Agent (child) is already added";
+							$marray['error']['message'] = "A child is already added";
 						}
 								
 					}

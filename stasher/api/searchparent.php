@@ -48,7 +48,7 @@ if($_POST['q'] != '')
 			else
 				{
 					$marray['error']['code'] = "102";
-					$marray['error']['message'] = "No commander found!";
+					$marray['error']['message'] = "No parent found!";
 				}
 }
 else

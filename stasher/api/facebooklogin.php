@@ -45,7 +45,7 @@ if($_POST['fname'] != '' && $_POST['lname'] != '' && $_POST['email'] != '' )
 					$marray['usedetails']['gender'] = $userArray['info']['gender'];
 					$marray['usedetails']['country'] = $userArray['info']['country'];
 					$marray['usedetails']['dob'] = $userArray['info']['dob'];
-					$marray['usedetails']['avatar'] = $userArray['info']['avatar'];
+					$marray['usedetails']['avatar'] = SITEURL.'/dynamicAssets/users/avatar/'.$userArray['info']['avatar'];
 
 		
 		}

@@ -48,7 +48,7 @@ if($_POST['q'] != '')
 			else
 				{
 					$marray['error']['code'] = "102";
-					$marray['error']['message'] = "No agent found!";
+					$marray['error']['message'] = "No child found!";
 				}
 }
 else

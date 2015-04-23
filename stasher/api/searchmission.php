@@ -38,7 +38,7 @@ if($_POST['q'] != '')
 			else
 				{
 					$marray['error']['code'] = "102";
-					$marray['error']['message'] = "No data found.";
+					$marray['error']['message'] = "No mission found.";
 				}
 }
 else

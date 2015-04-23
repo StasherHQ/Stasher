@@ -32,11 +32,13 @@ if($_POST['childId'] != '' )
                         
                         
                         $childDetails = $usrObj->getUserInformationByUserId($childId);
-			$description = "New payment request from the secret agent  ".$childDetails['fname']." ".$childDetails['lname']." for the mission " ;
+			$description = "Child ".$childDetails['fname']." ".$childDetails['lname']." has requested a payment. Swipe to view." ;
 			$activityArray1 = array();
 			$activityArray1['userId'] = $parentId;	
+			$activityArray1['title'] = "Payment request from ".$childDetails['fname']." ".$childDetails['lname'];	
 			$activityArray1['description'] = $description;	
-			$activityArray1['activity_type'] = '3';
+			$activityArray1['activity_type'] = '1';
+			$activityArray1['requestfrom'] = $childId;
 			$activityArray1['inserted_date'] = date("Y-m-d H:i:s");	
 			$usrObj->addActivity($activityArray1);
 			
@@ -46,13 +48,13 @@ $parentDetails = $usrObj->getUserDetailsByUserId($parentId);
 				
 			// send ios push  notification to the child.
                         $devicetoken = $parentDetails2['devicetoken'];
-                        $message = "New payment request from the secret agent  ".$childDetails['fname']." ".$childDetails['lname']." for the mission " ;
+                        $message =  "Child ".$childDetails['fname']." ".$childDetails['lname']." has requested a payment. Swipe to view." ;
                         sendPushNotificationToIOSDevice($devicetoken,$message);
                                                         
                                                         
 			
 			$marray['success']['code'] = "102";
-			$marray['success']['message'] = "Request sent successfully!";
+			$marray['success']['message'] = "Standby, your request for $x has been sent to Parent name.";
 								
 }
 else

@@ -1,0 +1,996 @@
+2014/12/28 00:26:33 [info] [---- In User controller------> Parameters are : User Id: 42] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:33:23 [info] [---- In User controller------> Parameters are : User Id: 42] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:42:18 [info] [---- In User controller------> Parameters are : User Id: 42] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:42:40 [info] [---- In User controller------> Parameters are : User Id: 42] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:43:32 [info] [---- In User controller------> Parameters are : User Id: 42] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:43:35 [info] [---- In User controller------> Parameters are : User Id: 42] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:47:09 [info] [---- In User controller------> Parameters are : User Id: 42] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:47:22 [info] [---- In User controller------> Parameters are : User Id: 42] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:47:37 [info] [---- In User controller------> Parameters are : User Id: 42] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:47:56 [info] [ -----In Signup Controller ---------> Parameters are : device_type = iOS | device_unique_id : 35591093-71B1-4B5A-B281-14E765EB14FF | app_version_id = 1 | access_token : 2A0QJi~ZCb8L] In logout Function
+in /var/www/thirst/protected/controllers/api/SignupController.php (800)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 00:47:56 [info] [ -----In Signup Controller ---------> --> User logging out is : user_id :42 ] In logout Function
+in /var/www/thirst/protected/controllers/api/SignupController.php (821)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 00:47:56 [info] [ -----In Signup Controller --------->  In Logout function  
+ Output Array is: 
+ status=200  
+  statusInfo=success 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (351)
+in /var/www/thirst/protected/controllers/api/SignupController.php (846)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:48:13 [info] [ -----In Signup Controller ---------> common parameter are: app_version_id : 1 | device_token : 0743aa4c 7da620a3 e41e16c7 9b8a90b1 45f8a99e 35cfdc74 e91aa841 c7a9b7f9 | device_type : iOS 
+ Org access_token : (null)] In Login function
+in /var/www/thirst/protected/controllers/api/SignupController.php (395)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 00:48:13 [info] [ -----In Signup Controller ---------> In custom loging condition.] In Login function
+in /var/www/thirst/protected/controllers/api/SignupController.php (418)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 00:48:13 [info] [ -----In Signup Controller ---------> Parameters are : sb@gmail.com  | q | custom | 0743aa4c 7da620a3 e41e16c7 9b8a90b1 45f8a99e 35cfdc74 e91aa841 c7a9b7f9] In Login function
+in /var/www/thirst/protected/controllers/api/SignupController.php (419)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 00:48:13 [info] [ -----In Signup Controller ---------> Got the user Id : 73] In Login function
+in /var/www/thirst/protected/controllers/api/SignupController.php (449)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 00:48:13 [info] [ -----In Signup Controller ---------> Got the user Id : 73  Got new acces token as : Xidj2yser6PD ] In Login function
+in /var/www/thirst/protected/controllers/api/SignupController.php (461)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 00:48:13 [info] [ -----In Signup Controller ---------> Upatating the cart item from guest user id :  to  current logged in user id 73] In Login function
+in /var/www/thirst/protected/controllers/api/SignupController.php (633)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:48:14 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:48:16 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:48:23 [info] [---- In User controller------> Parameters are : User Id: 73 Gender = Male birthdat: 11/25/1990 ] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (217)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 00:48:23 [info] [Image is not given to upload] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (266)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:48:30 [info] [---- In User controller------> Parameters are : User Id: 73 Gender = Male birthdat: 11/25/1990 ] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (217)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 00:48:30 [info] [Image is not given to upload] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (266)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:49:03 [info] [---- In User controller------> Parameters are : User Id: 73 Gender = Male birthdat: 11/25/1990 ] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (217)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 00:49:03 [info] [Image is not given to upload] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (266)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:49:40 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:49:50 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:51:07 [info] [---- In User controller------> Parameters are : User Id: 73 Gender = Male birthdat: 11/25/1988 ] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (217)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 00:51:07 [info] [Image is not given to upload] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (266)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:51:10 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 00:59:15 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:15:15 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:15:18 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:25:45 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:27:34 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:27:38 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:34:27 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:36:55 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:36:59 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:38:39 [info] [---- In User controller------> Parameters are : User Id: 73 Gender = Male birthdat: 09/25/1988 ] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (217)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 01:38:39 [info] [Image is not given to upload] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (266)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:39:47 [info] [---- In User controller------> Parameters are : User Id: 73 Gender = Male birthdat: 09/25/1988 ] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (217)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 01:39:47 [info] [Image is not given to upload] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (266)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:42:43 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:42:55 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:45:29 [info] [---- In User controller------> Parameters are : User Id: 73 Gender = Male birthdat: 09/25/1988 ] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (217)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 01:45:29 [info] [Image is not given to upload] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (266)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:45:43 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:46:06 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:48:39 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:49:39 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:49:47 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:49:58 [info] [---- In User controller------> Parameters are : User Id: 73 Gender = Male birthdat: 09/25/1990 ] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (217)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 01:49:58 [info] [Image is not given to upload] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (266)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:50:41 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:51:00 [info] [---- In User controller------> Parameters are : User Id: 73 Gender = Male birthdat: 09/25/1990 ] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (217)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 01:51:00 [info] [Image is not given to upload] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (266)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:51:03 [info] [---- In User controller------> Parameters are : User Id: 73 Gender = Male birthdat: 09/25/1990 ] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (217)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 01:51:03 [info] [Image is not given to upload] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (266)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:51:07 [info] [---- In User controller------> Parameters are : User Id: 73 Gender = Male birthdat: 09/25/1990 ] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (217)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 01:51:07 [info] [Image is not given to upload] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (266)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:52:51 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:55:30 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:55:43 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:58:30 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:58:37 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 01:59:46 [info] [---- In User controller------> Parameters are : User Id: 73 Gender = Male birthdat: 08/25/1992 ] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (217)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 01:59:46 [info] [Image is not given to upload] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (266)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 02:00:14 [info] [---- In User controller------> Parameters are : User Id: 73 Gender = Male birthdat: 08/25/1992 ] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (217)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:00:14 [info] [Image is not given to upload] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (266)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 02:01:42 [info] [---- In User controller------> Parameters are : User Id: 73 Gender = Male birthdat: 08/25/1992 ] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (217)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:01:42 [info] [Image is not given to upload] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (266)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 02:02:28 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 02:02:34 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 02:02:49 [info] [---- In User controller------> Parameters are : User Id: 73 Gender = Male birthdat: 08/25/1988 ] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (217)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:02:49 [info] [Image is not given to upload] In update user function
+in /var/www/thirst/protected/controllers/api/UserController.php (266)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 02:09:00 [info] [---- In User controller------> Parameters are : device_type = iOS | device_unique_id: 35591093-71B1-4B5A-B281-14E765EB14FF | app_version_id : 1 | access_token : Xidj2yser6PD] In actionRemoveCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2225)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:09:00 [info] [---- In User controller------> CC Parameters are : user_cc_id : 99 ] In actionRemoveCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2232)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:09:00 [info] [---- In User controller------> CC Parameters are : user_cc_id : 99 
+ user_id : 73 ] In actionRemoveCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2243)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:09:00 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = anujaoab@gmail.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (125)
+in /var/www/thirst/protected/models/commonModel.php (162)
+in /var/www/thirst/protected/models/commonModel.php (195)
+
+2014/12/28 02:09:01 [info] [ Email sent to developer account.] In send_output_mail Function
+in /var/www/thirst/protected/models/commonModel.php (196)
+in /var/www/thirst/protected/controllers/api/UserController.php (2252)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 02:09:03 [info] [---- In User controller------> Parameters are : device_type = iOS | device_unique_id: 35591093-71B1-4B5A-B281-14E765EB14FF | app_version_id : 1 | access_token : Xidj2yser6PD] In actionRemoveCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2225)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:09:03 [info] [---- In User controller------> CC Parameters are : user_cc_id : 98 ] In actionRemoveCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2232)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:09:03 [info] [---- In User controller------> CC Parameters are : user_cc_id : 98 
+ user_id : 73 ] In actionRemoveCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2243)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:09:03 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = anujaoab@gmail.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (125)
+in /var/www/thirst/protected/models/commonModel.php (162)
+in /var/www/thirst/protected/models/commonModel.php (195)
+
+2014/12/28 02:09:04 [info] [ Email sent to developer account.] In send_output_mail Function
+in /var/www/thirst/protected/models/commonModel.php (196)
+in /var/www/thirst/protected/controllers/api/UserController.php (2252)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 02:09:06 [info] [---- In User controller------> Parameters are : device_type = iOS | device_unique_id: 35591093-71B1-4B5A-B281-14E765EB14FF | app_version_id : 1 | access_token : Xidj2yser6PD] In actionRemoveCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2225)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:09:06 [info] [---- In User controller------> CC Parameters are : user_cc_id : 96 ] In actionRemoveCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2232)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:09:06 [info] [---- In User controller------> CC Parameters are : user_cc_id : 96 
+ user_id : 73 ] In actionRemoveCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2243)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:09:07 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = anujaoab@gmail.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (125)
+in /var/www/thirst/protected/models/commonModel.php (162)
+in /var/www/thirst/protected/models/commonModel.php (195)
+
+2014/12/28 02:09:07 [info] [ Email sent to developer account.] In send_output_mail Function
+in /var/www/thirst/protected/models/commonModel.php (196)
+in /var/www/thirst/protected/controllers/api/UserController.php (2252)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 02:17:30 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 02:17:32 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 02:17:53 [info] [---- In User controller------> Parameters are : device_type = iOS | device_unique_id: 35591093-71B1-4B5A-B281-14E765EB14FF | app_version_id : 1 | access_token : Xidj2yser6PD] In actionAddCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1955)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:17:53 [info] [---- In User controller------> CC Parameters are : cc_number : 4111111111111111 
+ cc_exp_date : 11/2016 
+ cc_cvv : 532 
+ is_guest : 0 ] In actionAddCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1977)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:17:53 [info] [---- In User controller------> CC got the customer id as 12917933 
+  Parameters are : cc_number : 4111111111111111 
+ cc_exp_date : 11/2016 
+ cc_cvv : 532] In actionAddCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2035)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:17:53 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = anujaoab@gmail.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (125)
+in /var/www/thirst/protected/models/commonModel.php (162)
+in /var/www/thirst/protected/models/commonModel.php (195)
+
+2014/12/28 02:17:54 [info] [ Email sent to developer account.] In send_output_mail Function
+in /var/www/thirst/protected/models/commonModel.php (196)
+in /var/www/thirst/protected/controllers/api/UserController.php (2147)
+in /var/www/thirst/protected/controllers/api/UserController.php (2037)
+
+2014/12/28 02:17:54 [info] [ In credit card success.] In actionCreateBraintreeCustomer Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2153)
+in /var/www/thirst/protected/controllers/api/UserController.php (2037)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 02:18:05 [info] [---- In User controller------> Parameters are : device_type = iOS | device_unique_id: 35591093-71B1-4B5A-B281-14E765EB14FF | app_version_id : 1 | access_token : Xidj2yser6PD] In actionAddCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1955)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:18:05 [info] [---- In User controller------> CC Parameters are : cc_number : 5555555555554444 
+ cc_exp_date : 4/2016 
+ cc_cvv : 588 
+ is_guest : 0 ] In actionAddCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1977)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:18:05 [info] [---- In User controller------> CC got the customer id as 12917933 
+  Parameters are : cc_number : 5555555555554444 
+ cc_exp_date : 4/2016 
+ cc_cvv : 588] In actionAddCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2035)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 02:18:05 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = anujaoab@gmail.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (125)
+in /var/www/thirst/protected/models/commonModel.php (162)
+in /var/www/thirst/protected/models/commonModel.php (195)
+
+2014/12/28 02:18:06 [info] [ Email sent to developer account.] In send_output_mail Function
+in /var/www/thirst/protected/models/commonModel.php (196)
+in /var/www/thirst/protected/controllers/api/UserController.php (2147)
+in /var/www/thirst/protected/controllers/api/UserController.php (2037)
+
+2014/12/28 02:18:06 [info] [ In credit card success.] In actionCreateBraintreeCustomer Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2153)
+in /var/www/thirst/protected/controllers/api/UserController.php (2037)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:01:36 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:01:44 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:04:13 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:04:16 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:05:06 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:05:49 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:06:33 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:06:35 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:07:06 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:07:18 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:08:06 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:08:08 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:08:33 [info] [---- In User controller------> Parameters are : device_type = iOS | device_unique_id: 35591093-71B1-4B5A-B281-14E765EB14FF | app_version_id : 1 | access_token : Xidj2yser6PD] In actionRemoveCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2225)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:08:33 [info] [---- In User controller------> CC Parameters are : user_cc_id : 104 ] In actionRemoveCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2232)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:08:33 [info] [---- In User controller------> CC Parameters are : user_cc_id : 104 
+ user_id : 73 ] In actionRemoveCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2243)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:08:33 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = anujaoab@gmail.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (125)
+in /var/www/thirst/protected/models/commonModel.php (162)
+in /var/www/thirst/protected/models/commonModel.php (195)
+
+2014/12/28 03:08:33 [info] [ Email sent to developer account.] In send_output_mail Function
+in /var/www/thirst/protected/models/commonModel.php (196)
+in /var/www/thirst/protected/controllers/api/UserController.php (2252)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:08:37 [info] [---- In User controller------> Parameters are : device_type = iOS | device_unique_id: 35591093-71B1-4B5A-B281-14E765EB14FF | app_version_id : 1 | access_token : Xidj2yser6PD] In actionRemoveCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2225)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:08:37 [info] [---- In User controller------> CC Parameters are : user_cc_id : 103 ] In actionRemoveCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2232)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:08:37 [info] [---- In User controller------> CC Parameters are : user_cc_id : 103 
+ user_id : 73 ] In actionRemoveCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2243)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:08:37 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = anujaoab@gmail.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (125)
+in /var/www/thirst/protected/models/commonModel.php (162)
+in /var/www/thirst/protected/models/commonModel.php (195)
+
+2014/12/28 03:08:38 [info] [ Email sent to developer account.] In send_output_mail Function
+in /var/www/thirst/protected/models/commonModel.php (196)
+in /var/www/thirst/protected/controllers/api/UserController.php (2252)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:08:53 [info] [---- In User controller------> Parameters are : User Id: 122] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:08:59 [info] [---- In Venue controller------> Parameters are : User Id: 122 | latitude =>18.569941 |  longitude => 73.910736 | offset => 0 | perPage => 10 | orderColumn => distance | sortOrder => ASC |search_text => 0 | IBeacon_id : ] In Drinking buddies function
+in /var/www/thirst/protected/controllers/api/VenueController.php (565)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:09:02 [info] [---- In Venue controller------> Parameters are : device_type :iOS  | device_unique_id:FBB87121-FF30-4670-AB02-87C0F9784973  | app_version_id:1 | access_token : RyuSmPdEUH6n ] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (52)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:09:02 [info] [---- In Venue controller------> Parameters are : venue_id :29  
+ latitude:18.569887 
+ longitude:73.910767] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (72)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:09:02 [info] [---- In Venue controller------> Parameters are : venue_id = 29 and User Id: 122] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (101)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:09:02 [info] [---- In Venue controller------> Venue Distance : 5166 mi ] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (139)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:09:02 [info] [ ---- In Venue controller------>  In Venue Detail Function  
+ Output Array is: 
+ venue_id=29  
+  venue_name=Penthouze Nightlife  
+  is_favourite=0  
+  gift_present=0  
+  price_rating=4  
+  venue_image=Array  
+  latitude=  
+  longitude=  
+  small_address=KP, Kalyani, Sassoon Rd › Koregaon Park  
+  street_address=KP, Kalyani, Sassoon Rd › Koregaon Park-Pune  
+  phone_no=020247583958  
+  distance=5166 mi  
+  time=Array  
+  happy_hours=Array  
+  tag_list=Array 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (351)
+in /var/www/thirst/protected/controllers/api/VenueController.php (158)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:10:29 [info] [---- In User controller------> Parameters are : User Id: 122] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:10:30 [info] [---- In Venue controller------> Parameters are : User Id: 122 | latitude =>18.569935 |  longitude => 73.910728 | offset => 0 | perPage => 10 | orderColumn => distance | sortOrder => ASC |search_text => 0 | IBeacon_id : ] In Drinking buddies function
+in /var/www/thirst/protected/controllers/api/VenueController.php (565)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:10:32 [info] [---- In Venue controller------> Parameters are : device_type :iOS  | device_unique_id:FBB87121-FF30-4670-AB02-87C0F9784973  | app_version_id:1 | access_token : RyuSmPdEUH6n ] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (52)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:10:32 [info] [---- In Venue controller------> Parameters are : venue_id :29  
+ latitude:18.569935 
+ longitude:73.910728] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (72)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:10:32 [info] [---- In Venue controller------> Parameters are : venue_id = 29 and User Id: 122] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (101)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:10:32 [info] [---- In Venue controller------> Venue Distance : 5166 mi ] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (139)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:10:32 [info] [ ---- In Venue controller------>  In Venue Detail Function  
+ Output Array is: 
+ venue_id=29  
+  venue_name=Penthouze Nightlife  
+  is_favourite=0  
+  gift_present=0  
+  price_rating=4  
+  venue_image=Array  
+  latitude=  
+  longitude=  
+  small_address=KP, Kalyani, Sassoon Rd › Koregaon Park  
+  street_address=KP, Kalyani, Sassoon Rd › Koregaon Park-Pune  
+  phone_no=020247583958  
+  distance=5166 mi  
+  time=Array  
+  happy_hours=Array  
+  tag_list=Array 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (351)
+in /var/www/thirst/protected/controllers/api/VenueController.php (158)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:10:40 [info] [---- In Venue controller------> Parameters are : device_type :iOS  | device_unique_id:FBB87121-FF30-4670-AB02-87C0F9784973  | app_version_id:1 | access_token : RyuSmPdEUH6n ] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (52)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:10:40 [info] [---- In Venue controller------> Parameters are : venue_id :2  
+ latitude:18.569958 
+ longitude:73.910713] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (72)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:10:41 [info] [---- In Venue controller------> Parameters are : venue_id = 2 and User Id: 122] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (101)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:10:41 [info] [---- In Venue controller------> Venue Distance : 0 mi ] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (139)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:10:41 [info] [ ---- In Venue controller------>  In Venue Detail Function  
+ Output Array is: 
+ venue_id=2  
+  venue_name=Rain Forest.  
+  is_favourite=0  
+  gift_present=1  
+  price_rating=4  
+  venue_image=Array  
+  latitude=18.56664  
+  longitude=73.91540  
+  small_address=Phoenix Mall,   
+  street_address=Phoenix Mall, -Pune  
+  phone_no=02041206353  
+  distance=0 mi  
+  time=Array  
+  happy_hours=Array  
+  tag_list=Array 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (351)
+in /var/www/thirst/protected/controllers/api/VenueController.php (158)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:53:14 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:53:19 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:53:41 [info] [---- In User controller------> Parameters are : device_type = iOS | device_unique_id: 35591093-71B1-4B5A-B281-14E765EB14FF | app_version_id : 1 | access_token : Xidj2yser6PD] In actionAddCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1955)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:53:41 [info] [---- In User controller------> CC Parameters are : cc_number : 4111111111111111 
+ cc_exp_date : 11/2018 
+ cc_cvv : 328 
+ is_guest : 0 ] In actionAddCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1977)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:53:41 [info] [---- In User controller------> CC got the customer id as 12917933 
+  Parameters are : cc_number : 4111111111111111 
+ cc_exp_date : 11/2018 
+ cc_cvv : 328] In actionAddCreditCard Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2035)
+in /var/www/thirst/index.php (13)
+
+2014/12/28 03:53:41 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = anujaoab@gmail.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (125)
+in /var/www/thirst/protected/models/commonModel.php (162)
+in /var/www/thirst/protected/models/commonModel.php (195)
+
+2014/12/28 03:53:42 [info] [ Email sent to developer account.] In send_output_mail Function
+in /var/www/thirst/protected/models/commonModel.php (196)
+in /var/www/thirst/protected/controllers/api/UserController.php (2147)
+in /var/www/thirst/protected/controllers/api/UserController.php (2037)
+
+2014/12/28 03:53:42 [info] [ In credit card success.] In actionCreateBraintreeCustomer Function
+in /var/www/thirst/protected/controllers/api/UserController.php (2153)
+in /var/www/thirst/protected/controllers/api/UserController.php (2037)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:54:49 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 03:54:54 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:05:31 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:05:34 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:06:22 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:06:24 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:10:17 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:10:21 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:10:59 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:11:02 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:14:54 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:15:02 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:17:53 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:17:56 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:26:13 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:26:25 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:30:04 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:30:07 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:31:54 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:31:59 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:32:52 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:32:57 [info] [---- In User controller------> Parameters are : User Id: 73] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:34:48 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:35:37 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:36:54 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:40:36 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:41:09 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:43:29 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:45:48 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/28 13:47:06 [info] [---- In User controller------> Parameters are : User Id: 73] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1277)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------

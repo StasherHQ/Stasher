@@ -30,24 +30,25 @@ if($_POST['missionId'] != '' && $_POST['childId'])
 				
 				
 							$childDetails = $usrObj->getUserInformationByUserId($childId);
-							$description = 'Mission is accepted by '.$childDetails['fname'].' '.$childDetails['lname'].' :'.$missionDetails['title'];
+							$description = 'Mission is accepted by '.$childDetails['fname'].' '.$childDetails['lname'].' : '.$missionDetails['title'];
 							$activityArray = array();
 							$activityArray['userId'] = $missionDetails['parentId'];	
 							$activityArray['description'] = $description;	
 							$activityArray['title'] = $missionDetails['parentId'];	
-							$activityArray['activity_type'] = '2';
+							$activityArray['requestfrom'] = $missionDetails['childId'];	
+							$activityArray['activity_type'] = '3';
 							$activityArray['inserted_date'] = date("Y-m-d H:i:s");	
 							$usrObj->addActivity($activityArray);
 
 
 
 
-     $parentDetails = $usrObj->getUserDetailsByUserId($missionDetails['parentId']);
+     							$parentDetails = $usrObj->getUserDetailsByUserId($missionDetails['parentId']);
                                                           
 							// send ios push  notification to the parent.
                                                         $devicetoken = $parentDetails['devicetoken'];
-                                                        $message =  'Mission is accepted by '.$childDetails['fname'].' '.$childDetails['lname'].' :'.$missionDetails['title'];
-                                                        sendPushNotificationToIOSDevice($devicetoken,$message)
+                                                        $message =  $childDetails['fname'].' '.$childDetails['lname'].'  has accepted your Mission.';
+                                                        sendPushNotificationToIOSDevice($devicetoken,$message);
 
 
 
@@ -55,7 +56,7 @@ if($_POST['missionId'] != '' && $_POST['childId'])
 
 
 				$marray['success']['code'] = "100";
-				$marray['success']['message'] = "Mission has been accepted. Your mission has begun!";	
+				$marray['success']['message'] = " Your mission has begun. Good luck,".$childDetails['fname']." ".$childDetails['lname']."!";	
 			}
 			else
 			{
