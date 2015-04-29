@@ -70,52 +70,12 @@ return $password_hash;
     return implode($pass); //turn the array into a string
 }
 
- function sendEmail($to,$toname,$from,$fromname,$template,$subject)
+ function sendEmailNotification($to,$toname,$from,$fromname,$template,$subject)
 {
-			//require 'Mandrill.php';
 
-	
-				try {
-    $mandrill = new Mandrill('qjeXUI_DhB4IP8GmDfkbeA');
-    
-    $message = array(
-        'html' => $template,
-        'text' => 'Example text content',
-        'subject' => $subject,
-        'from_email' => $from,
-        'from_name' => $fromname,
-        'to' => array(
-            array(
-                'email' => $to,
-                'name' => $toname,
-                'type' => 'to'
-            )
-        ),
-        'headers' => array('Reply-To' => $from)
-    );
-   
-    $result = $mandrill->messages->send($message,  $async=false, $ip_pool=null, $send_at=null);    
-    //print_r($result);
-    /*
-    Array
-    (
-        [0] => Array
-            (
-                [email] => recipient.email@example.com
-                [status] => sent
-                [reject_reason] => hard-bounce
-                [_id] => abc123abc123abc123abc123abc123
-            )
-    
-    )
-    */
-    return $result;
-} catch(Mandrill_Error $e) {
-    // Mandrill errors are thrown as exceptions
-    return 'A mandrill error occurred: ' . get_class($e) . ' - ' . $e->getMessage();
-    // A mandrill error occurred: Mandrill_Unknown_Subaccount - No subaccount exists with the id 'customer-123'
-    throw $e;
-}
+$email = Yii::app()->mandrillwrap;
+//echo $template;exit;
+$email->sendEmail($subject,$fromname,$from,$toname,$to,$template);
 
 }
 

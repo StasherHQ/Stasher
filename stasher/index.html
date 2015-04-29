@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stasher</title>
+<script src="js/jquery-1.11.2.js" type="text/javascript" ></script>
+<script src="js/custom.js" type="text/javascript"></script>
+<script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/jquery.flexslider.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="css/custom.css" />
+<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+<link rel="stylesheet" type="text/css" href="css/flexslider.css" />
+
+<script>
+	 $( document ).ready(function() {
+
+ $("#submitcontactform").click(function(){
+		var email = $("#email").val();
+		var fullname = $("#fullname").val();
+		var ajaxurl = "subscribe.php";
+		var data = {
+			email:email, fullname:fullname  };
+    		jQuery.post(ajaxurl, data, function(response) {
+			$("#msgdiv").val('');
+			$("#msgdiv").html(response);
+   	});
+   
+});
+});
+
+</script> 
+
+</head>
+<body>
+<div class="container-fluid navigation hidden-xs">
+  <div class="container">
+    <div class="col-md-12 col-sm-12 col-xs-12 topNavigation">
+      <ul class="list-unstyled text-center text-capitalize">
+        <li class="home"><a href="index.html">
+          <div class="drop"></div>
+          home</a></li>
+        <li class="howWorks"><a href="javascript:void(0);" id="stasherTop">
+          <div class="drop"></div>
+          how it works</a></li>
+        <li class="logo"><a href="index.html"><img src="images/logo.svg" /></a></li>
+        <li><a href="aboutUs.html">
+          <div class="drop"></div>
+          about</a></li>
+        <li><a href="safety.html">
+          <div class="drop"></div>
+          safety</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container-fluid navigation navbar navbar-default visible-xs">
+	<div class="container">
+    	<div class="col-md-12 col-sm-12 col-xs-12 topNavigation">
+        	<button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+          	</button>
+            <a class="logoMob" href="#"><img src="images/logo.svg" /></a>
+          </div>  
+            
+          <div class="navbar-collapse collapse" id="navbar" aria-expanded="false" style="height: 1px;">
+              <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html"><div class="drop"></div> home</a></li>
+                    <li><a href="index.html#stasherWork"><div class="drop"></div> how it works</a></li>                    
+                    <li><a href="aboutUs.html"><div class="drop"></div> about</a></li>
+                    <li><a href="safety.html"><div class="drop"></div> safety</a></li> 
+              </ul>          
+          </div>        
+     </div>        
+</div>
+<div class="container-fluid topLayer">
+  <div class="container">
+    <div class="col-md-12 col-sm-12 col-xs-12 mobileOuter">
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12 text-right mobileScreen"> 
+            <!--<img src="images/mobile.png" /> -->
+            <div class="flexslider">
+              <!--<img class="mobileSlider" src="images/mobileOuter.png" />-->
+              <ul class="slides">
+                <li>
+                    <img  src="images/slide1.png" />               
+                    </li>
+                    <li>
+                    <img src="images/slide2.png" />
+                    </li>
+                    <li>
+                    <img src="images/slide3.png" />
+                    </li>  	    		
+              </ul>
+        	</div>
+            <div class="absolutePanda"> 
+                <!--<img src="images/pandaTop.png" /> -->
+                <div class="mobilePanda">
+                    <img src="images/mobilePanda.svg"/>
+                    <div class="ribbonPandaMob"></div>
+                </div>
+            </div>
+            <div class="absoluteHoney">
+            	<img src="images/mobileHoney.png" />
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-12 topText">
+          <h2>Ditch the piggy bank. <br />
+            Upgrade to Stasher! </h2>
+          <span>Stasher is an app for kids to stash their cash.</span>
+          <div class="appStoreBtn"><a href="#"><img src="images/appStore.png"/></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid stasherWork" id="stasherWork">
+  <div class="container">
+    <div class="col-md-12 col-sm-12 col-xs-12 text-center text-capitalize">
+      <h1>how stasher works.</h1>
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12 stasherWorkOne">
+      <div class="hexa"> <img src="images/hexa.png"/> </div>
+      <div class="hexa1"> <img src="images/hexa.png"/> </div>
+      <div class="row">
+        
+        <div class="col-md-4 col-sm-4 col-xs-12 text-center pull-right dollarJarOuter"> 
+        	<!--<img src="images/dollarBucket.png" /> -->
+            <div class="dollar"></div>
+            <div class="jar">
+                
+            </div>
+        </div>
+        <div class="col-md-6 col-md-offset-2 col-sm-6 col-sm-offset-1 col-xs-12 anyTimeSec">
+          <h3>Track My Cash</h3>
+          <span> Kids can track their cash from anywhere on the planet using Stasher, available free on the Apple App Store. <br/>
+          <br/>
+          Birthdays, holidays, or just for kicks, Stasher allows parents and relatives to easily and safely contribute to a child’s saving account from their mobile devices absolutely free.   </span> 
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <div class="hexa2"> <img src="images/hexa.png"/> </div>
+      <div class="row">
+        <div class="col-md-7 col-sm-6 col-xs-12 beeSec text-right"> 
+        	<img src="images/beeMobile.png" /> 
+            <div class="beeSprite"></div>
+        </div>
+        
+        <div class="col-md-5 col-sm-6 col-xs-12 missionRewards">
+          <h3>Complete My Missions to Get Paid</h3>
+          <span>Kids complete Missions set up by their Parent’s to earn rewards. A Mission is a task, chore, or goal. This can be taking out the trash, or getting a good grade on that Math test.   <br/>
+          <br/>
+          The best parts about missions are the rewards: from real cold hard cash deposited straight into kid’s savings accounts! </span> </div>
+      </div>
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12 stasherWorkThree">
+      <div class="hexa"> <img src="images/hexa.png"/> </div>
+      <div class="hexa3"> <img src="images/hexa.png"/> </div>
+      <div class="row">
+        
+        <div class="col-md-5 col-sm-5 col-xs-12 text-center pull-right pandaWithJar">
+        	<!--<img src="images/pandaBucket.png" /> -->
+            <div class="panda">
+                <img src="images/panda.svg" />
+                <div class="ribbon"></div>
+            </div>
+            <div class="jar"></div>
+        </div>
+        <div class="col-md-7 col-sm-7 col-xs-12 safeEdu">
+          <h3>Keep My Money Safe</h3>
+          <span> Kids can keep their money safely in their savings accounts, and away from siblings, parents, and even bad guys! Stasher focuses on teaching kids to save money and watch their balance explode. </span>
+          <ul>
+            <li>Track your money from any device on-the-go</li>
+            <li>Earn and save real money, yes, REAL mullah, cash, money!</li>
+            <li>Create and track Missions, like chores and goals, to earn rewards</li>
+            <li>Get rewarded with money, badges, and more! How awesome is that!!</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid signUpForm">
+  <div class="container">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <div class="row">
+        <div class="col-md-7 col-sm-6 col-xs-12"> <span> Go ahead, sign-up below. <br/> Your secret missions await you. </span> </div>
+        <div class="col-md-5 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 signUpResp">
+        	<form>
+          <h4>Sign Up to learn more:</h4>
+          <input type="text" id="fullname" placeholder="Full Name" />
+          <input type="email" id="email" placeholder="Email" />
+          <button  type="button" id="submitcontactform" >submit</button>
+          <div id="msgdiv"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid footer">
+  <div class="container">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <div class="row">
+        <div class="col-md-8 col-sm-7">
+          <h3>Follow Us</h3>
+          <span>Stay informed by Stasher HQ. <br> Hint: Follow the clues </span>
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="row">
+              <div class="socialLinks"> 
+              	 <a href="https://www.facebook.com/StasherApp?_rdr" target="_blank"><img src="images/fb.svg" /></a>
+                 <span>/StasherApp</span> 
+              </div>
+              <div class="socialLinks"> 
+              	<a href="https://twitter.com/StasherHQ" target="_blank"><img src="images/twitter.svg" /></a>
+                <span>@StasherApp</span> 
+              </div>
+              <div class="socialLinks"> 
+              	<a href="https://instagram.com/StasherHQ/" target="_blank"><img src="images/insta.svg" /></a>
+                <span>@StasherApp</span> 
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-5 col-xs-12">
+          <ul class="list-unstyled">
+            <li><a href="faq.html">FAQ's</a></li>
+            <li><a href="pdf/generalPrivacy.pdf" target="_blank">PRIVACY</a></li>
+          </ul>
+          <span class="copyRight">&copy; Stasher 2014.  All Rights Reserved. </span> </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

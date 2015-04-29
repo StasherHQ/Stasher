@@ -367,7 +367,7 @@ function getChildListByParentId($user_id)
 			else
 				  $search_cond = '';
 				  
-		 $sql = "SELECT u.username,u.email FROM tbl_users as u left join tbl_user_information as i on u.userId = i.userId 
+		 $sql = "SELECT u.username,u.email,i.avatar,u.userId FROM tbl_users as u left join tbl_user_information as i on u.userId = i.userId 
 						WHERE ( u.usertype = '3' OR u.usertype='4' ) AND status <> '0'
 						
 						$search_cond

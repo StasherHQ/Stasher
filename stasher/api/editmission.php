@@ -67,6 +67,7 @@ if($_POST['title'] != ''  && $_POST['isTimebase'] != ''  && $_POST['parentId'] !
 							$description = 'Mission is edited by '.$parentDetails['fname'].' '.$parentDetails['lname'];
 							$activityArray1 = array();
 							$activityArray1['userId'] = $childIdArray[$k];	
+							$activityArray1['title'] = 'Mission edited';
 							$activityArray1['description'] = $description;
 							$activityArray1['requestfrom'] = $parentId;	
 							$activityArray1['activity_type'] = '2';

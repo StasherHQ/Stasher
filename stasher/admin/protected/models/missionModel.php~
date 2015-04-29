@@ -40,11 +40,16 @@ class missionModel extends CFormModel
 	}
 	
 	
-	function getAllMissions($m,$fromdate,$todate)
+	function getAllMissions($m,$fromdate,$todate,$userId,$sortingfield,$sortingby)
 	{
 		$cond = '';
 		$search_cond = '';
 		$datecond = '';
+		$usrcond = '';
+		if($userId !='')
+		{
+			$usrcond = "  AND (parentId = '".$userId."' OR childId = '".$userId."')";
+		}
 		if($fromdate != '' && $todate!= '')
 		{
 			$datecond = " AND ( inserted_date between '".$fromdate."' AND '".$todate."')";
@@ -62,14 +67,35 @@ class missionModel extends CFormModel
 		  $cond = " AND status='5'"; 
 		}
 		
-	
-					
+		if($sortingfield == 'date')
+		{
+			$sortfield = ' inserted_date';
+		}
+		else if($sortingfield == 'title')
+		{
+			$sortfield = 'title';
+		}
+		else
+		{
+			$sortfield = ' inserted_date';
+		}			
+		if($sortingby)
+		{
+			$sortingby = $sortingby;
+		}
+		else
+		{
+			$sortingby = ' asc';
+		}
+		
+		
 		
 		 $sql = "SELECT * FROM tbl_missions where status <> '0'
 						$cond
 						$search_cond
 						$datecond
-						ORDER BY inserted_date DESC";
+						$usrcond
+						ORDER BY $sortfield $sortingby";
 		
 		
 		$command = Yii::app()->db->createCommand($sql);

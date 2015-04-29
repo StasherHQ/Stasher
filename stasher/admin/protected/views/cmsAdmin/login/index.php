@@ -40,9 +40,9 @@
         
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
         <!-- Bootstrap -->       
-        <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+        <script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/js/bootstrap.js" type="text/javascript"></script>
         <!-- AdminLTE App -->
-        <script src="assets/js/plugins/AdminLTE/app.js" type="text/javascript"></script>
+        
 
     </body>
 </html>

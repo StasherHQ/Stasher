@@ -1,0 +1,300 @@
+2015/04/29 05:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajaxlist".' in /var/www/html/stasher/admin/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(270): CController->missingAction('ajaxlist')
+#1 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): CController->run('ajaxlist')
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/report...')
+#3 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxlist
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/reports
+---
+2015/04/29 05:33:59 [error] [php] Undefined variable: userIds (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:124)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxlist
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (124)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 05:34:40 [error] [php] Undefined variable: userIds (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:124)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxlist
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (124)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 05:35:45 [error] [php] Undefined variable: userIds (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:124)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxlist
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (124)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 05:59:58 [error] [php] Undefined variable: userIds (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:124)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxlist
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (124)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 06:02:55 [error] [php] Undefined variable: userIds (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:124)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxlist
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (124)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 06:03:49 [error] [php] Undefined variable: userIds (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:124)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxlist
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (124)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 06:04:45 [error] [php] Undefined variable: userIds (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:124)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxlist
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (124)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 06:20:57 [error] [php] Undefined variable: userIds (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:124)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxlist
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (124)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 06:21:11 [error] [php] Undefined variable: userIds (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:124)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxlist
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (124)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 06:21:18 [error] [php] Undefined variable: userIds (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:124)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxlist
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (124)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 06:21:23 [error] [php] Undefined variable: userIds (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:124)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxlist
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (124)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 06:39:28 [error] [php] Missing argument 5 for missionModel::getAllMissions(), called in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php on line 47 and defined (/var/www/html/stasher/admin/protected/models/missionModel.php:43)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#2 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#4 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports
+in /var/www/html/stasher/admin/protected/models/missionModel.php (43)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (47)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 06:40:01 [error] [php] Missing argument 5 for missionModel::getAllMissions(), called in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php on line 47 and defined (/var/www/html/stasher/admin/protected/models/missionModel.php:43)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#2 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#4 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports
+in /var/www/html/stasher/admin/protected/models/missionModel.php (43)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (47)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 06:40:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC' at line 6. The SQL statement executed was: SELECT * FROM tbl_missions where status <> '0'
+						
+						
+						
+						
+						ORDER BY  DESC.
+in /var/www/html/stasher/admin/protected/models/missionModel.php (93)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (47)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 06:40:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC' at line 6. The SQL statement executed was: SELECT * FROM tbl_missions where status <> '0'
+						
+						
+						
+						
+						ORDER BY  DESC' in /var/www/html/stasher/admin/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/html/stasher/admin/protected/models/missionModel.php(93): CDbCommand->queryAll()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php(47): missionModel->getAllMissions('', '', '', '', '')
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): ReportsController->actionIndex()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): CController->run('')
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/report...')
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/reports
+---
+2015/04/29 06:43:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc' at line 6. The SQL statement executed was: SELECT * FROM tbl_missions where status <> '0'
+						
+						
+						
+						
+						ORDER BY   asc.
+in /var/www/html/stasher/admin/protected/models/missionModel.php (103)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (47)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 06:43:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc' at line 6. The SQL statement executed was: SELECT * FROM tbl_missions where status <> '0'
+						
+						
+						
+						
+						ORDER BY   asc' in /var/www/html/stasher/admin/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/html/stasher/admin/protected/models/missionModel.php(103): CDbCommand->queryAll()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php(47): missionModel->getAllMissions('', '', '', '', '', '')
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): ReportsController->actionIndex()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): CController->run('')
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/report...')
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/reports
+---
+2015/04/29 06:43:55 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc' at line 6. The SQL statement executed was: SELECT * FROM tbl_missions where status <> '0'
+						
+						
+						
+						
+						ORDER BY   asc.
+in /var/www/html/stasher/admin/protected/models/missionModel.php (103)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (47)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 06:43:55 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'asc' at line 6. The SQL statement executed was: SELECT * FROM tbl_missions where status <> '0'
+						
+						
+						
+						
+						ORDER BY   asc' in /var/www/html/stasher/admin/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/html/stasher/admin/protected/models/missionModel.php(103): CDbCommand->queryAll()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php(47): missionModel->getAllMissions('', '', '', '', '', '')
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): ReportsController->actionIndex()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): CController->run('')
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/report...')
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/reports
+---
+2015/04/29 06:46:49 [error] [php] Undefined variable: userIds (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:141)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxlist
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (141)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 06:47:31 [error] [php] Undefined variable: userIds (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:141)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxlist
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (141)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 07:23:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inserted_date' at line 6. The SQL statement executed was: SELECT * FROM tbl_missions where status <> '0'
+						
+						
+						
+						
+						ORDER BY  inserted_date inserted_date.
+in /var/www/html/stasher/admin/protected/models/missionModel.php (103)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php (67)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/29 07:23:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'inserted_date' at line 6. The SQL statement executed was: SELECT * FROM tbl_missions where status <> '0'
+						
+						
+						
+						
+						ORDER BY  inserted_date inserted_date' in /var/www/html/stasher/admin/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /var/www/html/stasher/admin/protected/models/missionModel.php(103): CDbCommand->queryAll()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php(67): missionModel->getAllMissions('', '', '', '', 'inserted_date', 'inserted_date', 'inserted_date')
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): ExportController->actionIndex()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): CController->run('')
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/export')
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/export
+---

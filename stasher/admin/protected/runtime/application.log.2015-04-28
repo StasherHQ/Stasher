@@ -1,0 +1,219 @@
+2015/04/28 03:04:41 [error] [php] Undefined variable: usertype (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php:48)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): UserController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): UserController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/user?usertype=parent&q=a
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php (48)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/28 03:17:16 [error] [php] Undefined index: usertype (/var/www/html/stasher/admin/protected/views/cmsAdmin/user_view.php:21)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(869): UserController->renderFile()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(782): UserController->renderPartial()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php(53): UserController->render()
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): UserController->runAction()
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): UserController->run()
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/user
+in /var/www/html/stasher/admin/protected/views/cmsAdmin/user_view.php (21)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php (53)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/28 03:27:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/slimtablecss/slimtable.css".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/slimtabl...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/assets/slimtablecss/slimtable.css
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user
+---
+2015/04/28 03:27:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/slimtablecss/slimtable.css".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/slimtabl...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/assets/slimtablecss/slimtable.css
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user
+---
+2015/04/28 03:28:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/slimtablecss/slimtable.css".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/slimtabl...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/assets/slimtablecss/slimtable.css
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user
+---
+2015/04/28 03:28:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/slimtablecss/slimtable.css".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/slimtabl...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/assets/slimtablecss/slimtable.css
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user
+---
+2015/04/28 03:28:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/slimtablecss/slimtable.css".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/slimtabl...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/assets/slimtablecss/slimtable.css
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user
+---
+2015/04/28 03:28:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "assets/slimtablecss/slimtable.css".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('assets/slimtabl...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/assets/slimtablecss/slimtable.css
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user
+---
+2015/04/28 05:28:52 [error] [php] require_once(Mandrill/Templates.php): failed to open stream: No such file or directory (/var/www/html/stasher/admin/protected/components/Mandrill.php:3)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /var/www/html/stasher/admin/protected/components/CommonHelper.php(79): spl_autoload_call()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php(109): UserController->sendEmail()
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): UserController->actionSendpassword()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): UserController->runAction()
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): UserController->run()
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/user/sendpassword
+in /var/www/html/stasher/admin/protected/components/Mandrill.php (3)
+in /var/www/html/stasher/admin/protected/components/Mandrill.php (3)
+in /var/www/html/stasher/admin/protected/components/CommonHelper.php (79)
+2015/04/28 07:15:37 [error] [php] Missing argument 4 for missionModel::getAllMissions(), called in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php on line 78 and defined (/var/www/html/stasher/admin/protected/models/missionModel.php:43)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#2 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#4 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxlist
+in /var/www/html/stasher/admin/protected/models/missionModel.php (43)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (78)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/28 07:22:27 [error] [php] Missing argument 4 for missionModel::getAllMissions(), called in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php on line 111 and defined (/var/www/html/stasher/admin/protected/models/missionModel.php:43)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#2 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#4 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxReportsByDates
+in /var/www/html/stasher/admin/protected/models/missionModel.php (43)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (111)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/28 07:25:29 [error] [php] Missing argument 4 for missionModel::getAllMissions(), called in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php on line 111 and defined (/var/www/html/stasher/admin/protected/models/missionModel.php:43)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#2 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#4 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/ajaxReportsByDates
+in /var/www/html/stasher/admin/protected/models/missionModel.php (43)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (111)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/28 08:39:28 [error] [php] Undefined index: searchtext (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:128)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/searchusers?q=a
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (128)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/28 08:41:04 [error] [php] Undefined index: q (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:128)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/searchusers?q=s
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (128)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/28 08:58:39 [error] [php] Undefined property: stdClass::$fname (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:137)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/searchusers?q=a
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (137)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/28 08:59:17 [error] [php] Undefined property: stdClass::$fname (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:137)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/searchusers?q=vi
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (137)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/28 09:12:03 [error] [php] Undefined variable: newlist (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:140)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/searchusers?q=si
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (140)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/28 09:12:14 [error] [php] Undefined variable: newlist (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php:140)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ReportsController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ReportsController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ReportsController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/reports/searchusers?q=simon
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php (140)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/28 10:01:04 [error] [exception.CException] exception 'CException' with message 'ReportsController cannot find the requested view "cmsAdmin/reports/report_main_view".' in /var/www/html/stasher/admin/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(782): CController->renderPartial('cmsAdmin/report...', Array, true)
+#1 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ReportsController.php(64): CController->render('cmsAdmin/report...', Array)
+#2 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): ReportsController->actionIndex()
+#3 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/stasher/admin/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/stasher/admin/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/report...')
+#8 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/reports
+---

@@ -13,7 +13,7 @@ class UserController extends Controller
 	public function __construct()
 	{
 		if(Yii::app()->session['admin_id'] == '' &&  Yii::app()->session['admin_name'] == '')
-			$this->redirect('/login/'); //Load login view
+			$this->redirect(Yii::app()->baseUrl.'/cmsAdmin/login'); //Load login view
 		
 		$this->setPageTitle(Yii::app()->name.' - User'); //Set the custom page title
 		
@@ -32,15 +32,21 @@ class UserController extends Controller
 		$adminModel = $data['adminModel'] =  new adminModel; //we need to use this model in view to get user device information do passing in data
 		
 		$search_txt =  "";
+		$usertype_txt =  "";
 		
 		$data['q'] = '';
+		$data['usertype'] = '';
 		
 		if(isset($_GET['q']) && !empty($_GET['q']))
 		{
 			$data['q'] = $search_txt = $_GET['q'];								
+		}
+		if(isset($_GET['usertype']) && !empty($_GET['usertype']))
+		{
+			$data['usertype'] = $usertype_txt = $_GET['usertype'];								
 		}	
 				
-		$data['all_user_list'] =  $adminModel->get_user_list($search_txt);
+		$data['all_user_list'] =  $adminModel->get_user_list($search_txt,$usertype_txt);
 		
 		//echo "<pre>";print_r($data);exit;
 		
@@ -100,7 +106,9 @@ class UserController extends Controller
 					 
 					  //echo $message;exit;
 					
-					$status =  CommonHelper::sendEmail($to,$toname,$from,$fromname,$message,$subject);
+					$status =  $emailModel->sendEmailNotification($to,$toname,$from,$fromname,$message,$subject);
+					
+					echo '<p id= "msg" class="bg-success">New password sent successfuly!</p>';
 					
 					
 	}
@@ -135,9 +143,19 @@ else if($data['userdetails']->usertype == '4')
 		$adminModel = $data['adminModel'] =  new adminModel;
 		$user_id = base64_decode($_GET['id']);
 		$adminModel->deleteUser($user_id);
-		$this->redirect(Yii::app()->baseUrl.'/cmsAdmin/user');
+		$_SESSION['msg'] = "User has been removed successfully.";
+		$this->redirect(Yii::app()->baseUrl.'/cmsAdmin/user?msg=success');
 	}
 	
+	public function actionRemoveuserrelation()
+	{
+		$adminModel = $data['adminModel'] =  new adminModel;
+		$user_id = ($_POST['id']);
+		$adminModel->deleteUserRelation($user_id);
+		echo  "User relation has been removed successfully.";
+		//$this->redirect(Yii::app()->baseUrl.'/cmsAdmin/user?msg=success');
+		
+	}
 	
 	/**
 	 * Function to view user details
@@ -208,15 +226,15 @@ else if($data['userdetails']->usertype == '4')
 		if(isset($_POST['userId'])  && !empty($_POST['userId'])) 
 		{
 			$adminModel->updateUserInformation($upd_data,base64_decode($_POST['userId']));
-			Yii::app()->user->setFlash('user','User has been updated successfully.');
+			//Yii::app()->user->setFlash('user','User has been updated successfully.');
 			//	$this->refresh();
 		}
 		}
 		
-		
+		$_SESSION['msg'] = "User information has been updated successfully.";
 		//$this->render('cmsAdmin/user_view',$data);
 		
-		$this->redirect(Yii::app()->baseUrl.'/cmsAdmin/user');
+		$this->redirect(Yii::app()->baseUrl.'/cmsAdmin/user?msg=success');
 		
 	}
 	

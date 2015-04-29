@@ -26,7 +26,7 @@
                             	E-MAIL ADDRESS
                             </div>
                             <div class="col-md-10">
-                            	<?php echo $userdetails->email; ?>
+                            	<a href="mailto:<?php echo $userdetails->email; ?>"><?php echo $userdetails->email; ?></a>
                             </div>                            
                         </div>
 					</div>
@@ -36,7 +36,13 @@
                             	USER TYPE
                             </div>
                             <div class="col-md-10">
-                            	User (Parent)
+                            	User (<?php 
+
+				if($userdetails->usertype == '3')
+					echo "Child";
+else if($userdetails->usertype == '4')
+echo "Parent";
+?>)
                             </div>                            
                         </div>
 					</div>
@@ -78,7 +84,24 @@
                             	AVATAR
                             </div>
                             <div class="col-md-10 avatar">
-                            	<span><img src="<?php echo SITEURL; ?>/dynamicAssets/users/avatar/<?php echo $userdetails->avatar;?>"></span>
+                            	<span>
+                            	
+                            	<?php
+                                             $filename = DOCROOT.'/dynamicAssets/users/avatar/'.$userdetails->avatar;
+                                            	if (file_exists($filename) && $userdetails->avatar != '') 
+                                            	{
+                                            	?>
+                                            	<img src="<?php echo SITEURL; ?>/dynamicAssets/users/avatar/<?php echo $userdetails->avatar;?>">
+                                            	<?php
+                                            	}
+                                            	else
+                                            	{
+                                            	?>
+                                            	<img src="<?php echo SITEURL; ?>/admin/assets/images/defaultProfile.png">
+                                            	<?php
+                                            	}?>
+                                            	
+                            	</span>
                             </div>                            
                         </div>
 					</div>
@@ -108,12 +131,28 @@
                                 	<div class="row">
                                     	<div class="col-md-1">
 	                                        <div class="childPic">
+                                            	<a href="<?php echo Yii::app()->request->baseUrl; ?>/cmsAdmin/user/details/?id=<?php echo base64_encode($newdata->userId);?>">
+                                            	<?php
+                                            	$filename = DOCROOT.'/dynamicAssets/users/avatar/'.$newdata->avatar;
+                                            		if (file_exists($filename) && $newdata->avatar != '') 
+                                            	{
+                                            	?>
                                             	<img src="<?php echo SITEURL; ?>/dynamicAssets/users/avatar/<?php echo $newdata->avatar;?>">
+                                            	<?php
+                                            	}
+                                            	else
+                                            	{
+                                            	?>
+                                            	<img src="<?php echo SITEURL; ?>/admin/assets/images/defaultProfile.png">
+                                            	<?php
+                                            	}?>
+                                            	
+                                            	</a>
                                             </div>
                                         </div>
                                         <div class="col-md-11">    
                                             <h5><?php echo $newdata->username;?></h5>
-                                            <span><?php echo $newdata->email;?></span>
+                                            <span><a href="mailto:<?php echo $newdata->email; ?>"><?php echo $newdata->email;?></a></span>
                                         </div>
                                     </div>
                                 </div>

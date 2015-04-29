@@ -13,7 +13,7 @@ class ExportController extends Controller
 	public function __construct()
 	{
 		if(Yii::app()->session['admin_id'] == '' &&  Yii::app()->session['admin_name'] == '')
-			$this->redirect('/login/'); //Load login view
+			$this->redirect(Yii::app()->baseUrl.'/cmsAdmin/login'); //Load login view
 		
 		$this->setPageTitle(Yii::app()->name.' - User'); //Set the custom page title
 		
@@ -25,9 +25,47 @@ class ExportController extends Controller
 	
 	public function actionIndex()
 	{
-		$missionModel = new missionModel;
-		$adminModel  =  new adminModel; 
-		$missionArray = $missionModel->getAllMissions('');
+		$m ='';
+		$userIds= '';
+		$fromdate= '';
+		$todate = '';
+		if(@$_POST['m'] !='')
+		{
+			$m = $_POST['m'];
+		}
+		if(@$_POST['sortingfield'] !='')
+		{
+			$sortingfield = $_POST['sortingfield'];
+		}
+		else
+		{
+			$sortingfield = "inserted_date";	
+		}
+		
+		if(@$_POST['sortingby'] !='')
+		{
+			$sortingby = $_POST['sortingby'];
+		}
+		else
+		{
+			$sortingby = " asc";	
+		}
+		if(@$_POST['userIds'] !='')
+		{
+			$userIds = base64_decode($_POST['userIds']);
+		}
+		
+		if(@$_POST['fromdate'] !='')
+		{
+	$fromdate = date("Y-m-d", strtotime($_POST['fromdate']));
+	$todate = date("Y-m-d", strtotime($_POST['todate']));
+	}
+		$data = array();
+		$data['missionModel'] = $missionModel = new missionModel;
+		$adminModel = $data['adminModel'] =  new adminModel;
+		 
+		 $missionArray = $missionModel->getAllMissions($m,$fromdate,$todate,$userIds,$sortingfield,$sortingby,$sortingby);
+		 
 		$k=0;
 		foreach($missionArray as $msarry)
 		{
@@ -36,7 +74,7 @@ class ExportController extends Controller
 		$k++;
 		}
 		//echo $missionArray[0]->parentdetails->lname;
-	//	echo "<pre>";print_r($missionArray);exit;
+		//echo "<pre>";print_r($missionArray);exit;
 		
 		
 $list = 
@@ -56,7 +94,7 @@ $k++;
 
 $filename = SITEURL.'/dynamicAssets/reports/reports.csv';
 $delimiter = ',';
-$output_file_name = 'test.csv';
+$output_file_name = 'reports.csv';
 $temp_memory = fopen('php://memory', 'w');
     /** loop through array  */
     $k=0;

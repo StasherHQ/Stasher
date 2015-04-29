@@ -1,4 +1,12 @@
-   <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/css/daterangepicker/daterangepicker-bs3.css" type="text/css"/>           
+<link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/assets/css/daterangepicker/daterangepicker-bs3.css" type="text/css"/> 
+       
+<input type="hidden" name="missiontype" id="missiontype"  value=""/>       
+ <input type="hidden" name="userIds" id="userIds" value=""/> 
+ <input type="hidden" name="fromdate" id="fromdate" value=""/> 
+ <input type="hidden" name="todate" id="todate" value=""/> 
+ <input type="hidden" name="sortingfield" id="sortingfield" value=""/> 
+  <input type="hidden" name="sortingby" id="sortingby" value="asc"/> 
+ 
                 <!-- Content Header (Page header) -->
                 <section class="content-header manageUser">
                     <span class="userImage"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/images/reportsGrey.svg"></span>
@@ -13,53 +21,74 @@
                     	<ul class="list-unstyled">
                         	 <li>VIEW</li>
                               <li class="dropdown">
-                              	  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ALL MISSIONS <span class="caret"></span></a>
+                              	  <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">ALL MISSIONS <span class="caret"></span></a>
                                   <ul class="dropdown-menu" role="menu">
-                                    <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/cmsAdmin/reports?m=all">ALL MISSIONS</a></li>
-                                    <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/cmsAdmin/reports?m=active">ACTIVE MISSIONS</a></li>
-                                    <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/cmsAdmin/reports?m=inactive">INACTIVE MISSIONS</a></li>   
-                                     <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/cmsAdmin/reports?m=completed">COMPLETED MISSIONS</a></li>                                                           
+                                    <li><a href="javascript:void(0);" onclick="return setMissionType('all');">ALL MISSIONS</a></li>
+                                    <li><a href="javascript:void(0);" onclick="return setMissionType('active');">ACTIVE MISSIONS</a></li>
+                                    <li><a href="javascript:void(0);" onclick="return setMissionType('inactive');">INACTIVE MISSIONS</a></li>   
+                                     <li><a href="javascript:void(0);" onclick="return setMissionType('completed');">COMPLETED MISSIONS</a></li>                                                           
                                   </ul>
                             </li>
                             <li>FOR</li>
                             <li class="dropdown">
                            
-                             <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">ALL USERS <span class="caret"></span></a>
+                              <a id="allUser" href="javascript:void(0);">ALL USERS <span class="caret"></span></a>
+  <div class="allUserList" id="allUserList">	
+  <ul role="menu" class="userDropdown">
+                                    <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/cmsAdmin/reports">ALL USERS</a></li>
+                                    <li><a href="javascript:void(0);">SOME USERS</a></li>
+                                    <li class="searchLi"><input type="search" id="searchusers"/><span class="reportSearch"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/images/searchIcon.svg"/></span>
+                                    
+                                    
+                                    
+                                    
+                                    </li> 
 
-
- <ul role="menu" class="dropdown-menu userDropdown">
-                                    <li><a href="#">ALL USERS</a></li>
-                                    <li><a href="#">SOME USERS</a></li>
-                                    <li class="searchLi"><input type="search" /><span class="reportSearch"><img src="<?php echo Yii::app()->request->baseUrl; ?>/assets/images/searchIcon.svg"/></span></li> 
-
-                                    <?php foreach($userList as $ulist)
+                                  <?php foreach($userList as $ulist)
                          	{
                          	?>
-                                    <li>
-                                    	<span class="userImg"><img src="<?php echo SITEURL; ?>/dynamicAssets/users/avatar/<?php //echo $ulist->avatar;?>"></span>
+                                    <li><a href="javascript:void(0);" onclick="setUser('<?php echo base64_encode($ulist->userId);?>')">
+                                    	<span class="userImg">
+                                    	
+                                    	<?php
+                                            	$filename = DOCROOT.'/dynamicAssets/users/avatar/'.$ulist->avatar;
+                                            		if (file_exists($filename) && $ulist->avatar != '') 
+                                            	{
+                                            	?>
+                                            	<img src="<?php echo SITEURL; ?>/dynamicAssets/users/avatar/<?php echo $ulist->avatar;?>">
+                                            	<?php
+                                            	}
+                                            	else
+                                            	{
+                                            	?>
+                                            	<img src="<?php echo SITEURL; ?>/admin/assets/images/defaultProfile.png">
+                                            	<?php
+                                            	}?>
+                                            	
+                                    	</span>
                                         <span class="outerSpan">    
                                             <span class="userName"><?php echo $ulist->username; ?></span>
                                             <span class="reportEmail"><?php echo $ulist->email; ?></span>                            
-                                        </span>
+                                        </span></a>
                                     </li> 
                                     <?php
                          	}
-                         	?> 
+                         	?>    
                                   </ul>
-                                                           
+                               </div>                            
                             
                             </li>
                               <li>SELECT DATE</li>
                             <li class="reportDate"><input type="text" class="datePickerReport" placeholder="MM/DD/YYYY" id="datePicker"/><span class="caret"></span></li>                                                       
                             <li>SORT BY</li>
                             <li class="dropdown">
-                              	  <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">DATE <span class="caret"></span></a>
+                              	  <a aria-expanded="false" role="button" data-toggle="dropdown" class="dropdown-toggle" href="javascript:void(0);" >DATE <span class="caret"></span></a>
                                   <ul role="menu" class="dropdown-menu">
-                                    <li><a href="#">DATE</a></li>
-                                    <li><a href="#">USER</a></li>                           
+                                    <li><a href="javascript:void(0);" onclick="setSortingField('date')">DATE</a></li>
+                                    <li><a href="javascript:void(0);" onclick="setSortingField('title')">TITLE</a></li>                           
                                   </ul>
                             </li>
-                            <button onclick="javasccript:window.location='<?php echo Yii::app()->request->baseUrl; ?>/cmsAdmin/export'" class="btn csv pull-right">EXPORT .CSV</button>
+                            <button onclick="exportcsv();" class="btn csv pull-right">EXPORT .CSV</button>
                         </ul>
 					</div>                                                           
                     <div class="col-md-12 manageUserInner">
@@ -140,34 +169,108 @@
                 
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/assets/js/daterangepicker/daterangepicker.js" type="text/javascript"></script>
         <script type="text/javascript">
+        function setSortingBy(sortingby)
+        {
+        	 $("#sortingby").val(sortingby);
+       		ajaxReportList();
+        }
+        
+        function setSortingField(sortingfield)
+        {
+        	 $("#sortingfield").val(sortingfield);
+       		ajaxReportList();
+        }
+        function setUser(userId)
+        {
+        	 $("#userIds").val(userId);
+       		ajaxReportList();
+        }
+         function setMissionType(mtype)
+        {
+        $("#missiontype").val(mtype);
+       		ajaxReportList();
+        }
+        function ajaxReportList()
+        {
+       
+        var userIds = $("#userIds").val();
+         var sortingfield = $("#sortingfield").val();
+          var sortingby = $("#sortingby").val();
+         var mtype = $("#missiontype").val();
+         var fromdate = $("#fromdate").val();
+    var todate = $("#todate").val();
+    var datas = {
+    	
+      fromdate: fromdate,
+      m:mtype,
+      userIds: userIds,
+      todate: todate,
+      sortingfield: sortingfield,
+      sortingby: sortingby
+    };
+    
+        $.ajax({
+      type: "POST",
+      url: "<?php echo Yii::app()->request->baseUrl; ?>/cmsAdmin/reports/ajaxlist", 
+      data: datas,
+      success: function(res) {
+       $("#ajaxdiv").html();
+       $("#ajaxdiv").html(res);
+      }
+    });
+    return false;	
+        }
+        
+         function exportcsv()
+        {
+       
+        var userIds = $("#userIds").val();
+         var sortingfield = $("#sortingfield").val();
+          var sortingby = $("#sortingby").val();
+         var mtype = $("#missiontype").val();
+         var fromdate = $("#fromdate").val();
+    var todate = $("#todate").val();
+    var datas = {
+    	
+      fromdate: fromdate,
+      m:mtype,
+      userIds: userIds,
+      todate: todate,
+      sortingfield: sortingfield,
+      sortingby: sortingby
+    };
+    
+        $.ajax({
+      type: "POST",
+      url: "<?php echo Yii::app()->request->baseUrl; ?>/cmsAdmin/export", 
+      data: datas,
+      success: function(res) {
+       $("#ajaxdiv").html();
+       $("#ajaxdiv").html(res);
+      }
+    });
+    return false;	
+        }
+        
             $(function() {                
                 $('#datePicker').daterangepicker();             
             });	
          
          
          $("document").ready(function(){
-//alert("ef");
   $(".applyBtn").click(function(){
-  	//alert("hi");
-  // var userId = $("#userId").val();
    var fromdate = $("input[name=daterangepicker_start]").val();
     var todate = $("input[name=daterangepicker_end]").val();
-    var data = {
-      fromdate: fromdate,
-      todate: todate
-    };
-   
-    $.ajax({
-      type: "POST",
-      url: "<?php echo Yii::app()->request->baseUrl; ?>/cmsAdmin/reports/ajaxReportsByDates", 
-      data: data,
-      success: function(res) {
-       $("#ajaxdiv").html();
-       $("#ajaxdiv").html(res);
-      }
-    });
-    return false;
+    $("#fromdate").val(fromdate);
+     $("#todate").val(todate);
+     ajaxReportList();
   });
-});
+
+                $('#allUser').click(function() {
+                   $('#allUserList').slideToggle(); 
+                });
+                
+
+            });
 </script>
 
