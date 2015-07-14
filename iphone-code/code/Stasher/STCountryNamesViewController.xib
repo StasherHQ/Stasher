@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="STCountryNamesViewController">
+            <connections>
+                <outlet property="cancelButton" destination="j58-eP-JMl" id="f99-Mv-db6"/>
+                <outlet property="countryNamesTableView" destination="Rqw-mb-r1o" id="cLI-nX-7cI"/>
+                <outlet property="okButton" destination="QEg-AG-cc3" id="AgQ-Hs-4HC"/>
+                <outlet property="popUpContainerView" destination="ySG-LZ-hzW" id="daM-PF-Qbz"/>
+                <outlet property="selectContryLabel" destination="Wwn-jN-kEf" id="deB-57-TLu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stasher_BlackTransparentBG" translatesAutoresizingMaskIntoConstraints="NO" id="m5x-Ng-Sw1">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05e-yV-Mi4">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelButtonPressed:" destination="-1" eventType="touchUpInside" id="8Wy-00-NcB"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ySG-LZ-hzW">
+                    <rect key="frame" x="8" y="150" width="584" height="320"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Rqw-mb-r1o">
+                            <rect key="frame" x="0.0" y="40" width="584" height="215"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="Yv8-4U-zCd"/>
+                                <outlet property="delegate" destination="-1" id="tgo-P5-CNM"/>
+                            </connections>
+                        </tableView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j58-eP-JMl">
+                            <rect key="frame" x="8" y="263" width="260" height="49"/>
+                            <state key="normal" title="Cancel" backgroundImage="Stasher_GreenBTN">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelButtonPressed:" destination="-1" eventType="touchUpInside" id="jES-H6-RF6"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QEg-AG-cc3">
+                            <rect key="frame" x="316" y="263" width="260" height="49"/>
+                            <state key="normal" title="OK" backgroundImage="Stasher_GreenBTN">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="okButtonPressed:" destination="-1" eventType="touchUpInside" id="2uY-OI-mCo"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select Your Country" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wwn-jN-kEf">
+                            <rect key="frame" x="192" y="8" width="200" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="YdG-oi-BH8"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Rqw-mb-r1o" secondAttribute="trailing" id="0MQ-Dg-6JS"/>
+                        <constraint firstAttribute="bottom" secondItem="j58-eP-JMl" secondAttribute="bottom" constant="8" id="5sr-Rn-Ezd"/>
+                        <constraint firstItem="QEg-AG-cc3" firstAttribute="top" secondItem="Rqw-mb-r1o" secondAttribute="bottom" constant="8" id="AMI-rJ-c0O"/>
+                        <constraint firstAttribute="centerX" secondItem="Wwn-jN-kEf" secondAttribute="centerX" id="KMi-cM-JYC"/>
+                        <constraint firstItem="Rqw-mb-r1o" firstAttribute="leading" secondItem="ySG-LZ-hzW" secondAttribute="leading" id="MmR-dM-yLL"/>
+                        <constraint firstAttribute="trailing" secondItem="QEg-AG-cc3" secondAttribute="trailing" constant="8" id="PTZ-ps-kPu"/>
+                        <constraint firstItem="Wwn-jN-kEf" firstAttribute="top" secondItem="ySG-LZ-hzW" secondAttribute="top" constant="8" id="Y12-d7-8D9"/>
+                        <constraint firstAttribute="height" constant="320" id="dcd-79-BKW"/>
+                        <constraint firstAttribute="bottom" secondItem="QEg-AG-cc3" secondAttribute="bottom" constant="8" id="gq6-3H-Oby"/>
+                        <constraint firstItem="QEg-AG-cc3" firstAttribute="leading" secondItem="j58-eP-JMl" secondAttribute="trailing" constant="48" id="h7d-ZJ-rPP"/>
+                        <constraint firstItem="Rqw-mb-r1o" firstAttribute="top" secondItem="Wwn-jN-kEf" secondAttribute="bottom" constant="11" id="hJe-Vs-zT6"/>
+                        <constraint firstItem="j58-eP-JMl" firstAttribute="top" secondItem="Rqw-mb-r1o" secondAttribute="bottom" constant="8" id="kS8-v8-4Mg"/>
+                        <constraint firstItem="QEg-AG-cc3" firstAttribute="width" secondItem="j58-eP-JMl" secondAttribute="width" id="kct-7c-XKk"/>
+                        <constraint firstItem="j58-eP-JMl" firstAttribute="leading" secondItem="ySG-LZ-hzW" secondAttribute="leading" constant="8" id="n9Y-7u-T0n"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="05e-yV-Mi4" secondAttribute="trailing" id="4C8-tk-SsL"/>
+                <constraint firstAttribute="centerY" secondItem="ySG-LZ-hzW" secondAttribute="centerY" constant="-10" id="JFs-Zb-ZpO"/>
+                <constraint firstItem="05e-yV-Mi4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="M4E-Un-tVo"/>
+                <constraint firstAttribute="bottom" secondItem="m5x-Ng-Sw1" secondAttribute="bottom" id="VUA-yU-bVJ"/>
+                <constraint firstAttribute="bottom" secondItem="05e-yV-Mi4" secondAttribute="bottom" id="WRP-UE-VNM"/>
+                <constraint firstAttribute="trailing" secondItem="m5x-Ng-Sw1" secondAttribute="trailing" id="d3N-ZN-qOD"/>
+                <constraint firstItem="05e-yV-Mi4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="dko-p3-nZv"/>
+                <constraint firstItem="m5x-Ng-Sw1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="g0c-F9-nhJ"/>
+                <constraint firstItem="m5x-Ng-Sw1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="mch-t1-Scx"/>
+                <constraint firstAttribute="trailing" secondItem="ySG-LZ-hzW" secondAttribute="trailing" constant="8" id="qjk-MJ-R5L"/>
+                <constraint firstAttribute="centerX" secondItem="ySG-LZ-hzW" secondAttribute="centerX" id="whz-U5-ypc"/>
+                <constraint firstItem="ySG-LZ-hzW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="xrP-hZ-r6a"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="Stasher_BlackTransparentBG" width="320" height="569"/>
+        <image name="Stasher_GreenBTN" width="130" height="49"/>
+    </resources>
+</document>

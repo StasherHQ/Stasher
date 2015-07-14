@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="STPaymentLinkBankViewController">
+            <connections>
+                <outlet property="buttonLinkAccount" destination="2E7-Ne-Hkj" id="eKh-pw-HfR"/>
+                <outlet property="textFieldBankName" destination="AbQ-e3-EvJ" id="WGy-wR-EWA"/>
+                <outlet property="textFieldPassword" destination="AiY-2Z-wSD" id="Hol-5T-hbA"/>
+                <outlet property="textFieldUsername" destination="65L-Iz-Sy7" id="jda-MX-PXA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TzI-d2-pjZ">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="66"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stasher_headerbg" translatesAutoresizingMaskIntoConstraints="NO" id="qy5-i2-twE">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="66"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="66" id="Wbu-uS-pOO"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Link Bank Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAC-rX-JBb">
+                            <rect key="frame" x="200" y="29" width="200" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="17" id="jnG-rI-nyV"/>
+                                <constraint firstAttribute="width" constant="200" id="nqt-lN-5Gt"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p6r-sY-52w">
+                            <rect key="frame" x="8" y="23" width="43" height="30"/>
+                            <state key="normal" image="stasher_backbutton">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="backButtonPressed:" destination="-1" eventType="touchUpInside" id="tmQ-en-Yo1"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="66" id="9Ns-ld-e7G"/>
+                        <constraint firstItem="p6r-sY-52w" firstAttribute="leading" secondItem="TzI-d2-pjZ" secondAttribute="leading" constant="8" id="9dN-qH-gkL"/>
+                        <constraint firstItem="qy5-i2-twE" firstAttribute="leading" secondItem="TzI-d2-pjZ" secondAttribute="leading" id="Bbr-gd-Zb0"/>
+                        <constraint firstAttribute="centerX" secondItem="YAC-rX-JBb" secondAttribute="centerX" id="Lkp-Or-UeI"/>
+                        <constraint firstItem="qy5-i2-twE" firstAttribute="top" secondItem="TzI-d2-pjZ" secondAttribute="top" id="Ywb-HX-efN"/>
+                        <constraint firstAttribute="trailing" secondItem="qy5-i2-twE" secondAttribute="trailing" id="lmB-kM-8uM"/>
+                        <constraint firstItem="p6r-sY-52w" firstAttribute="top" secondItem="TzI-d2-pjZ" secondAttribute="top" constant="23" id="rAV-v1-wWe"/>
+                        <constraint firstItem="YAC-rX-JBb" firstAttribute="top" secondItem="TzI-d2-pjZ" secondAttribute="top" constant="29" id="t2C-G7-VtV"/>
+                    </constraints>
+                </view>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Bank Swift Code" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AbQ-e3-EvJ">
+                    <rect key="frame" x="12" y="90" width="576" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="biancalpadilla1" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="65L-Iz-Sy7">
+                    <rect key="frame" x="12" y="140" width="576" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Stasher15" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AiY-2Z-wSD">
+                    <rect key="frame" x="12" y="190" width="576" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2E7-Ne-Hkj">
+                    <rect key="frame" x="12" y="240" width="576" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="7Aq-Qw-vnu"/>
+                    </constraints>
+                    <state key="normal" title="Link Account" backgroundImage="Stasher_blueBTN">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonLinkAccountPressed:" destination="-1" eventType="touchUpInside" id="WkG-n6-86X"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="AiY-2Z-wSD" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="2kb-60-li9"/>
+                <constraint firstItem="AiY-2Z-wSD" firstAttribute="top" secondItem="65L-Iz-Sy7" secondAttribute="bottom" constant="20" id="5AR-wi-aN9"/>
+                <constraint firstItem="2E7-Ne-Hkj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="9Lb-bv-FxD"/>
+                <constraint firstAttribute="trailing" secondItem="AbQ-e3-EvJ" secondAttribute="trailing" constant="12" id="9rl-8M-OHy"/>
+                <constraint firstAttribute="trailing" secondItem="TzI-d2-pjZ" secondAttribute="trailing" id="CRQ-mB-ou4"/>
+                <constraint firstItem="65L-Iz-Sy7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="DOw-99-1lw"/>
+                <constraint firstItem="AbQ-e3-EvJ" firstAttribute="top" secondItem="qy5-i2-twE" secondAttribute="bottom" constant="24" id="M0r-Vv-14v"/>
+                <constraint firstAttribute="trailing" secondItem="AiY-2Z-wSD" secondAttribute="trailing" constant="12" id="PHM-S8-eaU"/>
+                <constraint firstItem="TzI-d2-pjZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="QRD-wc-rrM"/>
+                <constraint firstItem="TzI-d2-pjZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="UVc-vC-UGJ"/>
+                <constraint firstItem="65L-Iz-Sy7" firstAttribute="top" secondItem="AbQ-e3-EvJ" secondAttribute="bottom" constant="20" id="ca7-CX-cs4"/>
+                <constraint firstAttribute="trailing" secondItem="2E7-Ne-Hkj" secondAttribute="trailing" constant="12" id="crc-7v-AkW"/>
+                <constraint firstAttribute="trailing" secondItem="65L-Iz-Sy7" secondAttribute="trailing" constant="12" id="fSY-cv-F6Y"/>
+                <constraint firstItem="AbQ-e3-EvJ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="fTj-JT-T8J"/>
+                <constraint firstItem="2E7-Ne-Hkj" firstAttribute="top" secondItem="AiY-2Z-wSD" secondAttribute="bottom" constant="20" id="rV1-hd-Rho"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="Stasher_blueBTN" width="295" height="49"/>
+        <image name="stasher_backbutton" width="43" height="30"/>
+        <image name="stasher_headerbg" width="320" height="66"/>
+    </resources>
+</document>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="STSocialNetworkSettingsViewController">
+            <connections>
+                <outlet property="headerLabel" destination="fWt-83-FxL" id="EV0-9O-yc7"/>
+                <outlet property="removeFbButton" destination="FdE-Tr-dBS" id="1K8-wr-ph2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OnJ-uW-ic1">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="66"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stasher_headerbg" translatesAutoresizingMaskIntoConstraints="NO" id="wxG-Cq-Cqv">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="66"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="66" id="DFR-ka-zJC"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Fz-FL-ZYH">
+                            <rect key="frame" x="0.0" y="23" width="43" height="30"/>
+                            <state key="normal" image="stasher_backbutton">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="backButtonPressed:" destination="-1" eventType="touchUpInside" id="3Lm-VU-n2r"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Social Network" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWt-83-FxL">
+                            <rect key="frame" x="200" y="29" width="200" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="38o-ko-T4v"/>
+                                <constraint firstAttribute="height" constant="17" id="roK-TA-A3p"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="fWt-83-FxL" secondAttribute="centerX" id="7w7-g5-6GY"/>
+                        <constraint firstAttribute="trailing" secondItem="wxG-Cq-Cqv" secondAttribute="trailing" id="Fl4-Ni-uI6"/>
+                        <constraint firstItem="fWt-83-FxL" firstAttribute="top" secondItem="OnJ-uW-ic1" secondAttribute="top" constant="29" id="ZZj-3T-uup"/>
+                        <constraint firstItem="wxG-Cq-Cqv" firstAttribute="leading" secondItem="OnJ-uW-ic1" secondAttribute="leading" id="aMB-iF-cGe"/>
+                        <constraint firstItem="6Fz-FL-ZYH" firstAttribute="leading" secondItem="OnJ-uW-ic1" secondAttribute="leading" id="c8w-pf-jDU"/>
+                        <constraint firstAttribute="height" constant="66" id="hcr-8q-6GJ"/>
+                        <constraint firstItem="6Fz-FL-ZYH" firstAttribute="top" secondItem="OnJ-uW-ic1" secondAttribute="top" constant="23" id="ihL-Ex-n6i"/>
+                        <constraint firstItem="wxG-Cq-Cqv" firstAttribute="top" secondItem="OnJ-uW-ic1" secondAttribute="top" id="xRe-ZK-5K0"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FdE-Tr-dBS">
+                    <rect key="frame" x="12" y="111" width="576" height="49"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="49" id="SgP-GZ-4jo"/>
+                    </constraints>
+                    <state key="normal" title="Remove Facebook Sign in" backgroundImage="stasher_FBbtn">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="removeFacebookButtonPressed:" destination="-1" eventType="touchUpInside" id="LsJ-mO-SDd"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="FdE-Tr-dBS" secondAttribute="trailing" constant="12" id="1eJ-gd-9Kk"/>
+                <constraint firstItem="OnJ-uW-ic1" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="BmO-5r-Qqa"/>
+                <constraint firstItem="OnJ-uW-ic1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Cab-bM-XpH"/>
+                <constraint firstAttribute="trailing" secondItem="OnJ-uW-ic1" secondAttribute="trailing" id="PHT-Jg-S5E"/>
+                <constraint firstItem="FdE-Tr-dBS" firstAttribute="top" secondItem="wxG-Cq-Cqv" secondAttribute="bottom" constant="45" id="hrL-kM-rcT"/>
+                <constraint firstItem="FdE-Tr-dBS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="mZC-1K-5pk"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="stasher_FBbtn" width="295" height="49"/>
+        <image name="stasher_backbutton" width="43" height="30"/>
+        <image name="stasher_headerbg" width="320" height="66"/>
+    </resources>
+</document>

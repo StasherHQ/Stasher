@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="STParentAccountViewController">
+            <connections>
+                <outlet property="addChildButton" destination="O7r-wG-CXT" id="kFA-zL-GJl"/>
+                <outlet property="childNamesTable" destination="hSg-lj-HOh" id="K1l-ru-3Gc"/>
+                <outlet property="constraintHeightControlContainerView" destination="JaZ-Zm-Jam" id="ZTW-XS-aKI"/>
+                <outlet property="constraintHeightParentTableView" destination="nyo-Ze-ClG" id="Jna-sr-RR7"/>
+                <outlet property="containerScrollView" destination="F3c-jF-aX6" id="Jvd-Tu-jWt"/>
+                <outlet property="controlsContainerView" destination="rXA-uQ-f9Y" id="3j9-bo-ofO"/>
+                <outlet property="createChildButton" destination="pHG-3P-Tt4" id="NGW-iS-poj"/>
+                <outlet property="editProfileButton" destination="mfI-TA-0p9" id="EQm-sF-5Dc"/>
+                <outlet property="labelFullname" destination="DkK-BI-Vhf" id="bX3-tR-dDk"/>
+                <outlet property="labelUsername" destination="naX-KW-cIf" id="Qz1-ia-0Kc"/>
+                <outlet property="myChildrenslabel" destination="gfU-1y-o2n" id="p4K-TU-zYn"/>
+                <outlet property="profilePicButton" destination="k4L-Ez-7vg" id="ulQ-wm-ue6"/>
+                <outlet property="profilePicImageView" destination="R3a-jS-83w" id="7m2-BU-06W"/>
+                <outlet property="view" destination="OzI-aB-cQq" id="IrN-HQ-oZI"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="OzI-aB-cQq">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="410"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F3c-jF-aX6">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="410"/>
+                    <subviews>
+                        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rXA-uQ-f9Y">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="800"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="naX-KW-cIf">
+                                    <rect key="frame" x="8" y="116" width="584" height="18"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DkK-BI-Vhf">
+                                    <rect key="frame" x="8" y="146" width="584" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfI-TA-0p9">
+                                    <rect key="frame" x="12" y="175" width="576" height="49"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="49" id="nuz-wi-uA9"/>
+                                    </constraints>
+                                    <state key="normal" title="Edit My Profile" backgroundImage="stasher_input-field">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="editMyProfileButtonPressed:" destination="-1" eventType="touchUpInside" id="2Rw-pC-I3l"/>
+                                    </connections>
+                                </button>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="account_face_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="R3a-jS-83w">
+                                    <rect key="frame" x="265" y="24" width="80" height="80"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k4L-Ez-7vg">
+                                    <rect key="frame" x="265" y="24" width="80" height="80"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="80" id="224-iO-s3K"/>
+                                        <constraint firstAttribute="height" constant="80" id="Fuj-Kt-Ie2"/>
+                                    </constraints>
+                                    <state key="normal">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O7r-wG-CXT" userLabel="Add Child">
+                                    <rect key="frame" x="12" y="338" width="576" height="49"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="49" id="qoe-bK-i39"/>
+                                    </constraints>
+                                    <state key="normal" title="Add Child" backgroundImage="Stasher_blueBTN">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="addChildButtonPressed:" destination="-1" eventType="touchUpInside" id="6DM-vL-zys"/>
+                                    </connections>
+                                </button>
+                                <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="none" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="hSg-lj-HOh">
+                                    <rect key="frame" x="0.0" y="428" width="600" height="400"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="400" id="nyo-Ze-ClG"/>
+                                    </constraints>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="HVa-1p-Fl8"/>
+                                        <outlet property="delegate" destination="-1" id="wVp-Kw-8PS"/>
+                                    </connections>
+                                </tableView>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stasher_divider" translatesAutoresizingMaskIntoConstraints="NO" id="ewd-Kp-P9T">
+                                    <rect key="frame" x="0.0" y="248" width="600" height="5"/>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Children:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfU-1y-o2n">
+                                    <rect key="frame" x="12" y="411" width="82" height="17"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pHG-3P-Tt4" userLabel="Add Child">
+                                    <rect key="frame" x="8" y="277" width="576" height="49"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="49" id="Re6-9f-gMj"/>
+                                    </constraints>
+                                    <state key="normal" title="Create Child" backgroundImage="stasher_Registerbutton">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="createChildButtonPressed:" destination="-1" eventType="touchUpInside" id="1Un-HT-nGG"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="O7r-wG-CXT" firstAttribute="leading" secondItem="rXA-uQ-f9Y" secondAttribute="leading" constant="12" id="4ed-3n-NZ3"/>
+                                <constraint firstItem="DkK-BI-Vhf" firstAttribute="leading" secondItem="rXA-uQ-f9Y" secondAttribute="leading" constant="8" id="86X-i6-16n"/>
+                                <constraint firstItem="k4L-Ez-7vg" firstAttribute="centerX" secondItem="R3a-jS-83w" secondAttribute="centerX" id="AWg-a8-Lpd"/>
+                                <constraint firstAttribute="trailing" secondItem="naX-KW-cIf" secondAttribute="trailing" constant="8" id="DRE-nJ-SYI"/>
+                                <constraint firstAttribute="trailing" secondItem="O7r-wG-CXT" secondAttribute="trailing" constant="12" id="DZX-Se-a2f"/>
+                                <constraint firstAttribute="centerX" secondItem="k4L-Ez-7vg" secondAttribute="centerX" constant="-5" id="HdX-dz-jg3"/>
+                                <constraint firstAttribute="height" constant="800" id="JaZ-Zm-Jam"/>
+                                <constraint firstItem="gfU-1y-o2n" firstAttribute="leading" secondItem="rXA-uQ-f9Y" secondAttribute="leading" constant="12" id="MR9-di-lus"/>
+                                <constraint firstAttribute="trailing" secondItem="mfI-TA-0p9" secondAttribute="trailing" constant="12" id="P2F-Kc-vZu"/>
+                                <constraint firstAttribute="trailing" secondItem="hSg-lj-HOh" secondAttribute="trailing" id="PnQ-Sy-mNZ"/>
+                                <constraint firstItem="hSg-lj-HOh" firstAttribute="leading" secondItem="rXA-uQ-f9Y" secondAttribute="leading" id="T8u-4Z-X7o"/>
+                                <constraint firstItem="naX-KW-cIf" firstAttribute="leading" secondItem="rXA-uQ-f9Y" secondAttribute="leading" constant="8" id="TJp-iq-taG"/>
+                                <constraint firstItem="k4L-Ez-7vg" firstAttribute="height" secondItem="R3a-jS-83w" secondAttribute="height" id="V6W-m1-98S"/>
+                                <constraint firstItem="pHG-3P-Tt4" firstAttribute="top" secondItem="ewd-Kp-P9T" secondAttribute="bottom" constant="24" id="XnZ-wC-dTH"/>
+                                <constraint firstItem="DkK-BI-Vhf" firstAttribute="top" secondItem="naX-KW-cIf" secondAttribute="bottom" constant="12" id="Xp6-Z0-DHw"/>
+                                <constraint firstItem="hSg-lj-HOh" firstAttribute="top" secondItem="gfU-1y-o2n" secondAttribute="bottom" id="YQ7-8a-NF6"/>
+                                <constraint firstItem="k4L-Ez-7vg" firstAttribute="centerY" secondItem="R3a-jS-83w" secondAttribute="centerY" id="bM4-ff-fXj"/>
+                                <constraint firstItem="pHG-3P-Tt4" firstAttribute="leading" secondItem="rXA-uQ-f9Y" secondAttribute="leading" constant="8" id="c4U-dX-fJr"/>
+                                <constraint firstItem="gfU-1y-o2n" firstAttribute="top" secondItem="O7r-wG-CXT" secondAttribute="bottom" constant="24" id="eLY-Ak-hPR"/>
+                                <constraint firstAttribute="trailing" secondItem="DkK-BI-Vhf" secondAttribute="trailing" constant="8" id="gX7-Wf-75x"/>
+                                <constraint firstItem="ewd-Kp-P9T" firstAttribute="leading" secondItem="rXA-uQ-f9Y" secondAttribute="leading" id="iCF-qq-YJB"/>
+                                <constraint firstAttribute="trailing" secondItem="ewd-Kp-P9T" secondAttribute="trailing" id="ifk-bX-Pca"/>
+                                <constraint firstItem="O7r-wG-CXT" firstAttribute="top" secondItem="pHG-3P-Tt4" secondAttribute="bottom" constant="12" id="pgN-65-Ure"/>
+                                <constraint firstItem="mfI-TA-0p9" firstAttribute="top" secondItem="DkK-BI-Vhf" secondAttribute="bottom" constant="12" id="rze-GD-69V"/>
+                                <constraint firstItem="ewd-Kp-P9T" firstAttribute="top" secondItem="mfI-TA-0p9" secondAttribute="bottom" constant="24" id="tA6-Ic-3K9"/>
+                                <constraint firstItem="k4L-Ez-7vg" firstAttribute="width" secondItem="R3a-jS-83w" secondAttribute="width" id="vMn-1m-POF"/>
+                                <constraint firstAttribute="trailing" secondItem="pHG-3P-Tt4" secondAttribute="trailing" constant="16" id="wbk-Jm-hJ0"/>
+                                <constraint firstItem="naX-KW-cIf" firstAttribute="top" secondItem="k4L-Ez-7vg" secondAttribute="bottom" constant="12" id="xEJ-7A-YyL"/>
+                                <constraint firstItem="k4L-Ez-7vg" firstAttribute="top" secondItem="rXA-uQ-f9Y" secondAttribute="top" constant="24" id="xph-D2-3yK"/>
+                                <constraint firstItem="mfI-TA-0p9" firstAttribute="leading" secondItem="rXA-uQ-f9Y" secondAttribute="leading" constant="12" id="zYe-Jx-src"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="rXA-uQ-f9Y" firstAttribute="top" secondItem="F3c-jF-aX6" secondAttribute="top" id="EfL-NK-OHI"/>
+                        <constraint firstItem="rXA-uQ-f9Y" firstAttribute="leading" secondItem="F3c-jF-aX6" secondAttribute="leading" id="NEm-HB-c9r"/>
+                        <constraint firstAttribute="width" secondItem="rXA-uQ-f9Y" secondAttribute="width" id="NtC-hW-H1N"/>
+                        <constraint firstAttribute="trailing" secondItem="rXA-uQ-f9Y" secondAttribute="trailing" id="SAr-Nx-TMd"/>
+                        <constraint firstAttribute="bottom" secondItem="rXA-uQ-f9Y" secondAttribute="bottom" id="eon-1S-GYn"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="F3c-jF-aX6" firstAttribute="leading" secondItem="OzI-aB-cQq" secondAttribute="leading" id="G1a-YL-k7M"/>
+                <constraint firstItem="F3c-jF-aX6" firstAttribute="top" secondItem="OzI-aB-cQq" secondAttribute="top" id="pec-rZ-lzT"/>
+                <constraint firstAttribute="trailing" secondItem="F3c-jF-aX6" secondAttribute="trailing" id="qdt-F5-guI"/>
+                <constraint firstAttribute="bottom" secondItem="F3c-jF-aX6" secondAttribute="bottom" id="wuP-aE-BIl"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="222" y="-1366"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Stasher_blueBTN" width="295" height="49"/>
+        <image name="account_face_placeholder" width="80" height="80"/>
+        <image name="stasher_Registerbutton" width="295" height="49"/>
+        <image name="stasher_divider" width="320" height="5"/>
+        <image name="stasher_input-field" width="295" height="49"/>
+    </resources>
+</document>

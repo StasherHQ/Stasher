@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="STMissionDetailsViewController">
+            <connections>
+                <outlet property="headerLabel" destination="euR-HT-sva" id="MgT-pI-RHK"/>
+                <outlet property="imgViewProfilePic" destination="OEW-75-bpd" id="c6W-q5-x5b"/>
+                <outlet property="labelChallengerName" destination="IJr-bR-hek" id="su0-3O-5YD"/>
+                <outlet property="labelChallengerNameTitle" destination="Shp-BB-2hV" id="bBw-FA-Aze"/>
+                <outlet property="labelMissionDescriptionTitle" destination="PjJ-xT-YoW" id="uy3-KT-rXa"/>
+                <outlet property="labelMissionName" destination="K8L-0k-xbm" id="hzT-GW-aGz"/>
+                <outlet property="labelMissionNameTitle" destination="6lT-dV-i1z" id="hiH-rn-Y4s"/>
+                <outlet property="txtViewMissionDescription" destination="UaF-Mx-CM6" id="GcI-74-VSk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AnO-PP-eNa">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="66"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stasher_headerbg" translatesAutoresizingMaskIntoConstraints="NO" id="mtM-ai-XfW">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="66"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="66" id="kvM-Up-awX"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bhu-SV-fbx">
+                            <rect key="frame" x="8" y="23" width="43" height="30"/>
+                            <state key="normal" image="stasher_backbutton">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="backButtonPressed:" destination="-1" eventType="touchUpInside" id="Amb-AH-QlU"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mission Details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="euR-HT-sva">
+                            <rect key="frame" x="200" y="29" width="200" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="17" id="Aym-aN-wm7"/>
+                                <constraint firstAttribute="width" constant="200" id="lVc-up-dw1"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="centerX" secondItem="euR-HT-sva" secondAttribute="centerX" id="3aK-5u-ZCM"/>
+                        <constraint firstItem="Bhu-SV-fbx" firstAttribute="leading" secondItem="AnO-PP-eNa" secondAttribute="leading" constant="8" id="64S-XB-3sF"/>
+                        <constraint firstAttribute="trailing" secondItem="mtM-ai-XfW" secondAttribute="trailing" id="GJ9-ld-Jej"/>
+                        <constraint firstItem="mtM-ai-XfW" firstAttribute="top" secondItem="AnO-PP-eNa" secondAttribute="top" id="IJi-Pr-m51"/>
+                        <constraint firstAttribute="height" constant="66" id="bFO-Mx-BLF"/>
+                        <constraint firstItem="Bhu-SV-fbx" firstAttribute="top" secondItem="AnO-PP-eNa" secondAttribute="top" constant="23" id="iOp-WR-zVH"/>
+                        <constraint firstItem="euR-HT-sva" firstAttribute="top" secondItem="AnO-PP-eNa" secondAttribute="top" constant="29" id="k4B-ow-11i"/>
+                        <constraint firstItem="mtM-ai-XfW" firstAttribute="leading" secondItem="AnO-PP-eNa" secondAttribute="leading" id="rgV-LQ-xRl"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Challenger Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Shp-BB-2hV">
+                    <rect key="frame" x="12" y="86" width="201" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="201" id="uhi-lo-wyz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IJr-bR-hek">
+                    <rect key="frame" x="72" y="133" width="516" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K8L-0k-xbm">
+                    <rect key="frame" x="12" y="236" width="573" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mission Description:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PjJ-xT-YoW">
+                    <rect key="frame" x="12" y="301" width="201" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="201" id="N28-X4-S1U"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="gncgn" translatesAutoresizingMaskIntoConstraints="NO" id="UaF-Mx-CM6">
+                    <rect key="frame" x="7" y="313" width="581" height="180"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="180" id="Qi9-bh-OT4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OEW-75-bpd">
+                    <rect key="frame" x="12" y="119" width="49" height="49"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="49" id="DvN-Ra-EQt"/>
+                        <constraint firstAttribute="height" constant="49" id="tKQ-IS-fb9"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stasher_divider" translatesAutoresizingMaskIntoConstraints="NO" id="Cb1-sY-l1s">
+                    <rect key="frame" x="0.0" y="188" width="600" height="5"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stasher_divider" translatesAutoresizingMaskIntoConstraints="NO" id="jTI-ag-41t">
+                    <rect key="frame" x="1" y="276" width="600" height="5"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mission Title:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6lT-dV-i1z">
+                    <rect key="frame" x="12" y="212" width="201" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="201" id="Caw-CK-RX3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="jTI-ag-41t" secondAttribute="trailing" constant="-1" id="1xN-yo-koZ"/>
+                <constraint firstItem="Cb1-sY-l1s" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3mW-wC-3qu"/>
+                <constraint firstItem="Shp-BB-2hV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="AIv-G7-GR0"/>
+                <constraint firstItem="PjJ-xT-YoW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="ALg-ps-eXS"/>
+                <constraint firstItem="OEW-75-bpd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="Bj0-MW-TKJ"/>
+                <constraint firstAttribute="trailing" secondItem="K8L-0k-xbm" secondAttribute="trailing" constant="15" id="Bvr-D1-WTF"/>
+                <constraint firstItem="jTI-ag-41t" firstAttribute="top" secondItem="K8L-0k-xbm" secondAttribute="bottom" constant="19" id="C48-1w-zw2"/>
+                <constraint firstItem="Shp-BB-2hV" firstAttribute="top" secondItem="AnO-PP-eNa" secondAttribute="bottom" constant="20" id="LNV-Ie-uR0"/>
+                <constraint firstItem="jTI-ag-41t" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="1" id="Pgv-hd-dNI"/>
+                <constraint firstAttribute="trailing" secondItem="IJr-bR-hek" secondAttribute="trailing" constant="12" id="Pls-Se-Kop"/>
+                <constraint firstAttribute="trailing" secondItem="AnO-PP-eNa" secondAttribute="trailing" id="SjV-X2-5D7"/>
+                <constraint firstItem="6lT-dV-i1z" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="Wnj-Lb-KM1"/>
+                <constraint firstItem="UaF-Mx-CM6" firstAttribute="top" secondItem="PjJ-xT-YoW" secondAttribute="bottom" constant="-4" id="Y8G-uc-jnT"/>
+                <constraint firstItem="AnO-PP-eNa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ZqH-P7-vSY"/>
+                <constraint firstItem="PjJ-xT-YoW" firstAttribute="top" secondItem="jTI-ag-41t" secondAttribute="bottom" constant="20" id="cJQ-uA-Vvk"/>
+                <constraint firstItem="K8L-0k-xbm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="hq6-Cb-Egl"/>
+                <constraint firstAttribute="trailing" secondItem="UaF-Mx-CM6" secondAttribute="trailing" constant="12" id="kU9-8s-Whv"/>
+                <constraint firstItem="IJr-bR-hek" firstAttribute="leading" secondItem="OEW-75-bpd" secondAttribute="trailing" constant="11" id="lfv-Ra-Ujr"/>
+                <constraint firstAttribute="trailing" secondItem="Cb1-sY-l1s" secondAttribute="trailing" id="mYa-BL-5Lx"/>
+                <constraint firstItem="UaF-Mx-CM6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="7" id="mut-SP-TiW"/>
+                <constraint firstItem="Cb1-sY-l1s" firstAttribute="top" secondItem="OEW-75-bpd" secondAttribute="bottom" constant="20" id="nAj-N2-zvw"/>
+                <constraint firstItem="6lT-dV-i1z" firstAttribute="top" secondItem="Cb1-sY-l1s" secondAttribute="bottom" constant="19" id="ony-bm-fCS"/>
+                <constraint firstItem="K8L-0k-xbm" firstAttribute="top" secondItem="6lT-dV-i1z" secondAttribute="bottom" constant="8" id="u6Y-5G-3bw"/>
+                <constraint firstItem="OEW-75-bpd" firstAttribute="top" secondItem="Shp-BB-2hV" secondAttribute="bottom" constant="12" id="u8H-Jg-bSt"/>
+                <constraint firstItem="OEW-75-bpd" firstAttribute="centerY" secondItem="IJr-bR-hek" secondAttribute="centerY" id="v7s-Mo-QVP"/>
+                <constraint firstItem="AnO-PP-eNa" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="x4P-Dq-REY"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="stasher_backbutton" width="43" height="30"/>
+        <image name="stasher_divider" width="320" height="5"/>
+        <image name="stasher_headerbg" width="320" height="66"/>
+    </resources>
+</document>

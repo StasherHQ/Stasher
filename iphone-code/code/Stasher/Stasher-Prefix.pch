@@ -1,0 +1,32 @@
+//
+//  Stasher-Prefix.pch
+//  Stasher
+//
+//  Created by bhushan on 12/11/14.
+//  Copyright (c) 2014 OAB. All rights reserved.
+//
+
+#ifndef Stasher_Stasher_Prefix_pch
+#define Stasher_Stasher_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "StasherGlobals.h"
+#import "UIView+Animation.h"
+#import "STUserIdentity.h"
+#import "NSString+Validation.h"
+#import "BOABHttpReq.h"
+#import "UIAlertView+Blocks.h"
+#import "STActivityIndicatorView.h"
+#import "STLogInManager.h"
+#import "STCacheManager.h"
+#import "Reachability.h"
+#import "UIColor+STColors.h"
+#import "UIFont+STFont.h"
+#import "STSharedCustoms.h"
+#import "UIImageView+WebCache.h"
+#import "STCustomSwitchView.h"
+
+NSString *deviceTokenStr;
+#endif

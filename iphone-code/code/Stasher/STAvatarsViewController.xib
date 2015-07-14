@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="STAvatarsViewController">
+            <connections>
+                <outlet property="avatarCollectionView" destination="SqO-n5-ggi" id="E5z-Jh-NCa"/>
+                <outlet property="headerLabel" destination="fQE-hQ-9co" id="fRU-h3-0X4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1aX-Ej-DcL">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="66"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stasher_headerbg" translatesAutoresizingMaskIntoConstraints="NO" id="UWf-iS-FE4">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="66"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="66" id="f1I-sG-7Uu"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N0V-p6-hnb">
+                            <rect key="frame" x="0.0" y="23" width="43" height="30"/>
+                            <state key="normal" image="stasher_backbutton">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="backButtonPressed:" destination="-1" eventType="touchUpInside" id="tjJ-lX-3nI"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SELECT AVATARS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fQE-hQ-9co">
+                            <rect key="frame" x="200" y="29" width="200" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="RoO-QN-8qh"/>
+                                <constraint firstAttribute="height" constant="17" id="vh6-uh-phK"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="N0V-p6-hnb" firstAttribute="top" secondItem="1aX-Ej-DcL" secondAttribute="top" constant="23" id="D9T-BU-rjl"/>
+                        <constraint firstItem="UWf-iS-FE4" firstAttribute="leading" secondItem="1aX-Ej-DcL" secondAttribute="leading" id="Kc3-Pn-0zU"/>
+                        <constraint firstItem="N0V-p6-hnb" firstAttribute="leading" secondItem="1aX-Ej-DcL" secondAttribute="leading" id="NJ1-a2-i1N"/>
+                        <constraint firstAttribute="height" constant="66" id="eHd-az-hAe"/>
+                        <constraint firstItem="UWf-iS-FE4" firstAttribute="top" secondItem="1aX-Ej-DcL" secondAttribute="top" id="fI5-oE-HZ9"/>
+                        <constraint firstItem="fQE-hQ-9co" firstAttribute="top" secondItem="1aX-Ej-DcL" secondAttribute="top" constant="29" id="hFq-6E-utr"/>
+                        <constraint firstAttribute="trailing" secondItem="UWf-iS-FE4" secondAttribute="trailing" id="uum-0Z-zXO"/>
+                        <constraint firstAttribute="centerX" secondItem="fQE-hQ-9co" secondAttribute="centerX" id="ws6-Bo-3uV"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="SqO-n5-ggi">
+                    <rect key="frame" x="12" y="74" width="576" height="518"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="IlW-Uh-5Tp">
+                        <size key="itemSize" width="47" height="47"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Y8q-fw-zmI"/>
+                        <outlet property="delegate" destination="-1" id="rL9-IJ-z18"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="SqO-n5-ggi" secondAttribute="trailing" constant="12" id="DtY-8t-67x"/>
+                <constraint firstItem="SqO-n5-ggi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="Kkt-1Q-Wbg"/>
+                <constraint firstItem="SqO-n5-ggi" firstAttribute="top" secondItem="UWf-iS-FE4" secondAttribute="bottom" constant="8" id="YdD-vD-79Q"/>
+                <constraint firstItem="1aX-Ej-DcL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="pHf-JA-hFD"/>
+                <constraint firstAttribute="bottom" secondItem="SqO-n5-ggi" secondAttribute="bottom" constant="8" id="qwj-CT-WFV"/>
+                <constraint firstItem="1aX-Ej-DcL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="vvZ-Po-xbE"/>
+                <constraint firstAttribute="trailing" secondItem="1aX-Ej-DcL" secondAttribute="trailing" id="wmZ-DY-Flg"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="stasher_backbutton" width="43" height="30"/>
+        <image name="stasher_headerbg" width="320" height="66"/>
+    </resources>
+</document>

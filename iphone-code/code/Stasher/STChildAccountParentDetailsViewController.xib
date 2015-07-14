@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="STChildAccountParentDetailsViewController">
+            <connections>
+                <outlet property="headerLabel" destination="Ssz-Zn-tlD" id="YJk-TY-sG1"/>
+                <outlet property="labelCompleteName" destination="tjS-iI-eHw" id="Iak-bG-doh"/>
+                <outlet property="labelUsername" destination="EUS-uT-lRT" id="Zr3-1x-NyG"/>
+                <outlet property="parentProfilePictureImgView" destination="3M6-wl-E9Q" id="JUN-7L-NLf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUS-uT-lRT">
+                    <rect key="frame" x="8" y="182" width="584" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjS-iI-eHw">
+                    <rect key="frame" x="8" y="215" width="584" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hl2-QB-gbi">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="66"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stasher_headerbg" translatesAutoresizingMaskIntoConstraints="NO" id="IIE-yc-fz6">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="66"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="66" id="C6Z-Pk-dPX"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEG-hk-cJF">
+                            <rect key="frame" x="8" y="23" width="43" height="30"/>
+                            <state key="normal" image="stasher_backbutton">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="backBUttonPressed:" destination="-1" eventType="touchUpInside" id="EXJ-R6-QDM"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Parent Details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ssz-Zn-tlD">
+                            <rect key="frame" x="200" y="29" width="200" height="17"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="200" id="NjJ-JH-oKY"/>
+                                <constraint firstAttribute="height" constant="17" id="bci-KC-I8o"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="IIE-yc-fz6" firstAttribute="top" secondItem="hl2-QB-gbi" secondAttribute="top" id="3rI-eY-dYI"/>
+                        <constraint firstAttribute="centerX" secondItem="Ssz-Zn-tlD" secondAttribute="centerX" id="SgJ-X8-YI1"/>
+                        <constraint firstItem="eEG-hk-cJF" firstAttribute="top" secondItem="hl2-QB-gbi" secondAttribute="top" constant="23" id="UoY-qz-G3H"/>
+                        <constraint firstAttribute="trailing" secondItem="IIE-yc-fz6" secondAttribute="trailing" id="bBg-De-zzD"/>
+                        <constraint firstItem="Ssz-Zn-tlD" firstAttribute="top" secondItem="hl2-QB-gbi" secondAttribute="top" constant="29" id="eYf-Wd-a5N"/>
+                        <constraint firstItem="IIE-yc-fz6" firstAttribute="leading" secondItem="hl2-QB-gbi" secondAttribute="leading" id="f7z-Z7-QBp"/>
+                        <constraint firstItem="eEG-hk-cJF" firstAttribute="leading" secondItem="hl2-QB-gbi" secondAttribute="leading" constant="8" id="icg-1Y-YX7"/>
+                        <constraint firstAttribute="height" constant="66" id="mS8-rg-ZxO"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="account_face_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="3M6-wl-E9Q">
+                    <rect key="frame" x="260" y="90" width="80" height="80"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="vSb-1j-Zuq"/>
+                        <constraint firstAttribute="height" constant="80" id="wgA-6P-CiO"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tjS-iI-eHw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="90k-vW-9C0"/>
+                <constraint firstAttribute="trailing" secondItem="tjS-iI-eHw" secondAttribute="trailing" constant="8" id="PGq-Hh-D5z"/>
+                <constraint firstItem="tjS-iI-eHw" firstAttribute="top" secondItem="EUS-uT-lRT" secondAttribute="bottom" constant="12" id="Xvk-iw-UWP"/>
+                <constraint firstItem="3M6-wl-E9Q" firstAttribute="top" secondItem="hl2-QB-gbi" secondAttribute="bottom" constant="24" id="fbC-4S-Fvp"/>
+                <constraint firstItem="EUS-uT-lRT" firstAttribute="top" secondItem="3M6-wl-E9Q" secondAttribute="bottom" constant="12" id="j9r-hX-mrH"/>
+                <constraint firstAttribute="trailing" secondItem="EUS-uT-lRT" secondAttribute="trailing" constant="8" id="nhL-nN-AXP"/>
+                <constraint firstAttribute="centerX" secondItem="3M6-wl-E9Q" secondAttribute="centerX" id="o35-eD-Lc4"/>
+                <constraint firstAttribute="trailing" secondItem="hl2-QB-gbi" secondAttribute="trailing" id="qHB-VT-PLQ"/>
+                <constraint firstItem="hl2-QB-gbi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="sJk-jI-a9j"/>
+                <constraint firstItem="EUS-uT-lRT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="yfE-Km-ZjD"/>
+                <constraint firstItem="hl2-QB-gbi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="zEF-Z1-ouE"/>
+            </constraints>
+            <point key="canvasLocation" x="93" y="154"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="account_face_placeholder" width="80" height="80"/>
+        <image name="stasher_backbutton" width="43" height="30"/>
+        <image name="stasher_headerbg" width="320" height="66"/>
+    </resources>
+</document>
