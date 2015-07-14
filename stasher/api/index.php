@@ -13,7 +13,10 @@ if($_REQUEST['action'])
 		$flag = 1;
 		switch($action)
 		{
-			
+		     case 'linkapi' : $file ="linkapi.php";
+			break; 
+			 case 'knox' : $file ="knox.php";
+			break; 
                     case 'push' : $file ="push.php";
 			break; 
                      case 'underregister' : $file ="underregister.php";
@@ -108,7 +111,10 @@ if($_REQUEST['action'])
                     
                     case 'addbankaccount' : $file ="addbankaccount.php";
 			break;
-                    
+                  
+                  case 'addbankaccount_child' : $file ="addbankaccount_child.php";
+			break;
+			  
                         case 'parent_graph' : $file ="parent_graph.php";
 			break;
                      case 'child_graph' : $file ="child_graph.php";

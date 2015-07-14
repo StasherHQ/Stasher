@@ -55,7 +55,10 @@
 	<div class="container"> 
     	  	
         <div class="col-md-12 col-sm-12 col-xs-12 aboutUs">
-        	<img class="aboutUsPanda hidden-xs" src="images/pandaAbt.png" />	
+        	<div class="aboutPandaOuter">
+                    <img class="aboutUsPanda hidden-xs" src="images/aboutPanda.svg" />	
+                    <div class="ribbonPandaMobRight"></div>
+               </div> 
             <h2>About Stasher</h2>
             <p>
             	STASHER was founded in 2013 with one mission: to put the power of saving in the hands of kids. Available for free through the Apple App Store, Stasher allows kids to earn real money, get paid, and watch their savings explode over time. At Stasher, we’re transforming that traditional old piggy bank into the ultimate stashing app that kids deserve today.
@@ -127,9 +130,10 @@
                 </div>
                 <div class="col-md-5 col-sm-6 col-sm-offset-0 col-xs-10 col-xs-offset-1 signUpResp">
                 	<h4>Sign Up to learn more:</h4>
-                    <input type="text" placeholder="Full Name" />
-                    <input type="email" placeholder="Email" />
-                    <button>submit</button>
+                    <input type="text" id="fullname" placeholder="Full Name" />
+          <input type="email" id="email" placeholder="Email" />
+          <button  type="button" id="submitcontactform" >submit</button>
+          <div id="msgdiv"></div>
                 </div>
             </div>
         </div>

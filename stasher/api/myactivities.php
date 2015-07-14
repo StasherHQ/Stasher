@@ -18,13 +18,25 @@ if($_POST['userId'] != '' )
 					$k=0;
 					while($k < count($activityArray) )
 					{
+						$activityuserdetails[$k] = $usrObj->getUserInformationByUserId($activityArray[$k]['requestfrom']);
+						
+						$marray[$k]['activityId'] = $activityArray[$k]['id'];
 						$marray[$k]['userId'] = $activityArray[$k]['userId'];
-$marray[$k]['requestfrom'] = $activityArray[$k]['requestfrom'];
-$marray[$k]['title'] = $activityArray[$k]['title'];
+						$marray[$k]['fname'] = $activityuserdetails[$k]['fname'];
+						$marray[$k]['lname'] = $activityuserdetails[$k]['lname'];
+						$marray[$k]['avatar'] = SITEURL.'/dynamicAssets/users/avatar/'.$activityuserdetails[$k]['avatar'];
+						$marray[$k]['title'] = $activityArray[$k]['title'];
 						$marray[$k]['description'] = $activityArray[$k]['description'];
 						$marray[$k]['inserted_date'] = $activityArray[$k]['inserted_date'];						
 						$marray[$k]['activity_type'] = $activityArray[$k]['activity_type'];
 						$marray[$k]['seenstatus'] = $activityArray[$k]['seenstatus'];
+						
+						
+						
+						
+$marray[$k]['requestfrom'] = $activityArray[$k]['requestfrom'];
+;
+						
 						$k++;
 					}
 				}

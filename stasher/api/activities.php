@@ -36,7 +36,7 @@ if($_POST['userId'] != '' )
 					while($k < count($activityArray) )
 					{
 						
-						$activityuserdetails[$k] = $usrObj->getUserInformationByUserId($activityArray[$k]['userId']);
+						$activityuserdetails[$k] = $usrObj->getUserInformationByUserId($activityArray[$k]['requestfrom']);
 						
 						
 						$marray[$k]['userId'] = $activityArray[$k]['userId'];

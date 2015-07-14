@@ -33,8 +33,8 @@ $conn->close();
 	$retval = $api->listSubscribe( '04590ee9f0', $email, $merge_vars, 'html', false, true );
 	
 	if ($api->errorCode){
-		echo "<h4>Please try again.</h4>";
+		echo "Please try again.";
 	} else {
-		echo "<h4>Thank you, you have been added to our mailing list.</h4>";
+		echo "Thank you, you have been added to our mailing list.";
 	}
 ?>

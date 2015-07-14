@@ -11,7 +11,7 @@
 	define("TBLPREFIX", "tbl_");
 	define("DEV_EMAIL","vipul@oabstudios.com");	
 
-error_reporting(0);
+error_reporting(-1);
 
 
 ?>

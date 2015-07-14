@@ -1,0 +1,44 @@
+2015/05/20 02:22:17 [error] [php] Trying to get property of non-object (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/LoginController.php:40)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): LoginController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/login/loginaction
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/LoginController.php (40)
+in /var/www/html/stasher/admin/index.php (13)
+2015/05/20 02:24:24 [error] [php] Trying to get property of non-object (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/LoginController.php:40)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): LoginController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/login/loginaction
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/LoginController.php (40)
+in /var/www/html/stasher/admin/index.php (13)
+2015/05/20 02:25:02 [error] [php] Trying to get property of non-object (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/LoginController.php:40)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): LoginController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/login/loginaction
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/LoginController.php (40)
+in /var/www/html/stasher/admin/index.php (13)
+2015/05/20 02:26:30 [error] [php] Undefined variable: salt (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/LoginController.php:43)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): LoginController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): LoginController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): LoginController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/login/loginaction
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/LoginController.php (43)
+in /var/www/html/stasher/admin/index.php (13)

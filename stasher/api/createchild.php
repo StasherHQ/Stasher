@@ -74,15 +74,24 @@ if($_POST['username'] != '' && $_POST['password'] != '' && $_POST['email'] != ''
 					else
 					$relation = 'Parent';
 					
-					$userArray = array();	
-					$userArray['childId'] = $childId;	
-					$userArray['parentId'] = $userId;	
-					$userArray['parent_type'] = $relation_type;	
-					$userArray['relation_name'] = $relation;	
-					$userArray['inserted_date'] = date("Y-m-d H:i:s");	
-					$userArray['status'] = 2;	
-					$userArray = $usrObj->addRelation($userArray);
+	
 					
+					
+					$userArray = array();	
+							$userArray['childId'] = $childId;	
+$userArray['parentId'] =$userId;	                                                                                                                                                            
+$userArray['requestfrom'] = $childId;	
+							$userArray['requestto'] = $userId;								
+$userArray['parent_type'] = $relation_type;	
+							$userArray['relation_name'] = $relation;	
+							$userArray['inserted_date'] = date("Y-m-d H:i:s");	
+							$userArray['status'] = 1;	
+							$userArray = $usrObj->addRelation($userArray);
+							
+							
+							
+							
+							
 					
 				include(DOC_ROOT.'/model/email.php');
 				$emailObj= new Model_Email();

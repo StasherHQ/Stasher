@@ -998,7 +998,7 @@ Access Token (accesstoken)
 
 
 <div style="border:1px solid #000;width:100%;margin-top:5px;">
-<h1>Complete The Mission</h1>
+<h1>Complete The Mission by parent</h1>
 <form action="http://54.225.115.65/stasher/api/" method="post">
 
 <table>
@@ -1027,6 +1027,46 @@ Access Token (accesstoken)
 <tr>
 <td>
 <input type="hidden" name="action" value="actiononmission">
+</td>
+<td>
+<input type="submit" name="submit" value="Send">
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+<div style="border:1px solid #000;width:100%;margin-top:5px;">
+<h1>Complete The Mission by child</h1>
+<form action="http://54.225.115.65/stasher/api/" method="post">
+
+<table>
+<tr>
+<td>missionId (missionId)
+</td>
+<td><input type="text" name="missionId" value="missionId">
+</td>
+</tr>
+<tr>
+<td>parentId (parentId)
+</td>
+<td><input type="text" name="childId" value="childId">
+</td>
+</tr>
+
+<tr>
+<td>
+Access Token (accesstoken)
+</td>
+<td>
+<input type="text" name="accesstoken" value="d4fhf576ggh895qqwh90">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="hidden" name="action" value="completemission_child">
 </td>
 <td>
 <input type="submit" name="submit" value="Send">

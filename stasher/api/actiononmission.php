@@ -110,17 +110,11 @@ else
 	
 }
 
-
-
-
-
-							// send ios push  notification to the child.
-                                                        $devicetoken = $childDetails['devicetoken'];
-                                                        $message = "Your mission completion request has been accepted by ".$parentDetails['fname']." ".$parentDetails['lname'];
-                                                        sendPushNotificationToIOSDevice($devicetoken,$message);	
-
-
-                                                        sendPushNotificationToIOSDevice($devicetoken,$paymentmessage);	
+// send ios push  notification to the child.
+  $devicetoken = $childDetails['devicetoken'];
+ $message = "Your mission completion request has been accepted by ".$parentDetails['fname']." ".$parentDetails['lname'];
+ sendPushNotificationToIOSDevice($devicetoken,$message);	
+ sendPushNotificationToIOSDevice($devicetoken,$paymentmessage);	
 
 
 

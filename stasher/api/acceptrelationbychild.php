@@ -70,7 +70,7 @@ $activityArray1['title'] = "Parent request by ".$parentDetails['fname'].' '.$par
 						else
 						{
 							$marray['error']['code'] = "102";
-							$marray['error']['message'] = "A child is already added";
+							$marray['error']['message'] = "A child is already added.";
 						}
 								
 					}

@@ -40,6 +40,9 @@ class Model_Users extends Database
 	function editUserInformation($array, $Id){
 		$this->UpdateData($this->user_personal,$array,"userId",$Id,0);
 	}
+	function editActivity($array, $Id){
+		$this->UpdateData($this->user_activities,$array,"id",$Id,0);
+	}
 
 	function editRelation($array, $where){
 		
@@ -200,7 +203,7 @@ class Model_Users extends Database
 		if($userId){
 			$where  = array("userId='".$userId."' AND status='2'");
 		}
-		$result = $this->SelectData($fields,$tables, $where, $order = array(), $group=array(),$limit = "",0,0); 
+		$result = $this->SelectData($fields,$tables, $where, $order = array("inserted_date DESC"), $group=array(),$limit = "",0,0); 
 		$result1 = $this->FetchAll($result);
 		return $result1;
 	}

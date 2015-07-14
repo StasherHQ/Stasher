@@ -1,0 +1,1059 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+@font-face {
+	font-family: 'MontserratLight';
+	src: url('../fonts/MontserratLight.eot?#iefix') format('embedded-opentype'), url('../fonts/MontserratLight.otf'), url('../fonts/MontserratLight.ttf') format('truetype'), url('../fonts/MontserratLight.svg#svgFontName') format('svg');
+	src: url('../fonts/MontserratLight.ttf');
+}
+@font-face {
+	font-family: 'MontserratRegular';
+	src: url('../fonts/MontserratRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/MontserratRegular.otf'), url('../fonts/MontserratRegular.ttf') format('truetype'), url('../fonts/MontserratRegular.svg#svgFontName') format('svg');
+	src: url('../fonts/MontserratRegular.ttf');
+}
+body, html
+{
+	font-family: 'MontserratLight';
+	overflow-x:hidden;
+	-webkit-transition: all 0.3s ease;                  
+    -moz-transition: all 0.3s ease;                 
+    -o-transition: all 0.3s ease;   
+    -ms-transition: all 0.3s ease;          
+    transition: all 0.3s ease;
+}
+*
+{
+	margin:0;
+	padding:0;
+}
+h1, h2, h3, h4, h5, h6, input, button
+{
+	font-family: 'MontserratRegular';
+}
+
+
+/*************** Drop Animation *************/
+.drop 
+{
+	display: none;
+	animation: dropAnimate 1s infinite;
+	-webkit-animation: dropAnimate 1s infinite;
+	position:absolute;
+	width: 20px;
+	left:46%;
+	border-radius: 100%;
+	box-shadow: inset -0.1em 0 2em 0.5em rgba(255, 255, 255, 0.5),  inset -0.1em 0 0.5em 0 rgba(0, 0, 0, 0.8);
+}
+.drop:before 
+{
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 6px;
+	height: 10px;
+	border: 8px solid #f8cc33;
+	-moz-border-radius: 20px 20px 0 20px;
+	border-radius: 20px 20px 0 20px;
+	-webkit-transform: rotate(-137deg);
+	-moz-transform: rotate(-137deg);
+	-ms-transform: rotate(-137deg);
+	-o-transform: rotate(-137deg);
+	transform: rotate(-137deg);
+}
+.topNavigation ul li a:hover .drop
+{
+	display: block;
+}
+
+ @keyframes dropAnimate 
+ {
+ 0% {
+		top: 0px;
+		transform:scale(0);
+		opacity:0;
+	}
+ 40% {
+		top: 2px;
+		transform: scale(0.6);
+		opacity:1;
+	}
+ 55% {
+		top: 6px;
+		transform: scale(0.8);
+		opacity:1;
+	}
+ 95% {
+		top: 35px;
+		transform:scale(0.7);
+		opacity:0.3;
+	}
+ 100% {
+		top: 38px;
+		transform:scale(0.6);
+		opacity:0;
+	}
+}
+
+
+@-webkit-keyframes dropAnimate 
+{
+ 0% {
+		top: 0px;
+		transform:scale(0);
+		-webkit-transform:scale(0);
+		opacity:0;
+	}
+ 40% {
+		top: 2px;
+		-webkit-transform: scale(0.6);
+		opacity:1;
+	}
+ 55% {
+		top: 6px;
+		-webkit-transform: scale(0.8);
+		opacity:1;
+	}
+ 95% {
+		top: 35px;
+		-webkit-transform:scale(0.7);
+		opacity:0.3;
+	}
+ 100% {
+		top: 38px;
+		-webkit-transform:scale(0.6);
+		opacity:0;
+	}
+}
+
+@-ms-keyframes dropAnimate 
+{
+ 0% {
+		top: 0px;
+		transform:scale(0);
+		-webkit-transform:scale(0);
+		opacity:0;
+	}
+ 40% {
+		top: 2px;
+		-webkit-transform: scale(1.1);
+		opacity:1;
+	}
+ 55% {
+		top: 10px;
+		-webkit-transform: scale(1);
+		opacity:1;
+	}
+ 95% {
+		top: 43px;
+		-webkit-transform:scale(0.8);
+		opacity:0.3;
+	}
+ 100% {
+		top: 45px;
+		-webkit-transform:scale(0.8);
+		opacity:0;
+	}
+}
+
+.animated 
+{
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	width: 5px;
+	height: 5px;
+	background: #333;
+	display: none;
+	border-radius: 50%;
+	position: absolute;	
+	margin: 0 auto;
+}
+.navigation
+{
+	position:fixed;
+	z-index:2;
+	width:100%;
+	border:none;
+}
+
+.navigation.stick
+{
+	background:rgba(255,255,255,0.3);
+	transition:background 2s ease;
+}
+.topLayer
+{
+background: #b6320a;
+background: -moz-linear-gradient(top,  #b6320a 0%, #ff3c00 21%, #ff8b2d 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b6320a), color-stop(21%,#ff3c00), color-stop(100%,#ff8b2d));
+background: -webkit-linear-gradient(top,  #b6320a 0%,#ff3c00 21%,#ff8b2d 100%);
+background: -o-linear-gradient(top,  #b6320a 0%,#ff3c00 21%,#ff8b2d 100%);
+background: -ms-linear-gradient(top,  #b6320a 0%,#ff3c00 21%,#ff8b2d 100%);
+background: linear-gradient(to bottom,  #b6320a 0%,#ff3c00 21%,#ff8b2d 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6320a', endColorstr='#ff8b2d',GradientType=0 );
+height:auto;
+
+}
+.topNavigation ul
+{
+	width:100%;
+	float:left;
+}
+.topNavigation ul li
+{
+	width:20%;
+	float:left;	
+}
+.topNavigation ul li a
+{
+	font-family: 'MontserratLight';
+	color:#fff;
+	font-size:16px;	
+	text-decoration:none;
+	outline:none;
+	padding-top:30px;
+	padding-bottom:0px;
+	float:left;
+	width:100%;
+	border-top: 5px solid rgba(0,0,0,0);
+	position:relative;
+	transition:color 0.25s ease;
+	-webkit-transition-delay: 0.5s;
+	-moz-transition-delay: 0.5s;
+	-o-transition-delay: 0.5s;
+	transition-delay: 0.5s;
+}
+.topNavigation ul li a:hover , .topNavigation ul li.active a
+{
+    border-top: 5px solid #f8cc33;
+    color: #f8cc33;
+}
+.topNavigation ul li.logo a
+{
+	padding-top:24px;
+	padding-bottom:10px;
+	border-top:5px solid rgba(0,0,0,0);
+}
+.topNavigation ul li.logo a:hover 
+{
+	border-top:5px solid rgba(0,0,0,0);
+}
+.topNavigation ul li.logo a img
+{
+	width:100%;
+}
+.navbar-collapse
+{
+	padding:1px;	
+}
+
+/************* Top layer-mobile and panda ***************/
+.mobileOuter
+{
+	margin-top: 200px;
+	margin-bottom:120px;
+}
+
+/***** absolute panda on mobile *******/ 
+.absolutePanda
+{
+	position:absolute;
+	bottom:-20px;
+	left:-10px;
+	height:360px;
+}
+.absoluteHoney
+{
+	position:absolute;
+	top:-6px;
+	right:24px;
+}
+.absoluteHoney img
+{
+	width:102px;
+}
+.topText
+{
+	margin-top:160px;
+}
+.topText h2
+{
+	font-size:40px;
+	font-family: 'MontserratRegular';
+	color:#fff;
+	margin-bottom:20px;
+}
+
+.topText span
+{
+	font-size:22px;	
+	color:#fff;
+	float:left;
+	width:100%;
+	margin-bottom:30px;
+}
+
+
+
+
+/************** How Stasher Works Section One ****************/
+.stasherWork
+{
+	background:#3ab1f6;
+	padding:100px 0;
+	position:relative;
+}
+.stasherWork h1
+{
+	font-size:50px;
+	color:#fff;
+	font-family: 'MontserratLight';
+}
+.stasherWork h3
+{
+	color:#f8cc33;
+	font-size:32px;
+	margin-top:90px;
+}
+.stasherWork span
+{
+	font-size:15px;
+	color:#fff;
+}
+.stasherWorkOne 
+{
+	padding:85px 0;
+}
+.anyTimeSec
+{
+	text-align:right;
+	margin-bottom:30px;
+}
+.missionRewards h3
+{
+	margin-top:55px;
+}
+
+/************** How Stasher Works Section Two ****************/
+.beeSec img
+{
+	height:390px;
+}
+.beeImage
+{
+	position:absolute;
+	left:45px;
+	bottom:40px;
+}
+
+
+/************** How Stasher Works Section Three ****************/
+.stasherWorkThree
+{
+	padding-top:85px;
+	position:relative;
+}
+.safeEdu h3
+{
+	margin-top:35px;
+}
+.stasherWorkThree ul 
+{
+	margin-top:15px;
+	margin-left:11px;
+	list-style-image:url(../images/list.png);
+}
+.stasherWorkThree ul li
+{
+	color:#fff;
+	font-size:15px;
+	margin:5px;
+}
+
+
+
+/************** hexagon ****************/
+.hexa, .hexa1, .hexa2, .hexa3
+{
+	display:none;
+}
+/*.hexa, .hexa1, .hexa2, .hexa3
+{
+	position:absolute;
+}
+.hexa {
+    -webkit-animation:hexaMove 25s linear infinite; 
+	 animation:hexaMove 25s linear infinite;  
+}
+@keyframes hexaMove 
+{
+    0% {opacity:0.3; top:25%; right:5%; transform:scale(0.4); transform:rotate(0deg);}
+	25%{opacity:0.8; top:45%; right:50%; transform:scale(1); transform:rotate(60deg);}
+	50%{opacity:0.3; top:10%; right:80%; transform:scale(0.5); transform:rotate(120deg);}
+	60%{opacity:0.3; top:30%; right:90%; transform:scale(0.5); transform:rotate(180deg);}	
+	75% {opacity:0.8; top:45%; right:50%; transform:scale(1); transform:rotate(240deg);}
+	95% {opacity:0.8; top:10%; right:10%; transform:scale(1); transform:rotate(300deg);}		
+	100%{opacity:0.3; top:25%; right:5%; transform:scale(0.5); transform:rotate(360deg);}	
+}
+@-webkit-keyframes hexaMove 
+{
+    0% {opacity:0.3; top:25%; right:5%; transform:scale(0.4); transform:rotate(0deg);}
+	25%{opacity:0.8; top:45%; right:50%; transform:scale(1); transform:rotate(60deg);}
+	50%{opacity:0.3; top:10%; right:80%; transform:scale(0.5); transform:rotate(120deg);}
+	60%{opacity:0.3; top:30%; right:90%; transform:scale(0.5); transform:rotate(180deg);}	
+	75% {opacity:0.8; top:45%; right:50%; transform:scale(1); transform:rotate(240deg);}
+	95% {opacity:0.8; top:10%; right:10%; transform:scale(1); transform:rotate(300deg);}		
+	100%{opacity:0.3; top:25%; right:5%; transform:scale(0.5); transform:rotate(360deg);}	
+}
+
+.hexa1 {
+    animation:10s hexaMove1 infinite;  
+	-webkit-animation:10s hexaMove1 infinite;    
+	top:27%;
+}
+@keyframes hexaMove1 
+{
+    0% {opacity:0.3; right:23%;}
+	25%{opacity:0.1; right:23%;}
+	50%{opacity:0.6; right:23%;}
+	90%{opacity:0.1; right:23%;}
+	100%{opacity:0.6; right:23%;}
+}
+@-webkit-keyframes hexaMove1 
+{
+   0% {opacity:0.3; right:23%;}
+	25%{opacity:0.1; right:23%;}
+	50%{opacity:0.6; right:23%;}
+	90%{opacity:0.1; right:23%;}
+	100%{opacity:0.6; right:23%;}
+}
+
+.hexa2 {
+    animation: hexaMove2 25s linear infinite;
+	 -webkit-animation: hexaMove2 25s linear infinite;
+	opacity:0.5;
+}
+@keyframes hexaMove2 
+{
+    0% {left:0%; top:15%; transform:rotate(0); }
+	25%{left:50%; top:45%;}
+	50%{left:80%; top:10%; transform:rotate(360deg);}
+	60%{left:90%; top:30%;}	
+	75%{left:50%; top:15%;}		
+	95%{left:0%; top:44%;}
+	100%{left:0%; top:15%; transform:rotate(0deg);}
+}
+@-webkit-keyframes hexaMove2 
+{
+    0% {left:0%; top:15%; transform:rotate(0); }
+	25%{left:50%; top:45%;}
+	50%{left:80%; top:10%; transform:rotate(360deg);}
+	60%{left:90%; top:30%;}	
+	75%{left:50%; top:15%;}		
+	95%{left:0%; top:44%;}
+	100%{left:0%; top:15%; transform:rotate(0deg);}
+}
+
+.hexa3 {
+	animation: hexaMove3 20s linear infinite;
+	-webkit-animation: hexaMove3 20s linear infinite;
+	top:30%;
+	left:0%;
+}
+@keyframes hexaMove3 
+{
+    0% {opacity:0.3; right:23%;}	
+	20% {opacity:0.6; right:23%;}	
+	50%{opacity:0.3; right:23%;}
+	70%{opacity:0.1; right:23%;}
+	85%{opacity:0.3; right:23%;}
+	100%{opacity:0.6; right:23%;}
+}
+@-webkit-keyframes hexaMove3 
+{
+   0% {opacity:0.3; right:23%;}
+	25%{opacity:0.1; right:23%;}
+	50%{opacity:0.6; right:23%;}
+	90%{opacity:0.1; right:23%;}
+	100%{opacity:0.6; right:23%;}
+}*/
+
+/**************** SignUp Form *************/
+.signUpForm
+{
+	background:#f8cc33;
+	padding:40px 0;
+}
+.signUpForm span
+{
+	font-size:18px;
+	color:#4c4c4c;
+	margin-top:85px;
+	float:left;
+	width:100%;	
+	font-family: 'MontserratRegular';
+}
+.signUpForm h4
+{
+	font-size:20px;
+	color:#4c4c4c;
+	margin-top:-5px;
+}
+.signUpForm input
+{
+	background:#fce699;
+	border:none;
+	border-radius:10px;
+	width:100%;
+	color:#897632;
+	font-size:14px;
+	padding:15px 10px;
+	margin:10px 0;
+}
+.signUpForm button
+{
+	background:#ff4800;
+	padding:10px 10px;
+	color:#fff;
+	font-size:20px;
+	text-transform:uppercase;
+	border:none;
+	border-radius:10px;
+	width:100%;	
+	margin-top:10px;
+}
+
+
+/***************** Footer *****************/
+.footer
+{
+	background:#ff7316;
+	color:#fff;
+	padding:40px 0;
+}
+.footer h3
+{
+	font-size:32px;	
+	margin-top:0;
+	font-family: 'MontserratLight';
+}
+.footer span
+{
+	font-size:17px;
+}
+.socialLinks 
+{
+    float: left;
+    width: 23%;
+	margin-top:40px;
+}
+.socialLinks a
+{
+	float:left;
+	outline:none;
+}
+.socialLinks span 
+{
+    float: left;
+    width: 100%;
+}
+.footer ul
+{
+	width:100%;
+	float:left;
+	padding-top:70px;
+}
+.footer ul li a
+{
+	float:left;
+	font-size:20px;
+	/*text-transform:uppercase;*/
+	color:#fff;
+	padding-right:45px;
+	text-decoration:none;
+	outline:none;
+}
+.footer .copyRight
+{
+	width:100%;
+	float:left;
+	font-size:12px;
+}
+
+
+/**************** Safety Page *****************/
+.innerHeader
+{
+	background:#4eb9f7;
+}
+
+.safetyContainer
+{
+	background:	#3ab1f6;
+	color:#fff;
+	padding-top:80px;
+}
+.safetyContainer .stasherWorkOne
+{
+	padding:65px 0;
+}
+.safetyContainer h4
+{
+	font-size:26px;	
+}
+.safetyContainer span
+{
+	font-size:14px;	
+}
+.knoxBear
+{
+	transform:scale(0.9);
+	-webkit-transform:scale(0.9);
+}
+.knoxPayment
+{
+	float:left;
+	margin-left:50px;
+}
+.safetyContainer span a
+{
+	text-decoration:underline;
+	outline:none;
+	color:#fff;
+}
+
+/***************** About Us ****************/
+.aboutUs
+{
+	padding-top:65px;
+	padding-bottom:85px;
+}
+.aboutUs h2
+{
+	font-size:36px;	
+	margin-bottom:20px;
+	margin-top:0;
+}
+.aboutUs p
+{
+	font-size:16px;	
+}
+.profileOuter
+{
+	margin-bottom:30px;
+}
+.profilePic img
+{
+	height:100px;
+	width:100px;
+	border-radius:50%;
+}
+.profileContent h4
+{
+	font-size:24px;
+	color:#f8cc33;	
+	margin-top:25px;
+	font-family: 'MontserratLight';
+}
+.profileContent h6
+{
+	font-size:16px;
+	color:#fff;	
+}
+.profileContent span
+{
+	font-size:14px;
+	color:#fff;	
+	float:left;
+	width:100%;
+	margin-bottom:60px;
+}
+.aboutUsContent
+{
+	position:relative;
+	padding-bottom: 50px;
+}
+/*.aboutUsPanda
+{
+	position:absolute;
+	bottom:50px;
+	right:110px;
+	margin-top:18%;
+}*/
+
+.support
+{
+	color:#fff;
+	font-size:14px;	
+	float:left;
+	margin-bottom:85px;
+}
+.aboutUs img.aboutUsPanda
+{
+	float:left;
+	margin-right:15px;
+	margin-bottom:10px;
+	position:relative;
+	z-index:1;
+}
+
+
+/**************** FAQ ****************/
+.faqOuter
+{
+	padding:170px 0 85px 0;
+}
+.faq h2
+{
+	font-size:36px;	
+	color:#fff;	
+	margin-top:145px;
+}
+.faq span
+{
+	font-size:16px;
+	color:#fff;
+}
+.faqQuestionAns h4
+{
+	font-size:24px;
+	color:#f8cc33;	
+	margin-bottom:20px;
+	margin-top:80px;
+	font-family: 'MontserratLight';
+}
+.faqQuestionAns h6, .faqQuestionAns span
+{
+	font-size:14px;
+	color:#fff;
+	margin-bottom:3px;
+	font-family: 'MontserratLight';
+	margin-bottom:5px;
+}
+.faqQuestionAns span
+{
+	margin-bottom:20px;
+	width:100%;
+	float:left;
+} 
+.faqOuter p
+{
+	font-family: 'MontserratRegular';
+}
+
+/********** Bee Animation ***********/
+.beeSprite
+{
+	background:url(../images/beeSprite.svg);
+	background-size:4760px 264px;
+	background-position:center right;
+	height:264px;
+	width:340px;
+	position:absolute;
+	top:30%;
+	left:2.8%;
+	-webkit-animation: play 0.8s steps(14) infinite;
+       -moz-animation: play 0.8s steps(14) infinite;
+        -ms-animation: play 0.8s steps(14) infinite;
+         -o-animation: play 0.8s steps(14) infinite;
+            animation: play 0.8s steps(14) infinite;
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -4760px; }
+}
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -4760px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -4760px; }
+}
+
+/************ Panda Animation ***********/
+.panda
+{
+	position:relative;
+	z-index:1;
+	margin-left:10%;
+	width:200px;
+}
+.panda img
+{
+	height:272px;
+	position: relative;
+    z-index: 1;
+}
+.ribbonSec
+{
+	background:url(../images/ribbonNew.svg);
+	background-size:770px 60px;
+	background-position:center right;
+	height:60px;
+	width:77px;
+	position:absolute;
+	transform: scale(0.6);
+	-webkit-transform: scale(0.6);
+	top:44%;
+	left:-51px;
+	-webkit-animation: ribbon 1.5s steps(10) infinite;
+       -moz-animation: ribbon 1.5s steps(10) infinite;
+        -ms-animation: ribbon 1.5s steps(10) infinite;
+         -o-animation: ribbon 1.5s steps(10) infinite;
+            animation: ribbon 1.5s steps(10) infinite;
+}
+.ribbon
+{
+	background:url(../images/ribbonNew.svg);
+	background-size:770px 60px;
+	background-position:center right;
+	height:60px;
+	width:77px;
+	position:absolute;
+	top:19%;
+	left:-2px;
+	-webkit-animation: ribbon 1.5s steps(10) infinite;
+       -moz-animation: ribbon 1.5s steps(10) infinite;
+        -ms-animation: ribbon 1.5s steps(10) infinite;
+         -o-animation: ribbon 1.5s steps(10) infinite;
+            animation: ribbon 1.5s steps(10) infinite;
+}
+
+@keyframes ribbon {
+   from { background-position:    0px; }
+     to { background-position: -770px; }
+}
+
+@-webkit-keyframes ribbon {
+   from { background-position:    0px; }
+     to { background-position: -770px; }
+}
+
+@-ms-keyframes ribbon {
+   from { background-position:    0px; }
+     to { background-position: -770px; }
+}
+
+
+.mobilePanda
+{
+	position: relative;
+    z-index: 1;
+	transform: scale(1.3);
+	-webkit-transform: scale(1.3);
+}
+.mobilePanda img
+{
+	height: 300px;
+    position: relative;
+	z-index:1;
+}
+.ribbonPandaMob
+{
+	background:url(../images/ribbonPandaMob.svg);
+	background-size:810px 63px;
+	background-position:center right;
+	height:63px;
+	width:81px;
+	position:absolute;
+	top:19%;
+	left:5px;
+	-webkit-animation: ribbonPandaMob 1.5s steps(10) infinite;
+       -moz-animation: ribbonPandaMob 1.5s steps(10) infinite;
+        -ms-animation: ribbonPandaMob 1.5s steps(10) infinite;
+         -o-animation: ribbonPandaMob 1.5s steps(10) infinite;
+            animation: ribbonPandaMob 1.5s steps(10) infinite;
+}
+.aboutPandaOuter
+{
+	position:relative;
+	float:left;
+}
+
+.ribbonPandaMobRight
+{
+	-moz-transform: scaleX(-1); -o-transform: scaleX(-1); -webkit-transform: scaleX(-1); transform: scaleX(-1); filter: FlipH; -ms-filter: "FlipH";
+	background:url(../images/ribbonPandaMob.svg);
+	background-size:810px 63px;
+	background-position:center right;
+	height:63px;
+	width:81px;
+	position:absolute;
+	top:50px;
+	right:41px;
+	-webkit-animation: ribbonPandaMob 1.5s steps(10) infinite;
+       -moz-animation: ribbonPandaMob 1.5s steps(10) infinite;
+        -ms-animation: ribbonPandaMob 1.5s steps(10) infinite;
+         -o-animation: ribbonPandaMob 1.5s steps(10) infinite;
+            animation: ribbonPandaMob 1.5s steps(10) infinite;
+}
+
+@keyframes ribbonPandaMob {
+   from { background-position:    0px; }
+     to { background-position: -810px; }
+}
+
+@-webkit-keyframes ribbonPandaMob {
+   from { background-position:    0px; }
+     to { background-position: -810px; }
+}
+
+@-ms-keyframes ribbonPandaMob {
+   from { background-position:    0px; }
+     to { background-position: -810px; }
+}
+
+/************* Dollar Bucket Animation **************/
+.dollar
+{
+	background:url(../images/bucket.svg);
+	background-size:3380px 106.15px;
+	background-position:50% 50%;
+	position:absolute;
+	height:105.15px;
+	width:130px;
+	margin-left:40px;
+	-webkit-animation: dollar 1s steps(26) infinite;
+       -moz-animation: dollar 1s steps(26) infinite;
+        -ms-animation: dollar 1s steps(26) infinite;
+         -o-animation: dollar 1s steps(26) infinite;
+            animation: dollar 1s steps(26) infinite;
+			/*transform:scale(1.3);*/
+}
+
+@keyframes dollar {
+   from { background-position:    0px; }
+     to { background-position: -3380px; }
+}
+
+@-ms-keyframes dollar {
+   from { background-position:    0px; }
+     to { background-position: -3380px; }
+}
+
+@-webkit-keyframes dollar {
+   from { background-position:    0px; }
+     to { background-position: -3380px; }
+}
+
+
+/************ Jar Animation ****************/
+.jar
+{
+	background:url(../images/jarSprite.svg);
+	background-size:5980px 286px;
+	background-position:0% 50%;	
+	height:286px;
+	width:227px;
+	position:absolute;
+	top:10.5%;
+	left:41%;
+	-webkit-animation: jar 3s steps(26) infinite;
+       -moz-animation: jar 3s steps(26) infinite;
+        -ms-animation: jar 3s steps(26) infinite;
+         -o-animation: jar 3s steps(26) infinite;
+            animation: jar 3s steps(26) infinite;
+			transform:scale(0.7);
+			-webkit-transform:scale(0.7);
+			-ms-transform:scale(0.7);
+}
+.dollarJarOuter .jar
+{
+	left: 0;
+    top: 40.5px;
+}  
+
+@keyframes jar {
+   from { background-position:0px; }
+     to { background-position:-5980px; }
+}
+
+@-webkit-keyframes jar {
+   from { background-position:0px; }
+   to { background-position:-5980px; }
+   
+}
+
+@-ms-keyframes jar {
+   from { background-position:0px; }
+   to { background-position:-5980px; }
+   
+}
+.pandaSecurity, .pandaBeeImage
+{
+	position:relative;
+}
+.pandaSecurity img
+{
+	margin-left:-35px;
+	position:relative;
+}  
+.pandaBeeImage img
+{
+	position:relative;
+	z-index:1;
+}
+.pandaBeeImage .ribbon
+{
+	transform:scale(0.6);
+	-webkit-transform:scale(0.6);
+	left:27px;
+	top:16%;
+} 
+
+
+.safetyBear
+{
+	background:url(../images/safetyBearNew.svg);
+	/*background-size:5px 60px;*/
+	background-position:center right;
+	height:253px;
+	width:190px;
+	/*position:absolute;
+	top:19%;
+	left:-2px;*/
+	-webkit-animation: safetyBear 1.5s steps(31) infinite;
+       -moz-animation: safetyBear 1.5s steps(31) infinite;
+        -ms-animation: safetyBear 1.5s steps(31) infinite;
+         -o-animation: safetyBear 1.5s steps(31) infinite;
+            animation: safetyBear 1.5s steps(31) infinite;
+}
+
+@keyframes safetyBear {
+   from { background-position:    0px; }
+     to { background-position: -5890px; }
+}
+
+@-webkit-keyframes safetyBear {
+   from { background-position:    0px; }
+     to { background-position: -5890px; }
+}
+
+@-ms-keyframes safetyBear {
+   from { background-position:    0px; }
+     to { background-position: -5890px; }
+}
+.safetyBearOuter
+{
+	position:relative;
+}
+.knox
+{
+	position:absolute;
+	right:-20px;
+	bottom:-10px;
+}
+#msgdiv
+{
+	font-size:12px;
+	position:absolute;
+	bottom:-22px;
+}

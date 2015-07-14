@@ -3,6 +3,10 @@ include('model/missions.php');
 
 $msnObj = new Model_Mission();
 
+include('model/users.php');
+
+$usrObj = new Model_Users();
+
 //echo "<pre>";print_r($_POST);exit;
 
 $marray = array();
@@ -31,6 +35,7 @@ $parentId = $missionArray['parentId'];
 
 							$childDetails = $usrObj->getUserInformationByUserId($childId);
 	$description = 'Congrats, '.$childDetails['fname'].' '.$childDetails['lname'].' completed their Mission! Approve now to send reward!'.$childDetails['fname'].' '.$childDetails['lname'];
+	
 							$activityArray1 = array();
 							$activityArray1['userId'] = $parentId;	
 $activityArray1['title'] = "Mission completed by ".$childDetails['fname'].' '.$childDetails['lname'];

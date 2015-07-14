@@ -7,7 +7,9 @@ if($_POST['parentId'] != ''  &&  $_POST['childId'] != '')
 {
 		$parentId = $_POST['parentId'];
 		$childId = $_POST['childId'];
+		$activityId = $_POST['activityId'];
 		$relation_type = $_POST['relation_type'];
+		$status = $_POST['status'];
 		$userArray1 = $usrObj->getUserDetailsByUserId($parentId);
 		if($userArray1)
 		{
@@ -22,6 +24,11 @@ if($_POST['parentId'] != ''  &&  $_POST['childId'] != '')
 							$userArray = array();	
 							$userArray['status'] = $status;	
 							$usrObj->editRelation($userArray,$where);
+							
+							$userArray = array();	
+							$userArray['status'] = $status;	
+							$usrObj->editActivity($userArray,$activityId);
+							
 						
 						if($status == '2')
 						{	
@@ -37,12 +44,12 @@ if($_POST['parentId'] != ''  &&  $_POST['childId'] != '')
 
 $activityArray = array();
 							$childDetails = $usrObj->getUserInformationByUserId($childId);
-							if($status = '2')
+							if($status == '2')
 							{
 							$description = 'Your request has been accepted by '.$childDetails['fname'].' '.$childDetails['lname'].' : a child is added to the list.';	
 $activityArray['activity_type'] = '13';
 							}
-							if($status = '0')
+							if($status == '0')
 							{
 							$description = 'Your request has been rejected by '.$childDetails['fname'].' '.$childDetails['lname'].' : a child is added to the list.';
 $activityArray['activity_type'] = '13';	
@@ -61,16 +68,19 @@ $activityArray['activity_type'] = '13';
 							
 							
 							// send ios push  notification to the child.
-                                                        $devicetoken = $parentDetails['devicetoken'];
+                            $devicetoken = $parentDetails['devicetoken'];
                                                        
-                                                        sendPushNotificationToIOSDevice($devicetoken,$description);
+                            sendPushNotificationToIOSDevice($devicetoken,$description);
                                                         
 
 
 
 							
 							$marray['success']['code'] = "102";
-							$marray['success']['message'] = $description;
+							if($status == '2')
+							$marray['success']['message'] = "Request has been accepted.";
+							else
+							$marray['success']['message'] = "Request has been cancelled.";
 						
 								
 					}
