@@ -1,0 +1,46 @@
+2015/04/27 07:29:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "removeuserrelation".' in /var/www/html/stasher/admin/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(270): CController->missingAction('removeuserrelat...')
+#1 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): CController->run('removeuserrelat...')
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/user/r...')
+#3 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/user/removeuserrelation
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/27 07:30:11 [error] [php] Undefined index: id (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php:147)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): UserController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): UserController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/user/removeuserrelation
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php (147)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/27 07:31:19 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'field list'. The SQL statement executed was: UPDATE tbl_user_information set status= '0'
+					
+			WHERE id = :id . Bound with :id='2'.
+in /var/www/html/stasher/admin/protected/models/adminModel.php (232)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php (148)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/27 07:31:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'field list'. The SQL statement executed was: UPDATE tbl_user_information set status= '0'
+					
+			WHERE id = :id . Bound with :id='2'' in /var/www/html/stasher/admin/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /var/www/html/stasher/admin/protected/models/adminModel.php(232): CDbCommand->execute()
+#1 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php(148): adminModel->deleteUserRelation('2')
+#2 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): UserController->actionRemoveuserrelation()
+#3 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/stasher/admin/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/stasher/admin/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): CController->run('removeuserrelat...')
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/user/r...')
+#8 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#9 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/user/removeuserrelation
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---

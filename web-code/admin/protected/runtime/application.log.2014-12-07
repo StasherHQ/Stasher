@@ -1,0 +1,939 @@
+2014/12/07 04:12:07 [error] [exception.CException] exception 'CException' with message 'WebServiceController cannot find the requested view "cmsAdmin/venue/loader_view".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/thirst/protected/views/layouts/main.php(332): CController->renderPartial('cmsAdmin/venue/...')
+#1 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/thirst...')
+#2 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/thirst...', Array, true)
+#3 /var/www/yii/framework/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/var/www/thirst...', Array, true)
+#4 /var/www/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 /var/www/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 /var/www/yii/framework/web/CBaseController.php(206): COutputProcessor->run()
+#7 /var/www/yii/framework/web/CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#8 /var/www/thirst/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#9 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/thirst...')
+#10 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/thirst...', Array, true)
+#11 /var/www/yii/framework/web/CController.php(784): CBaseController->renderFile('/var/www/thirst...', Array, true)
+#12 /var/www/thirst/protected/controllers/WebServiceController.php(15): CController->render('index')
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(49): WebServiceController->actionIndex()
+#14 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#18 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webService')
+#19 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /var/www/thirst/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/thirst/webService
+HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/user
+---
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:15:55 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "cmsAdmin/venue/loader_view".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/thirst/protected/views/layouts/main.php(332): CController->renderPartial('cmsAdmin/venue/...')
+#1 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/thirst...')
+#2 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/thirst...', Array, true)
+#3 /var/www/yii/framework/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/var/www/thirst...', Array, true)
+#4 /var/www/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 /var/www/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 /var/www/yii/framework/web/CBaseController.php(206): COutputProcessor->run()
+#7 /var/www/yii/framework/web/CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#8 /var/www/thirst/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#9 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/thirst...')
+#10 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/thirst...', Array, true)
+#11 /var/www/yii/framework/web/CController.php(784): CBaseController->renderFile('/var/www/thirst...', Array, true)
+#12 /var/www/thirst/protected/controllers/SiteController.php(32): CController->render('index')
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#14 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#18 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#19 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /var/www/thirst/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/thirst/
+---
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:17:04 [error] [exception.CException] exception 'CException' with message 'WebServiceController cannot find the requested view "cmsAdmin/venue/loader_view".' in /var/www/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/thirst/protected/views/layouts/main.php(332): CController->renderPartial('cmsAdmin/venue/...')
+#1 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/thirst...')
+#2 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/thirst...', Array, true)
+#3 /var/www/yii/framework/web/widgets/CContentDecorator.php(76): CBaseController->renderFile('/var/www/thirst...', Array, true)
+#4 /var/www/yii/framework/web/widgets/CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#5 /var/www/yii/framework/web/widgets/COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#6 /var/www/yii/framework/web/CBaseController.php(206): COutputProcessor->run()
+#7 /var/www/yii/framework/web/CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#8 /var/www/thirst/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#9 /var/www/yii/framework/web/CBaseController.php(126): require('/var/www/thirst...')
+#10 /var/www/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/var/www/thirst...', Array, true)
+#11 /var/www/yii/framework/web/CController.php(784): CBaseController->renderFile('/var/www/thirst...', Array, true)
+#12 /var/www/thirst/protected/controllers/WebServiceController.php(15): CController->render('index')
+#13 /var/www/yii/framework/web/actions/CInlineAction.php(49): WebServiceController->actionIndex()
+#14 /var/www/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#15 /var/www/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#16 /var/www/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 /var/www/yii/framework/web/CWebApplication.php(282): CController->run('')
+#18 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('webService')
+#19 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#20 /var/www/thirst/index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/thirst/webService
+HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/adminVenue
+---
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:55:21 [info] [---- In User controller------> Parameters are : User Id: 122] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1253)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:55:23 [info] [---- In Venue controller------> Parameters are : User Id: 122 | latitude =>18.579937 |  longitude => 73.892624 | offset => 0 | perPage => 10 | orderColumn => distance | sortOrder => ASC |search_text => 0 | IBeacon_id : ] In Drinking buddies function
+in /var/www/thirst/protected/controllers/api/VenueController.php (563)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:55:35 [info] [---- In Venue controller------> Parameters are : device_type :iOS  | device_unique_id:35591093-71B1-4B5A-B281-14E765EB14FF  | app_version_id:1 | access_token : 4vNAW7DU4Tt6 ] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (52)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:35 [info] [---- In Venue controller------> Parameters are : venue_id :1  
+ latitude:18.579937 
+ longitude:73.892624] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (72)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:35 [info] [---- In Venue controller------> Parameters are : venue_id = 1 and User Id: 122] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (101)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:35 [info] [---- In Venue controller------> Venue Distance : 2 mi ] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (139)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:35 [info] [ ---- In Venue controller------>  In Venue Detail Function  
+ Output Array is: 
+ venue_id=1  
+  venue_name=Night In  
+  is_favourite=1  
+  gift_present=1  
+  price_rating=4  
+  venue_image=Array  
+  latitude=18.56664  
+  longitude=73.91540  
+  small_address=Central point,  
+  street_address=Central point,-NY-1235467  
+  distance=2 mi  
+  time=Array  
+  happy_hours=Array  
+  tag_list=Array 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (341)
+in /var/www/thirst/protected/controllers/api/VenueController.php (157)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters are : device_type = iOS | device_unique_id : 35591093-71B1-4B5A-B281-14E765EB14FF | app_version_id = 1 | access_token : 4vNAW7DU4Tt6 | venue_id : 1 | flowType : ] In Get Drink Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (70)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters are : Venue_id = 1 and User Id: 122 ] In Get Drink Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (100)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters are : Venue ID = 1 | Night In] In Get Drink Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (106)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters are venue_id : 1  | cc_cat : 1  ] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (377)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>12.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ def_mod Price12.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (402)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ def_mod Price13.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (402)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>37.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>34.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>34.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>19.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ def_mod Price0.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (402)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>19.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters are venue_id : 1  | cc_cat : 3  ] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (377)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (299)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>43.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (299)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>43.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (299)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>56.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (299)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>56.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (299)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters are venue_id : 1  | cc_cat : 21,23  ] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (377)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (304)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>23.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (304)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>23.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (304)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>78.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (304)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>78.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (304)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters are venue_id : 1  | cc_cat : 5  ] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (377)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (309)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>84.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (309)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>84.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (309)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>55.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (309)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>55.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (309)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------>  In actionGetDrinkScr function  
+ Output Array is: 
+ status=200  
+  statusInfo=success  
+  venue_details=Array  
+  getDrinkInfo=Array  
+  cartDetails=Array 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (341)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (367)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:55:37 [info] [---- In Drink controller------> Parameters are : venue_id = 1 and flowType : 0] In actionGetCartAmount Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (1783)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [---- In Drink controller------> Parameters are : venue_id = 1 and User Id: 122] In actionGetCartAmount Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (1814)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:37 [info] [ ---- In Drink controller------>  In actionGetCartAmount Function  
+ Output Array is: 
+ total_items=0  
+  total_price=0.00 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (341)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (1839)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:55:43 [info] [---- In Drink controller------> Custom Parameters are: venue_id : 1 
+  cart_id :  
+  venue_item_id : 3 
+   quantity : 1 
+   sel_modifier_ids :  
+  mixers_list :  
+ flowType : 0] In actionAddToCart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (666)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:43 [info] [---- In Drink controller------> Parameters are : venue_id = 1 and User Id: 122  venue_item_id : 3] In Add to cart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (702)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:43 [info] [---- In Drink controller------>  Add to normal cart | cart_type = order] In actionAddToCart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (707)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:43 [info] [  sql => SELECT cart_id, venue_item_id, quantity ,base_price, tot_price
+		        FROM user_cart_items
+		        WHERE user_id = 122
+						AND venue_id = 1
+						AND venue_item_id = 3
+						AND unit_price = 43.00
+						AND cart_type = 'order'
+						AND is_draft = 'no'
+						
+						] In Cart duplicate chking Function
+in /var/www/thirst/protected/models/drinkModel.php (650)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (739)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:43 [info] [---- In Drink controller------> Parameters are : cart id : 55 Selected modifiers : ] In Add to cart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (756)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:43 [info] [ Tot MOd price : 0] In Add to cart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (773)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:43 [info] [---- In Drink controller------> Parameters are : cart id : 55 | Selected Mixers : ] In Add to cart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (779)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:43 [info] [ Tot mixer_price : 0  Total : 43 + 0 +  0  ] In Add to cart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (798)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:43 [info] [ Tot price : 43 ] In Add to cart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (801)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:43 [info] [ Get op : user_id : 122 | venue_id : 1 | flowType : 0 ] In Add to cart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (812)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:43 [info] [ ---- In Drink controller------>  In actionAddToCart Function  
+ Output Array is: 
+ total_items=1  
+  total_price=43.00 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (341)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (830)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:43 [info] [ ---- In Drink controller------>  In actionAddToCart Function  
+ Output Array is: 
+ status=200  
+  statusInfo=success  
+  cartDetails=Array 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (341)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (834)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:55:45 [info] [---- In Drink controller------> Parameters are : venue_id = 1 | flowType : 0] In actionGetCartDetail Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (1888)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:45 [info] [---- In Drink controller------> Parameters are : venue_id = 1 and User Id: 122] In actionGetCartDetail Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (1918)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:45 [info] [---- In Drink controller------> Parameters are : flowType is 0 so send 'order' carts] In actionGetCartDetail Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (1920)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:45 [info] [ ---- In Drink controller------>  In actionAdminLogin Function  
+ Output Array is: 
+ order_item=Array  
+  item_quantity=1  
+  sub_total=43  
+  gratuity=Array  
+  tax_percentage=8.875  
+  tax=3.82  
+  total_price=55.42 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (341)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2003)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:55:49 [info] [ ---- In Drink controller------> Parameters are :device_unique_id : 35591093-71B1-4B5A-B281-14E765EB14FF | app_version_id = 1 |  iOS : iOS | access_token : 4vNAW7DU4Tt6] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2154)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:49 [info] [ ---- In Drink controller------> Custom Parameters are venue_id : 1 
+ gratuity_percentage : 20 
+ gratuity_value : 8.6 
+ promo_code :  
+ promocode_value : 0.00 
+ payment_mode : wallet 
+ grand_total : 55.42 
+ flowType : 0 
+ friend_type : 0 
+ friend_name :  
+ friend_value :  
+ Encoded note :  
+ tax_val : 3.82] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2236)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:49 [info] [---- In Drink controller------> Parameters are : venue_id = 1 and User Id: 122] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2276)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:49 [info] [---- In Drink controller------> Calculated tip : 8.6 | quantity : 1] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2327)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:49 [info] [---- In Drink controller------> Server calc tax : 3.82 | App Tax val : 3.82 ] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2342)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:49 [info] [---- In Drink controller------> In user_id : 122 | order_total_price : 55.42  and grand_total : 55.42 | temp : 55.42] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2347)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:49 [info] [---- In Drink controller------> In payment_mode : wallet] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2365)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:49 [info] [---- In Drink controller------> total : 55.42 amount valid | Balance Wallet : 2503.55] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2372)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:50 [info] [---- In Drink controller------> Parameters are : flowType : 0 : Normal Order] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2582)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:50 [info] [---- In Drink controller------> Parameters are : flowType : 0 : Order Placed by user 122.] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2649)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:50 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = anuja@oabstudios.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (124)
+in /var/www/thirst/protected/models/commonModel.php (152)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2724)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:55:50 [info] [---- In Drink controller------> Parameters are : device_type = iOS | device_unique_id: 35591093-71B1-4B5A-B281-14E765EB14FF | app_version_id : 1 | access_token : 4vNAW7DU4Tt6] In actionOrderDetail Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2806)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:50 [info] [---- In Drink controller------> Custom Parameters are order_id : 782 ] In actionOrderDetail Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2815)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:55:50 [info] [---- In Drink controller------> Parameters are : order_id = 782 and User Id: 122] In actionOrderDetail Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2843)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:56:15 [info] [---- In User controller------> Parameters are : User Id: 122] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:57:21 [info] [---- In User controller------> Parameters are : User Id: 122] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:57:43 [info] [---- In User controller------> Parameters are : User Id: 122] In Setting Function
+in /var/www/thirst/protected/controllers/api/UserController.php (337)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:57:47 [info] [---- In User controller------> Parameters are : User Id: 122 | request_type : receive_email | social_id :  | social_connect_status : ] In update Setting Function
+in /var/www/thirst/protected/controllers/api/UserController.php (474)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:57:57 [info] [---- In Venue controller------> Parameters are : User Id: 122 | latitude =>0.000000 |  longitude => 0.000000 | offset => 0 | perPage => 10 | orderColumn => distance | sortOrder => ASC |search_text => 0 | IBeacon_id : ] In Drinking buddies function
+in /var/www/thirst/protected/controllers/api/VenueController.php (563)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:58:20 [info] [---- In Venue controller------> Parameters are : User Id: 122 | latitude =>0.000000 |  longitude => 0.000000 | offset => 10 | perPage => 10 | orderColumn => distance | sortOrder => ASC |search_text => 0 | IBeacon_id : ] In Drinking buddies function
+in /var/www/thirst/protected/controllers/api/VenueController.php (563)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:59:34 [info] [---- In Venue controller------> Parameters are : User Id: 122 | latitude =>0.000000 |  longitude => 0.000000 | offset => 0 | perPage => 10 | orderColumn => distance | sortOrder => ASC |search_text => NIG | IBeacon_id : ] In Drinking buddies function
+in /var/www/thirst/protected/controllers/api/VenueController.php (563)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:59:36 [info] [---- In Venue controller------> Parameters are : device_type :iOS  | device_unique_id:35591093-71B1-4B5A-B281-14E765EB14FF  | app_version_id:1 | access_token : 4vNAW7DU4Tt6 ] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (52)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:36 [info] [---- In Venue controller------> Parameters are : venue_id :1  
+ latitude:0.000000 
+ longitude:0.000000] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (72)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:36 [info] [---- In Venue controller------> Parameters are : venue_id = 1 and User Id: 122] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (101)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:36 [info] [---- In Venue controller------> Venue Distance : 5166 mi ] In Venue Detail Function
+in /var/www/thirst/protected/controllers/api/VenueController.php (139)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:36 [info] [ ---- In Venue controller------>  In Venue Detail Function  
+ Output Array is: 
+ venue_id=1  
+  venue_name=Night In  
+  is_favourite=1  
+  gift_present=1  
+  price_rating=4  
+  venue_image=Array  
+  latitude=18.56664  
+  longitude=73.91540  
+  small_address=Central point,  
+  street_address=Central point,-NY-1235467  
+  distance=5166 mi  
+  time=Array  
+  happy_hours=Array  
+  tag_list=Array 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (341)
+in /var/www/thirst/protected/controllers/api/VenueController.php (157)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:59:50 [info] [ ---- In Drink controller------> Parameters are : device_type = iOS | device_unique_id : 35591093-71B1-4B5A-B281-14E765EB14FF | app_version_id = 1 | access_token : 4vNAW7DU4Tt6 | venue_id : 1 | flowType : ] In Get Drink Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (70)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:50 [info] [ ---- In Drink controller------> Parameters are : Venue_id = 1 and User Id: 122 ] In Get Drink Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (100)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:50 [info] [ ---- In Drink controller------> Parameters are : Venue ID = 1 | Night In] In Get Drink Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (106)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters are venue_id : 1  | cc_cat : 1  ] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (377)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>12.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ def_mod Price12.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (402)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ def_mod Price13.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (402)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>37.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>34.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>34.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>19.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ def_mod Price0.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (402)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>19.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (290)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters are venue_id : 1  | cc_cat : 3  ] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (377)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (299)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>43.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (299)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>43.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (299)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>56.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (299)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>56.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (299)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters are venue_id : 1  | cc_cat : 21,23  ] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (377)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (304)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>23.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (304)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>23.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (304)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>78.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (304)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>78.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (304)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters are venue_id : 1  | cc_cat : 5  ] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (377)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (309)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>84.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (309)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>84.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (309)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 1. Amount =>55.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (394)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (309)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------> Parameters => 2. with mod Amount =>55.00] In Get Venue Item Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (411)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (309)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:51 [info] [ ---- In Drink controller------>  In actionGetDrinkScr function  
+ Output Array is: 
+ status=200  
+  statusInfo=success  
+  venue_details=Array  
+  getDrinkInfo=Array  
+  cartDetails=Array 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (341)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (367)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 04:59:57 [info] [---- In Drink controller------> Parameters are : venue_id = 1 and flowType : 0] In actionGetCartAmount Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (1783)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:58 [info] [---- In Drink controller------> Parameters are : venue_id = 1 and User Id: 122] In actionGetCartAmount Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (1814)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 04:59:58 [info] [ ---- In Drink controller------>  In actionGetCartAmount Function  
+ Output Array is: 
+ total_items=0  
+  total_price=0.00 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (341)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (1839)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 05:00:15 [info] [---- In Drink controller------> Parameters are : venue_item_id = 6 and User Id: 122] In Item Detail Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (487)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 05:00:17 [info] [---- In Drink controller------> Custom Parameters are: venue_id : 1 
+  cart_id :  
+  venue_item_id : 6 
+   quantity : 1 
+   sel_modifier_ids :  
+  mixers_list :  
+ flowType : 0] In actionAddToCart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (666)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:17 [info] [---- In Drink controller------> Parameters are : venue_id = 1 and User Id: 122  venue_item_id : 6] In Add to cart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (702)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:17 [info] [---- In Drink controller------>  Add to normal cart | cart_type = order] In actionAddToCart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (707)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:17 [info] [  sql => SELECT cart_id, venue_item_id, quantity ,base_price, tot_price
+		        FROM user_cart_items
+		        WHERE user_id = 122
+						AND venue_id = 1
+						AND venue_item_id = 6
+						AND unit_price = 23.00
+						AND cart_type = 'order'
+						AND is_draft = 'no'
+						
+						] In Cart duplicate chking Function
+in /var/www/thirst/protected/models/drinkModel.php (650)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (739)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:17 [info] [---- In Drink controller------> Parameters are : cart id : 56 Selected modifiers : ] In Add to cart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (756)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:17 [info] [ Tot MOd price : 0] In Add to cart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (773)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:17 [info] [---- In Drink controller------> Parameters are : cart id : 56 | Selected Mixers : ] In Add to cart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (779)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:17 [info] [ Tot mixer_price : 0  Total : 23 + 0 +  0  ] In Add to cart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (798)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:17 [info] [ Tot price : 23 ] In Add to cart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (801)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:17 [info] [ Get op : user_id : 122 | venue_id : 1 | flowType : 0 ] In Add to cart Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (812)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:17 [info] [ ---- In Drink controller------>  In actionAddToCart Function  
+ Output Array is: 
+ total_items=1  
+  total_price=23.00 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (341)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (830)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:17 [info] [ ---- In Drink controller------>  In actionAddToCart Function  
+ Output Array is: 
+ status=200  
+  statusInfo=success  
+  cartDetails=Array 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (341)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (834)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 05:00:18 [info] [---- In Drink controller------> Parameters are : venue_id = 1 | flowType : 0] In actionGetCartDetail Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (1888)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:18 [info] [---- In Drink controller------> Parameters are : venue_id = 1 and User Id: 122] In actionGetCartDetail Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (1918)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:18 [info] [---- In Drink controller------> Parameters are : flowType is 0 so send 'order' carts] In actionGetCartDetail Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (1920)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:18 [info] [ ---- In Drink controller------>  In actionAdminLogin Function  
+ Output Array is: 
+ order_item=Array  
+  item_quantity=1  
+  sub_total=23  
+  gratuity=Array  
+  tax_percentage=8.875  
+  tax=2.04  
+  total_price=29.64 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (341)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2003)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 05:00:22 [info] [ ---- In Drink controller------> Parameters are :device_unique_id : 35591093-71B1-4B5A-B281-14E765EB14FF | app_version_id = 1 |  iOS : iOS | access_token : 4vNAW7DU4Tt6] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2154)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:22 [info] [ ---- In Drink controller------> Custom Parameters are venue_id : 1 
+ gratuity_percentage : 20 
+ gratuity_value : 4.6 
+ promo_code :  
+ promocode_value : 0.00 
+ payment_mode : wallet 
+ grand_total : 29.64 
+ flowType : 0 
+ friend_type : 0 
+ friend_name :  
+ friend_value :  
+ Encoded note :  
+ tax_val : 2.04] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2236)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:22 [info] [---- In Drink controller------> Parameters are : venue_id = 1 and User Id: 122] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2276)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:22 [info] [---- In Drink controller------> Calculated tip : 4.6 | quantity : 1] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2327)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:22 [info] [---- In Drink controller------> Server calc tax : 2.04 | App Tax val : 2.04 ] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2342)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:22 [info] [---- In Drink controller------> In user_id : 122 | order_total_price : 29.64  and grand_total : 29.64 | temp : 29.64] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2347)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:22 [info] [---- In Drink controller------> In payment_mode : wallet] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2365)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:22 [info] [---- In Drink controller------> total : 29.64 amount valid | Balance Wallet : 2473.91] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2372)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:22 [info] [---- In Drink controller------> Parameters are : flowType : 0 : Normal Order] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2582)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:22 [info] [---- In Drink controller------> Parameters are : flowType : 0 : Order Placed by user 122.] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2649)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:22 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = anuja@oabstudios.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (124)
+in /var/www/thirst/protected/models/commonModel.php (152)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2724)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 05:00:33 [info] [---- In Drink controller------> Parameters are : device_type = iOS | device_unique_id: 35591093-71B1-4B5A-B281-14E765EB14FF | app_version_id : 1 | access_token : 4vNAW7DU4Tt6] In actionOrderDetail Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2806)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:33 [info] [---- In Drink controller------> Custom Parameters are order_id : 783 ] In actionOrderDetail Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2815)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:00:33 [info] [---- In Drink controller------> Parameters are : order_id = 783 and User Id: 122] In actionOrderDetail Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (2843)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 05:55:22 [error] [Image Name == Benada-Bar-Clarion-Hotel-Prague-Old-Town.jpg] In Signup Function
+in /var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php (485)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:55:22 [error] [Update venue section- File uploaded'.venue_1417949722.jpg] In Venue Function
+in /var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php (513)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 05:55:27 [error] [php] Undefined index: userfile (/var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php:458)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(286): AdminVenueController->runAction()
+#1 /var/www/yii/framework/web/CController.php(265): AdminVenueController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(282): AdminVenueController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/thirst/index.php(13): CWebApplication->run()
+REQUEST_URI=/thirst/index.php/cmsAdmin/AdminVenue/uploadVenueimage
+in /var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php (458)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/07 05:57:13 [error] [Image Name == Chinese-Room-Bar-1.jpg] In Signup Function
+in /var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php (485)
+in /var/www/thirst/index.php (13)
+
+2014/12/07 05:57:13 [error] [Update venue section- File uploaded'.venue_1417949833.jpg] In Venue Function
+in /var/www/thirst/protected/controllers/cmsAdmin/AdminVenueController.php (513)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------

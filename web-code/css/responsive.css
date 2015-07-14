@@ -1,0 +1,567 @@
+/*@media screen and (min-width:992px) and (max-width:1200px)
+{
+	.mobileScreen img
+	{
+		width:260px;	
+	}
+	.absolutePanda
+	{
+		bottom:0px;
+		left:20px;	
+	}
+	.mobilePanda
+	{
+		transform:scale(0.9);	
+		-webkit-transform:scale(0.9);
+	}
+	.topText
+	{
+		margin-top:80px;	
+	}
+	.beeSprite
+	{
+		transform:scale(0.75);
+		-webkit-transform:scale(0.75);	
+		left:-5.8%;
+	}
+	.safeEdu h3
+	{
+		margin-top:10px;	
+	}	
+	.ribbonPandaMob
+	{
+		left:20px;
+		top:21.5%;	
+	}
+	.knoxBear 
+	{
+		transform:scale(0.9);	
+		-webkit-transform:scale(0.9);
+	}
+	
+}*/
+@media screen and (min-width:768px) and (max-width:991px)
+{
+	.topText
+	{
+		margin-top:40px;	
+		padding:0;
+	}
+	.topText h2
+	{
+		font-size:30px;	
+	}
+	.topText span
+	{
+		font-size:15px;	
+	}
+	.mobileScreen img
+	{
+		width:200px;	
+	}
+	.absoluteHoney img
+	{
+		width:72px;
+		height:130px;
+	}
+	.mobilePanda
+	{
+		transform:scale(1);
+		-webkit-transform:scale(1);	
+	}
+	.absolutePanda
+	{
+		 bottom: -80px;
+    	left: -35px;
+	}
+	.beeSec img 
+	{
+    	height: 300px;
+	}
+	.missionRewards
+	{
+		padding:0;	
+	}
+	.beeSprite
+	{
+		transform:scale(0.6);
+		-webkit-transform:scale(0.6);
+		left: -34.5%;
+		top: 10%;	
+	}
+	.stasherWork h3
+	{
+		margin-top:50px;
+		font-size:30px;	
+	}
+	.stasherWork span
+	{
+		font-size:14px;	
+	}
+	.pandaWithJar
+	{
+		margin-top:8%;	
+	}
+	.safeEdu h3 
+	{
+		margin-top: 10px;
+	}
+	.anyTimeSec 
+	{
+    	margin-bottom: 50px;
+	}
+	.stasherWork .missionRewards h3
+	{
+		margin-top:20px;	
+	}
+	.panda
+	{
+		margin-left:-40px;	
+	}
+	.jar
+	{
+		left:29%;	
+	}
+	.topNavigation ul li a
+	{
+		padding-top: 27px;	
+	}
+	.aboutUsPanda img
+	{
+		width:230px;	
+	}
+	.signUpForm span
+	{
+		font-size:16px;	
+	}
+	.footer span
+	{
+		font-size:14px;	
+	}
+	.footer ul li a
+	{
+		padding-right:30px;	
+	}
+	.socialLinks
+	{
+		width:30%;	
+	}
+	.dollarJarOuter .dollar
+	{
+		margin-left:-30px;;	
+	}
+	.dollarJarOuter .jar
+	{
+		left:-27%;	
+	}
+	.ribbonPandaMob
+	{
+		left: 5px;
+    	top: 19%;	
+		transform:scale(0.8);
+		-webkit-transform:scale(0.8);
+	}
+	.knoxBear 
+	{
+		transform:scale(0.9);	
+		-webkit-transform:scale(0.9);
+	}
+	.knoxPayment
+	{
+		margin-left:0;	
+	}	
+	.pandaBeeImage .ribbon
+	{
+		left:32px;	
+	}
+	.knox
+	{
+		right:-12px;	
+	}	
+}
+
+@media screen and (max-width:767px) 
+{
+	.navbar-default
+	{
+		background: rgba(255, 255, 255, 0.3);	
+	}
+	.navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus
+	{
+		background:#f8cc33;	
+		border:none;
+	}
+	.navbar-default .navbar-toggle .icon-bar
+	{
+		background:#ee3e02;	
+	}
+	.navbar-default .navbar-nav > li > a , .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
+	{
+    	color: #fff;
+		text-transform:capitalize;
+	}
+	.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus 
+	{
+    	background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+    	color: #f8cc33;
+		outline:none;
+	}
+	.aboutUs
+	{
+		padding:0 0 85px 0;	
+	}
+	.faqOuter
+	{
+		padding-top:110px;	
+	}
+	.mobileOuter
+	{
+		margin-top:110px;
+	    margin-bottom: 60px;	
+	}
+	.safetyContainer
+	{
+		padding-top:70px;	
+	}
+	.stasherWork, .safetyContainer .stasherWorkOne
+	{
+		padding:50px 0;	
+	}
+	.securityOuter
+	{
+		padding:0;	
+	}
+	.pandaSecurity img
+	{
+		margin-left:0;	
+	}
+	.navigation.navbar
+	{
+		padding:0;	
+	}
+	.topNavigation
+	{
+		padding:0;	
+	}
+	.topNavigation .logoMob
+	{
+		width:80%;
+		float:left;
+		padding-top:11px;
+	}
+	.topNavigation .logoMob img
+	{
+		width:180px;	
+	}
+	ul.nav
+	{
+		margin:0;	
+	}
+	.topNavigation button
+	{
+		margin-right:0;	
+	}
+	.signUpForm span
+	{
+		margin-top:0;
+		margin-bottom:40px;
+		text-align:center;	
+	}
+	.ribbonPandaMob
+	{
+		left:26px;	
+	}
+	.footer span 
+	{
+    	font-size: 16px;
+	}
+	.socialLinks
+	{
+		width:33%;	
+	}
+	.faq h2
+	{
+		margin-top:50px;	
+	}
+	.safetyImages img
+	{
+		padding-bottom:30px;	
+	}
+	
+	.mobileScreen
+	{
+		width:310px;
+		margin:0 auto;	
+		float:none;
+	}
+	.mobileScreen img
+	{
+		height:380px;	
+	}
+	.absolutePanda
+	{
+		height: 240px;
+		left: -80px;		
+		top: 14%;	
+	}
+	.mobilePanda
+	{
+		transform:scale(0.75);	
+		-webkit-transform:scale(0.75);	
+	}
+	.topText
+	{
+		margin-top:20px;
+		text-align:center;	
+	}
+	.topText h2
+	{
+		font-size:22px;	
+	}
+	.topText span
+	{
+		font-size:17px;
+	}
+	.stasherWork h1
+	{
+		font-size:26px;	
+	}
+	.stasherWork h3
+	{
+		font-size:22px;	
+		margin-top:10px;
+	}
+	.stasherWork .stasherWorkOne
+	{
+		padding:55px 0;	
+	}
+	.safeEdu h3 
+	{
+    	margin-top: 0px;
+	}
+	.anyTimeSec
+	{
+		margin-bottom:20px;	
+	}
+	.anyTimeSec, .missionRewards, .safeEdu
+	{
+		text-align:center;	
+	}
+	.beeSec
+	{
+		width:310px;
+		margin:0 auto;	
+		float:none;
+	}
+	.beeSec img 
+	{
+    	height: 280px;
+	}
+	.beeSprite
+	{
+		transform: scale(0.5);
+		-webkit-transform: scale(0.5);
+		top: 6%;
+		left:-30.5%;	
+	}
+	.pandaWithJar
+	{
+		width:310px;
+		margin:-10px auto 0 auto;	
+		float:none !important;
+	}
+	.panda
+	{
+		left: -17%;
+	    transform: scale(0.8);	
+		-webkit-transform: scale(0.8);	
+	}
+	.jar
+	{
+		top: 6%;
+		left:26%;
+    	transform: scale(0.6);
+		-webkit-transform: scale(0.6);	
+	}
+	.safeEdu ul
+	{
+		text-align:left;	
+	}
+	.dollarJarOuter
+	{
+		float: none !important;
+		height: 280px;
+		margin: 10px auto;
+		position: relative;
+		width: 250px;	
+	}
+	.dollarJarOuter .dollar
+	{
+		position: absolute;
+		left:26%;	
+		margin-left:0;
+	}
+	.dollarJarOuter .jar
+	{
+		top: 15%;
+    	left: 5%;	
+		transform:scale(0.7);
+		-webkit-transform:scale(0.7);
+	}
+	.flexslider
+	{
+		margin-left:42% !important;	
+	}
+	.absolutePanda
+	{
+		left:-59px;	
+	}
+	.absoluteHoney
+	{
+		top:-4px;
+		right:-4px	
+	}
+	.absoluteHoney img
+	{
+		width:72px;
+		height:130px;
+	}	
+	.knoxPayment
+	{
+		margin-left:0;	
+	}
+	.aboutUs h2
+	{
+		margin-top:65px;	
+	}
+	.pandaSecurity, .pandaBeeImage 
+	{
+		float:none !important;
+		width:420px;
+		margin:0 auto;	
+	}
+	.safetyBearOuter
+	{
+		float:none !important;
+		width:340px;	
+		margin:0 auto;
+	}
+	.knox
+	{
+		right:-6px;
+		/*bottom:-35px;	*/
+	}
+	.ribbonSec
+	{
+		left:16px;
+		top:40%;
+	}
+	.pandaBeeImage .ribbon
+	{
+		left: 74px;
+    	top: 15%;	
+	}
+}
+@media screen and (max-width:480px)
+{
+	.pandaSecurity img, .pandaBeeImage img
+	{
+		width:260px;	
+	}
+	.pandaSecurity, .pandaBeeImage, .safetyBearOuter
+	{
+		width:300px;	
+		padding:0 5px;
+	}
+	.safetyBear
+	{
+		transform:scale(0.8);	
+		-webkit-transform:scale(0.8);	
+	}
+	.knox
+	{
+		transform:scale(0.7);
+		-webkit-transform:scale(0.7);
+		bottom:11px;
+		right:2px;	
+	}
+	.ribbonSec
+	{
+		left:-9px;
+		top:35%;
+		transform:scale(0.4);
+		-webkit-transform:scale(0.4);
+	}
+	.pandaBeeImage .ribbon
+	{
+		left: 22px;
+		top: 13%;
+		transform: scale(0.5);
+		-webkit-transform: scale(0.5);	
+	}
+}
+@media screen and (max-width:384px)
+{
+	.profilePic, .profileContent
+	{
+		width:100%;
+		text-align:center;	
+	}
+	.aboutUs h2 
+	{
+		font-size:28px;
+		margin-bottom:30px;	
+	}
+	.safetyImages img
+	{
+		width:260px;	
+	}
+	.signUpForm h4
+	{
+		font-size:18px;	
+	}
+	.footer h3
+	{
+		font-size:26px;	
+	}
+	.footer span
+	{
+		font-size:12px !important;	
+	}
+	.knoxBear 
+	{
+		transform:scale(0.8);	
+		-webkit-transform:scale(0.8);
+		margin-left:-35px;
+	}
+	.appStoreBtn img
+	{
+		width:70%;	
+	}
+	.signUpResp
+	{
+		width:100%;
+		margin-left:0;	
+	}
+}
+@media screen and (max-width:320px)
+{
+	.mobilePanda
+	{
+		transform:scale(0.65);	
+		-webkit-transform:scale(0.65);	
+	}
+	.absolutePanda
+	{
+		left:-81px;	
+	}
+	.flexslider
+	{
+		margin-left:31% !important;	
+	}
+	.absoluteHoney
+	{
+		top:-4px;
+		right:27px;	
+	}	
+}

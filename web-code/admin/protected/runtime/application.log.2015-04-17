@@ -1,0 +1,411 @@
+2015/04/17 01:03:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/17 01:03:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/17 01:03:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/17 01:03:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/17 01:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jscharts.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jscharts.js')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/js/jscharts.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/dashboard
+---
+2015/04/17 01:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins/datatables/jquery.dataTables.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('js/plugins/data...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/js/plugins/datatables/jquery.dataTables.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/dashboard
+---
+2015/04/17 01:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jscharts.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jscharts.js')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/js/jscharts.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/dashboard
+---
+2015/04/17 01:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins/datatables/jquery.dataTables.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('js/plugins/data...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/js/plugins/datatables/jquery.dataTables.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/dashboard
+---
+2015/04/17 01:59:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/17 01:59:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/17 01:59:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/17 01:59:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/17 01:59:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jscharts.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jscharts.js')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/js/jscharts.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/dashboard
+---
+2015/04/17 01:59:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins/datatables/jquery.dataTables.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('js/plugins/data...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/js/plugins/datatables/jquery.dataTables.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/dashboard
+---
+2015/04/17 01:59:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jscharts.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jscharts.js')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/js/jscharts.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/dashboard
+---
+2015/04/17 01:59:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins/datatables/jquery.dataTables.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('js/plugins/data...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/js/plugins/datatables/jquery.dataTables.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/dashboard
+---
+2015/04/17 02:04:37 [error] [php] Undefined index: id (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php:28)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ExportController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ExportController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ExportController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/export
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php (28)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/17 02:10:24 [error] [php] Undefined index: id (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php:28)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ExportController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ExportController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ExportController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/export
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php (28)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/17 06:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/17 06:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/17 06:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/17 06:07:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/17 06:07:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jscharts.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jscharts.js')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/js/jscharts.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/dashboard
+---
+2015/04/17 06:07:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins/datatables/jquery.dataTables.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('js/plugins/data...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/js/plugins/datatables/jquery.dataTables.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/dashboard
+---
+2015/04/17 06:07:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jscharts.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jscharts.js')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/js/jscharts.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/dashboard
+---
+2015/04/17 06:07:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins/datatables/jquery.dataTables.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('js/plugins/data...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/js/plugins/datatables/jquery.dataTables.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/dashboard
+---
+2015/04/17 06:08:50 [error] [php] Missing argument 1 for missionModel::getAllMissions(), called in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php on line 29 and defined (/var/www/html/stasher/admin/protected/models/missionModel.php:43)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(286): ExportController->runAction()
+#2 /var/www/html/stasher/admin/framework/web/CController.php(265): ExportController->runActionWithFilters()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ExportController->run()
+#4 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/export
+in /var/www/html/stasher/admin/protected/models/missionModel.php (43)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php (29)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/17 06:10:03 [error] [php] Undefined variable: adminModel (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php:33)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ExportController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ExportController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ExportController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/export
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php (33)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/17 06:10:23 [error] [php] Creating default object from empty value (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php:34)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ExportController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ExportController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ExportController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/export
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php (34)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/17 07:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/17 07:18:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/17 07:18:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/bootstrap.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/bootstrap.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/17 07:18:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cmsAdmin/assets/js/plugins/AdminLTE/app.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('cmsAdmin/assets...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/cmsAdmin/assets/js/plugins/AdminLTE/app.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/login
+---
+2015/04/17 07:18:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jscharts.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jscharts.js')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/js/jscharts.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/dashboard
+---
+2015/04/17 07:18:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins/datatables/jquery.dataTables.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('js/plugins/data...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/js/plugins/datatables/jquery.dataTables.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/dashboard
+---
+2015/04/17 07:18:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jscharts.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jscharts.js')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/js/jscharts.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/dashboard
+---
+2015/04/17 07:18:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins/datatables/jquery.dataTables.js".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('js/plugins/data...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/js/plugins/datatables/jquery.dataTables.js
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/dashboard
+---
+2015/04/17 07:18:21 [error] [php] Trying to get property of non-object (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php:48)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ExportController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ExportController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ExportController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/export
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php (48)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/17 07:18:55 [error] [php] Trying to get property of non-object (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php:49)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ExportController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ExportController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ExportController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/export
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php (49)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/17 07:42:52 [error] [php] Undefined variable: fields (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php:66)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ExportController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ExportController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ExportController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/export
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php (66)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/17 07:42:54 [error] [php] Undefined variable: fields (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php:66)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ExportController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ExportController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ExportController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/export
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php (66)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/17 07:44:41 [error] [php] Undefined variable: fields (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php:66)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ExportController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ExportController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ExportController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/export
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php (66)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/17 07:45:16 [error] [php] Undefined variable: fields (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php:66)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): ExportController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): ExportController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): ExportController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/export
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/ExportController.php (66)
+in /var/www/html/stasher/admin/index.php (13)

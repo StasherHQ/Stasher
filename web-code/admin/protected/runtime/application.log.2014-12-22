@@ -1,0 +1,447 @@
+2014/12/22 16:18:44 [info] [---- In User controller------> Parameters are : User Id: 248] In Drinking buddies function
+in /var/www/thirst/protected/controllers/api/UserController.php (1368)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/22 16:18:54 [info] [---- In User controller------> Parameters are : device_type = iOS | device_unique_id: D78033A9-4C5A-427D-8612-91F91725FB1F | app_version_id : 1 | access_token : 7EuookOHWWZH] In actionGetCreditCardList Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1889)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:18:54 [info] [---- In User controller------> Parameters are : User Id: 248] In actionGetCreditCardList function
+in /var/www/thirst/protected/controllers/api/UserController.php (1910)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/22 16:18:55 [info] [---- In Drink controller------> Parameters are : device_type = iOS | device_unique_id: D78033A9-4C5A-427D-8612-91F91725FB1F | app_version_id : 1 | access_token : 7EuookOHWWZH] In actionSendCreditGift Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (3954)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:18:55 [info] [ ---- In Drink controller------> Custom Parameters are  friend_type : 2 
+ friend_name : Purvi S. 
+ friend_value : 23 
+ Gift amount : 689 
+ Encoded note :  
+ payment_mode : braintree  
+ user_cc_id : 102] In actionSendCreditGift Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4004)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:18:55 [info] [---- In Drink controller------> Parameters are : User Id: 248 ] In actionSendCreditGift Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4042)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:18:55 [info] [---- In Drink controller------> Parameters are : User Id: 248 and we are sending gift to 23] In actionSendCreditGift Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4054)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:18:55 [info] [---- In Drink controller------> In payment_mode : braintree] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4093)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:18:55 [info] [---- In Drink controller------> Braintree_cc_token : 8977pm] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4096)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:18:56 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = anujaoab@gmail.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (125)
+in /var/www/thirst/protected/models/commonModel.php (162)
+in /var/www/thirst/protected/models/commonModel.php (195)
+
+2014/12/22 16:18:56 [info] [ Email sent to developer account.] In send_output_mail Function
+in /var/www/thirst/protected/models/commonModel.php (196)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4106)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:18:56 [info] [ Transaction Done. transaction_id : 5vth3t |  transactiontoken : 8977pm] In actionSendCreditGift Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4113)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:18:56 [info] [---- In Drink controller------> Parameters are :  248 has send gift : 392 to the friend  Purvi S. having type : 2 of amount 689 
+  note :  ] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4154)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:18:56 [error] [Friend_type :2 
+ Msg : $ 689 has been credited to your account. Enjoy your free credit at any Thirst location 
+ Amount : 689] In share thirst function
+in /var/www/thirst/protected/components/CommonHelper.php (49)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4158)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:18:56 [info] [ In the helper  send_gift_notification  
+ Output Array is: 
+ subject=Thirst : Blackie F. has sent you a gift.  
+  body=<div style="width:640px; background:rgba(255, 255, 255, 0.9); position:relative; z-index:2;	margin: 0 auto;"> <!-- main container -->
+	
+	<!-- logo -->
+	<div style="width:640px;
+						background: #f2f2f2;border:1px solid #e6e6e6;
+						margin:15px 0;
+						padding:15px; float: left; ">
+	<div style="padding-left:20px;font-weight:400; font-family:Arial, Helvetica, sans-serif;
+	font-size: 32px; ">
+	Thirst	</div>
+	</div>
+	
+	<!-- content -->
+	<div style="width:640px; background:#fff; border:1px solid #e6e6e6; margin:15px 0; padding: 15px; float:left;">
+      <!--	Dynamic Content start here	-->
+			Hi Purvi S., <br/><br/>
+
+Blackie F. has sent you a gift.<br><br/>
+
+$ 689 has been credited to your account. Enjoy your free credit at any Thirst location<br/><br/>
+
+If you don’t already have a Thirst account, download the app now to redeem your gift.  <br/>
+<br>
+<b><a href='javascript:void(0)'>Download Thirst</a></b><br>
+<br>
+Enjoy!<br>
+<br>
+Thirst for Night.<br>			<!--	Dynamic Content ends here	-->
+	</div>
+	
+	<!-- footer -->
+	<div style="width:640px; margin:15px 0; padding: 15px; background-color: #f2f2f2; color: #a5a5a5; text-transform:uppercase; 
+							border:1px solid #e6e6e6; text-decoration:none; float:left;	text-align:right;">
+		<span style="width:100%;padding: 25px;"> &#169; 2014. Thirst </span>
+	</div>
+	
+	</div>  
+  fromName=Thirst  
+  fromEmail=team@thirst.com  
+  toEmail=purvidesign@gmail.com  
+  toName=Purvi S. 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (351)
+in /var/www/thirst/protected/components/CommonHelper.php (85)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4158)
+
+2014/12/22 16:18:56 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = purvidesign@gmail.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (125)
+in /var/www/thirst/protected/models/commonModel.php (162)
+in /var/www/thirst/protected/components/CommonHelper.php (86)
+
+2014/12/22 16:18:57 [info] [---- In Drink controller------> Parameters are  user_id :  248 | wallet_amount : 0.00] In actionSendCreditGift Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4200)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/22 16:19:02 [info] [ -----In Signup Controller ---------> Parameters are : device_type = iOS | device_unique_id : D78033A9-4C5A-427D-8612-91F91725FB1F | app_version_id = 1 | access_token : 7EuookOHWWZH] In logout Function
+in /var/www/thirst/protected/controllers/api/SignupController.php (800)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:02 [info] [ -----In Signup Controller ---------> --> User logging out is : user_id :248 ] In logout Function
+in /var/www/thirst/protected/controllers/api/SignupController.php (821)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:02 [info] [ -----In Signup Controller --------->  In Logout function  
+ Output Array is: 
+ status=200  
+  statusInfo=success 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (351)
+in /var/www/thirst/protected/controllers/api/SignupController.php (846)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/22 16:19:20 [info] [ -----In Signup Controller ---------> common parameter are: app_version_id : 1 | device_token : 9ddb74fa 4bf75307 74362be8 22e66f42 bd09de5f 70f29036 7fa4a469 e949f605 | device_type : iOS 
+ Org access_token : (null)] In Login function
+in /var/www/thirst/protected/controllers/api/SignupController.php (395)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:20 [info] [ -----In Signup Controller ---------> In custom loging condition.] In Login function
+in /var/www/thirst/protected/controllers/api/SignupController.php (418)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:20 [info] [ -----In Signup Controller ---------> Parameters are : purvidesign@gmail.com  | t1hello | custom | 9ddb74fa 4bf75307 74362be8 22e66f42 bd09de5f 70f29036 7fa4a469 e949f605] In Login function
+in /var/www/thirst/protected/controllers/api/SignupController.php (419)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:20 [info] [ -----In Signup Controller ---------> Got the user Id : 23] In Login function
+in /var/www/thirst/protected/controllers/api/SignupController.php (449)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:20 [info] [ -----In Signup Controller ---------> Got the user Id : 23  Got new acces token as : y4A08tNAehcC ] In Login function
+in /var/www/thirst/protected/controllers/api/SignupController.php (461)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:20 [info] [ -----In Signup Controller ---------> Upatating the cart item from guest user id :  to  current logged in user id 23] In Login function
+in /var/www/thirst/protected/controllers/api/SignupController.php (633)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/22 16:19:20 [info] [---- In User controller------> Parameters are : User Id: 23] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1275)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/22 16:19:22 [info] [---- In User controller------> Parameters are : device_type = iOS | device_unique_id: D78033A9-4C5A-427D-8612-91F91725FB1F | app_version_id : 1 | access_token : y4A08tNAehcC] In actionGetActivityList Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1783)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:22 [info] [---- In User controller------> custom Parameters are :offset : 0 | per_page : 20] In actionGetActivityList function
+in /var/www/thirst/protected/controllers/api/UserController.php (1793)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:22 [info] [---- In User controller------> Parameters are : User Id: 23] In actionGetActivityList function
+in /var/www/thirst/protected/controllers/api/UserController.php (1814)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:22 [error] [sql  =>  SELECT SQL_CALC_FOUND_ROWS w.*
+		        FROM user_wallet w, user u
+						WHERE u.user_id = w.user_id
+						AND w.user_id = :user_id						
+						AND (type = 'creditReceived' OR type = 'drinkReceived' OR type = 'giftRedeemed')
+						ORDER BY w.submitted_timestamp DESC
+				    LIMIT 0, 20 ] In actionGetHistory function
+in /var/www/thirst/protected/models/userModel.php (463)
+in /var/www/thirst/protected/controllers/api/UserController.php (1816)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:22 [info] [---- In User controller------> Gift Id = 392] In actionGetActivityList function - gift received for loop
+in /var/www/thirst/protected/controllers/api/UserController.php (1823)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:22 [info] [---- In User controller------> Gift Id = 391] In actionGetActivityList function - gift received for loop
+in /var/www/thirst/protected/controllers/api/UserController.php (1823)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:22 [info] [---- In User controller------> Gift Id = 389] In actionGetActivityList function - gift received for loop
+in /var/www/thirst/protected/controllers/api/UserController.php (1823)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:22 [info] [---- In User controller------> Gift Id = 379] In actionGetActivityList function - gift received for loop
+in /var/www/thirst/protected/controllers/api/UserController.php (1823)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:22 [info] [---- In User controller------> Gift Id = 378] In actionGetActivityList function - gift received for loop
+in /var/www/thirst/protected/controllers/api/UserController.php (1823)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:22 [info] [---- In User controller------> Gift Id = 377] In actionGetActivityList function - gift received for loop
+in /var/www/thirst/protected/controllers/api/UserController.php (1823)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:22 [info] [---- In User controller------> Gift Id = 376] In actionGetActivityList function - gift received for loop
+in /var/www/thirst/protected/controllers/api/UserController.php (1823)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/22 16:19:35 [info] [---- In Drink controller------> Parameters are : device_type = iOS | device_unique_id: D78033A9-4C5A-427D-8612-91F91725FB1F | app_version_id : 1 | access_token : y4A08tNAehcC] In actionSendCreditGift Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (3954)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:35 [info] [ ---- In Drink controller------> Custom Parameters are  friend_type : 2 
+ friend_name : Blackie F. 
+ friend_value : 248 
+ Gift amount : 50 
+ Encoded note :  
+ payment_mode : wallet  
+ user_cc_id : ] In actionSendCreditGift Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4004)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:35 [info] [---- In Drink controller------> Parameters are : User Id: 23 ] In actionSendCreditGift Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4042)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:35 [info] [---- In Drink controller------> Parameters are : User Id: 23 and we are sending gift to 248] In actionSendCreditGift Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4054)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:35 [info] [---- In Drink controller------> In payment_mode : wallet ] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4070)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:35 [info] [---- In Drink controller------> Amount : 50 amount valid | Balance Wallet : 2531.81] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4077)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:35 [info] [---- In Drink controller------> Parameters are :  23 has send gift : 393 to the friend  Blackie F. having type : 2 of amount 50 
+  note :  ] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4154)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:35 [error] [Friend_type :2 
+ Msg : $ 50 has been credited to your account. Enjoy your free credit at any Thirst location 
+ Amount : 50] In share thirst function
+in /var/www/thirst/protected/components/CommonHelper.php (49)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4158)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:19:35 [info] [ In the helper  send_gift_notification  
+ Output Array is: 
+ subject=Thirst : Purvi S. has sent you a gift.  
+  body=<div style="width:640px; background:rgba(255, 255, 255, 0.9); position:relative; z-index:2;	margin: 0 auto;"> <!-- main container -->
+	
+	<!-- logo -->
+	<div style="width:640px;
+						background: #f2f2f2;border:1px solid #e6e6e6;
+						margin:15px 0;
+						padding:15px; float: left; ">
+	<div style="padding-left:20px;font-weight:400; font-family:Arial, Helvetica, sans-serif;
+	font-size: 32px; ">
+	Thirst	</div>
+	</div>
+	
+	<!-- content -->
+	<div style="width:640px; background:#fff; border:1px solid #e6e6e6; margin:15px 0; padding: 15px; float:left;">
+      <!--	Dynamic Content start here	-->
+			Hi Blackie F., <br/><br/>
+
+Purvi S. has sent you a gift.<br><br/>
+
+$ 50 has been credited to your account. Enjoy your free credit at any Thirst location<br/><br/>
+
+If you don’t already have a Thirst account, download the app now to redeem your gift.  <br/>
+<br>
+<b><a href='javascript:void(0)'>Download Thirst</a></b><br>
+<br>
+Enjoy!<br>
+<br>
+Thirst for Night.<br>			<!--	Dynamic Content ends here	-->
+	</div>
+	
+	<!-- footer -->
+	<div style="width:640px; margin:15px 0; padding: 15px; background-color: #f2f2f2; color: #a5a5a5; text-transform:uppercase; 
+							border:1px solid #e6e6e6; text-decoration:none; float:left;	text-align:right;">
+		<span style="width:100%;padding: 25px;"> &#169; 2014. Thirst </span>
+	</div>
+	
+	</div>  
+  fromName=Thirst  
+  fromEmail=team@thirst.com  
+  toEmail=mangoheartnyc@gmail.com  
+  toName=Blackie F. 
+]  @ 
+in /var/www/thirst/protected/models/commonModel.php (351)
+in /var/www/thirst/protected/components/CommonHelper.php (85)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4158)
+
+2014/12/22 16:19:35 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = mangoheartnyc@gmail.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (125)
+in /var/www/thirst/protected/models/commonModel.php (162)
+in /var/www/thirst/protected/components/CommonHelper.php (86)
+
+2014/12/22 16:19:36 [info] [---- In Drink controller------> Parameters are  user_id :  23 | wallet_amount : 2531.81] In actionSendCreditGift Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4200)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/22 16:23:29 [info] [---- In Drink controller------> Parameters are : device_type = iOS | device_unique_id: D78033A9-4C5A-427D-8612-91F91725FB1F | app_version_id : 1 | access_token : y4A08tNAehcC] In actionSendCreditGift Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (3954)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:23:29 [info] [ ---- In Drink controller------> Custom Parameters are  friend_type : 3 
+ friend_name : Will Baldwin 
+ friend_value : (517) 281-5177 
+ Gift amount : 50 
+ Encoded note : SGkgV2lsbCwgZGlkIHlvdSBnZXQgdGhpcz8gVGV4dCBhIGdpZnQgYmFjayB0byBtZSBpZiB5b3UgZGlkLiBUaHgh 
+ payment_mode : wallet  
+ user_cc_id : ] In actionSendCreditGift Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4004)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:23:29 [info] [---- In Drink controller------> Parameters are : User Id: 23 ] In actionSendCreditGift Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4042)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:23:29 [info] [---- In Drink controller------> Parameters are : User Id: 23 and we are sending gift to 0] In actionSendCreditGift Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4054)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:23:29 [info] [---- In Drink controller------> In payment_mode : wallet ] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4070)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:23:29 [info] [---- In Drink controller------> Amount : 50 amount valid | Balance Wallet : 2481.81] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4077)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:23:29 [info] [---- In Drink controller------> Parameters are :  23 has send gift : 394 to the friend  Will Baldwin having type : 3 of amount 50 
+  note :  Hi Will, did you get this? Text a gift back to me if you did. Thx!] In actionPlaceOrder Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4154)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:23:29 [error] [In friend_type = 3 Send SMS.] In send_gift_notification function
+in /var/www/thirst/protected/components/CommonHelper.php (91)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4158)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:23:29 [error] [In Try. ACe0179f30af52221e40d35d16bbb10909 === +14842323061 ====> Hello, Purvi S. has sent you gift credit of $50 with message : Hi Will, did you get this? Text a gift back to me if you did. Thx!] In share thirst function
+in /var/www/thirst/protected/components/CommonHelper.php (103)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4158)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:23:29 [error] [SMS not getting sent to To number: +5172815177, is not a mobile number.] In send_gift_notification function
+in /var/www/thirst/protected/components/CommonHelper.php (116)
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4158)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:23:29 [info] [---- In Drink controller------> Parameters are  user_id :  23 | wallet_amount : 2481.81] In actionSendCreditGift Function
+in /var/www/thirst/protected/controllers/api/DrinkController.php (4200)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/22 16:24:03 [info] [---- In User controller------> Parameters are : User Id: 23] In Show credit Function
+in /var/www/thirst/protected/controllers/api/UserController.php (1275)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/22 16:35:19 [info] [---- In User controller------> Parameters are : User Id: 23 | share_type : email | sharing_with : purvi@purvidesign.com] In share thirst function
+in /var/www/thirst/protected/controllers/api/UserController.php (1108)
+in /var/www/thirst/index.php (13)
+
+2014/12/22 16:35:19 [info] [sql => SELECT receive_email
+		        FROM user_detail_profile ud, user u
+						WHERE u.user_id = ud.user_id
+						AND u.email_id = purvi@purvidesign.com
+						LIMIT 1  ] In check_setting Function
+in /var/www/thirst/protected/models/commonModel.php (125)
+in /var/www/thirst/protected/models/commonModel.php (162)
+in /var/www/thirst/protected/controllers/api/UserController.php (1210)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/22 16:40:40 [info] [---- In User controller------> Parameters are : User Id: 23] In User Detail Function
+in /var/www/thirst/protected/controllers/api/UserController.php (71)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/22 16:42:24 [info] [---- In User controller------> Parameters are : User Id: 23 | request_type : push_notification | social_id :  | social_connect_status : ] In update Setting Function
+in /var/www/thirst/protected/controllers/api/UserController.php (496)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/22 16:45:36 [info] [---- In User controller------> Parameters are : User Id: 23 | request_type : facebook | social_id :  | social_connect_status : unlink] In update Setting Function
+in /var/www/thirst/protected/controllers/api/UserController.php (496)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/22 16:45:40 [info] [---- In User controller------> Parameters are : User Id: 23 | request_type : facebook | social_id : 10203812052840794 | social_connect_status : link] In update Setting Function
+in /var/www/thirst/protected/controllers/api/UserController.php (496)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/22 16:45:43 [info] [---- In User controller------> Parameters are : User Id: 23 | request_type : twitter | social_id : 2458405387 | social_connect_status : link] In update Setting Function
+in /var/www/thirst/protected/controllers/api/UserController.php (496)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------
+2014/12/22 17:05:49 [info] [---- In User controller------> Parameters are : User Id: 23 | request_type : push_notification | social_id :  | social_connect_status : ] In update Setting Function
+in /var/www/thirst/protected/controllers/api/UserController.php (496)
+in /var/www/thirst/index.php (13)
+
+--------------------------------------------------------------------------------------------------------------------------

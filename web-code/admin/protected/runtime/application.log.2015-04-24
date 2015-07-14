@@ -1,0 +1,1013 @@
+2015/04/24 02:19:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:19:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:20:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:20:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:21:00 [error] [php] Undefined index: id (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php:117)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): UserController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): UserController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/user/edit/%3C/stasher/admin/assets/images/manageUserGrey.svg
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php (117)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/24 02:21:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:21:00 [error] [php] Undefined index: id (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php:117)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): UserController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): UserController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/user/edit/%3C/stasher/admin/assets/images/manageUserGrey.svg
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php (117)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/24 02:21:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:21:30 [error] [php] Undefined index: id (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php:117)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): UserController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): UserController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/user/edit/%3C/stasher/admin/assets/images/manageUserGrey.svg
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php (117)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/24 02:21:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:21:30 [error] [php] Undefined index: id (/var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php:117)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(286): UserController->runAction()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(265): UserController->runActionWithFilters()
+#2 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): UserController->run()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#5 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/user/edit/%3C/stasher/admin/assets/images/manageUserGrey.svg
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php (117)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/24 02:21:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:22:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:22:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:23:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:23:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:24:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:47:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:48:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:48:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:49:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:49:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:52:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:52:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:52:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:52:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:52:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:52:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:52:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:52:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:54:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:54:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:54:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:54:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:54:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:54:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 02:54:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:00:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:00:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:00:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:00:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:02:16 [error] [php] Undefined index: avatar (/var/www/html/stasher/admin/protected/models/adminModel.php:160)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(286): UserController->runAction()
+#2 /var/www/html/stasher/admin/framework/web/CController.php(265): UserController->runActionWithFilters()
+#3 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): UserController->run()
+#4 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#6 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/user/update
+in /var/www/html/stasher/admin/protected/models/adminModel.php (160)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php (210)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/24 03:02:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:02:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:12:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:18:11 [error] [php] require_once(Mandrill/Templates.php): failed to open stream: No such file or directory (/var/www/html/stasher/admin/protected/components/Mandrill.php:3)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /var/www/html/stasher/admin/protected/components/CommonHelper.php(79): spl_autoload_call()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php(103): UserController->sendEmail()
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): UserController->actionSendpassword()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): UserController->runAction()
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): UserController->run()
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/user/sendpassword
+in /var/www/html/stasher/admin/protected/components/Mandrill.php (3)
+in /var/www/html/stasher/admin/protected/components/Mandrill.php (3)
+in /var/www/html/stasher/admin/protected/components/CommonHelper.php (79)
+2015/04/24 03:18:17 [error] [php] require_once(Mandrill/Templates.php): failed to open stream: No such file or directory (/var/www/html/stasher/admin/protected/components/Mandrill.php:3)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /var/www/html/stasher/admin/protected/components/CommonHelper.php(79): spl_autoload_call()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php(103): UserController->sendEmail()
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): UserController->actionSendpassword()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): UserController->runAction()
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): UserController->run()
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/user/sendpassword
+in /var/www/html/stasher/admin/protected/components/Mandrill.php (3)
+in /var/www/html/stasher/admin/protected/components/Mandrill.php (3)
+in /var/www/html/stasher/admin/protected/components/CommonHelper.php (79)
+2015/04/24 03:18:22 [error] [php] require_once(Mandrill/Templates.php): failed to open stream: No such file or directory (/var/www/html/stasher/admin/protected/components/Mandrill.php:3)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /var/www/html/stasher/admin/protected/components/CommonHelper.php(79): spl_autoload_call()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php(103): UserController->sendEmail()
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): UserController->actionSendpassword()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): UserController->runAction()
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): UserController->run()
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/user/sendpassword
+in /var/www/html/stasher/admin/protected/components/Mandrill.php (3)
+in /var/www/html/stasher/admin/protected/components/Mandrill.php (3)
+in /var/www/html/stasher/admin/protected/components/CommonHelper.php (79)
+2015/04/24 03:18:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:18:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:19:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:19:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:20:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:20:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:23:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:23:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:31:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:31:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:31:58 [error] [php] require_once(Mandrill/Templates.php): failed to open stream: No such file or directory (/var/www/html/stasher/admin/protected/components/Mandrill.php:3)
+Stack trace:
+#0 unknown(0): autoload()
+#1 /var/www/html/stasher/admin/protected/components/CommonHelper.php(79): spl_autoload_call()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php(103): UserController->sendEmail()
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): UserController->actionSendpassword()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): UserController->runAction()
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): UserController->run()
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/user/sendpassword
+in /var/www/html/stasher/admin/protected/components/Mandrill.php (3)
+in /var/www/html/stasher/admin/protected/components/Mandrill.php (3)
+in /var/www/html/stasher/admin/protected/components/CommonHelper.php (79)
+2015/04/24 03:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:34:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:34:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:34:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:34:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:34:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:34:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:34:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 03:36:02 [error] [php] Undefined index: msg (/var/www/html/stasher/admin/protected/views/cmsAdmin/user_view.php:7)
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CController.php(869): UserController->renderFile()
+#1 /var/www/html/stasher/admin/framework/web/CController.php(782): UserController->renderPartial()
+#2 /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php(47): UserController->render()
+#3 /var/www/html/stasher/admin/framework/web/actions/CInlineAction.php(49): UserController->actionIndex()
+#4 /var/www/html/stasher/admin/framework/web/CController.php(308): CInlineAction->runWithParams()
+#5 /var/www/html/stasher/admin/framework/web/CController.php(286): UserController->runAction()
+#6 /var/www/html/stasher/admin/framework/web/CController.php(265): UserController->runActionWithFilters()
+#7 /var/www/html/stasher/admin/framework/web/CWebApplication.php(282): UserController->run()
+#8 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#9 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /var/www/html/stasher/admin/index.php(13): CWebApplication->run()
+REQUEST_URI=/stasher/admin/cmsAdmin/user
+in /var/www/html/stasher/admin/protected/views/cmsAdmin/user_view.php (7)
+in /var/www/html/stasher/admin/protected/controllers/cmsAdmin/UserController.php (47)
+in /var/www/html/stasher/admin/index.php (13)
+2015/04/24 05:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 05:27:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 05:57:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 05:58:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 05:58:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1428664496_5527b0b0799bd_41.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1428664496_5527b0b0799bd_41.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 05:58:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1416476873_546db8c9736f6_36.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1416476873_546db8c9736f6_36.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 05:58:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 05:58:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1428664496_5527b0b0799bd_41.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1428664496_5527b0b0799bd_41.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 05:58:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1416476873_546db8c9736f6_36.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1416476873_546db8c9736f6_36.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 05:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 05:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1428664496_5527b0b0799bd_41.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1428664496_5527b0b0799bd_41.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 05:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1416476873_546db8c9736f6_36.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1416476873_546db8c9736f6_36.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 05:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 05:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1428664496_5527b0b0799bd_41.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1428664496_5527b0b0799bd_41.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 05:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1416476873_546db8c9736f6_36.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1416476873_546db8c9736f6_36.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 06:15:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 06:15:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1428664496_5527b0b0799bd_41.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1428664496_5527b0b0799bd_41.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 06:15:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1416476873_546db8c9736f6_36.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1416476873_546db8c9736f6_36.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 06:21:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 06:21:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1428664496_5527b0b0799bd_41.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1428664496_5527b0b0799bd_41.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 06:21:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1416476873_546db8c9736f6_36.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1416476873_546db8c9736f6_36.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 06:30:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 06:30:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+---
+2015/04/24 06:31:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+---
+2015/04/24 06:32:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 06:32:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 06:32:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 06:32:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 06:32:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 06:32:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 06:34:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 06:34:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 06:34:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---
+2015/04/24 06:34:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg".' in /var/www/html/stasher/admin/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/stasher/admin/framework/web/CWebApplication.php(141): CWebApplication->runController('dynamicAssets/u...')
+#1 /var/www/html/stasher/admin/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/stasher/admin/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/stasher/admin/dynamicAssets/users/avatar/1429080801_552e0ae1430cf_37.jpg
+HTTP_REFERER=http://localhost/stasher/admin/cmsAdmin/user/edit/?id=MzY=
+---

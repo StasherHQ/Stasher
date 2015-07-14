@@ -1,0 +1,545 @@
+@font-face {
+	font-family: 'GothamBook';
+	src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/Gotham-Book.otf') , url('../fonts/Gotham-Book.ttf') format('truetype'), url('../fonts/Gotham-Book.svg#svgFontName') format('svg');
+	src: url('../fonts/Gotham-Book.ttf');	
+}
+@font-face {
+	font-family: 'GothamLight';
+	src: url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Gotham-Light.otf') , url('../fonts/Gotham-Light.ttf') format('truetype'), url('../fonts/Gotham-Light.svg#svgFontName') format('svg');
+	src: url('../fonts/Gotham-Light.ttf');	
+}
+@font-face {
+	font-family: 'GothamMedium';
+	src: url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Gotham-Medium.otf') , url('../fonts/Gotham-Medium.ttf') format('truetype'), url('../fonts/Gotham-Medium.svg#svgFontName') format('svg');
+	src: url('../fonts/Gotham-Medium.ttf');	
+}
+html, body
+{
+	height:100%;
+	font-family: 'GothamBook';
+	color:#808184;
+}
+.loginBg
+{
+	background:#29A7DF;
+	min-height:100%;
+	width:100%;
+}
+.container-fluid
+{
+	padding:0;
+	position:relative;
+}
+.loginOuter
+{
+	width:350px;
+	height:310px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-175px;
+	margin-top:-155px;
+}
+.loginOuter span
+{
+	float:left;
+	width:100%;
+	color:#fff;
+	font-size:10px;
+	margin:5px 0;
+}
+.loginDetails
+{
+	background:rgba(255,255,255,0.2);
+	float:left;
+	width:100%;
+	padding:15px 20px;
+	border-radius:20px;
+}
+.loginDetails input, .loginDetails button
+{
+	width:100%;
+	background:#fff;
+	border:none;
+	border-radius:25px;
+	padding:15px;
+	margin:8px 0;
+	font-size:14px;
+	color:#929497;
+}
+.loginDetails button, .loginDetails button:hover
+{
+	background:#009345;
+	color:#fff;
+	
+}
+.sidebar
+{
+	height:140px;
+	width:180px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-90px;
+	margin-top:-70px;
+	font-size:16px;
+	
+}
+.sidebar .sidebar-menu.stasherMenu li.active a span
+{
+	font-family: 'GothamBook';
+}
+.sidebar .sidebar-menu.stasherMenu li a span
+{
+	margin-left:10px;
+	font-family: 'GothamLight';
+	color:#fff;
+}
+.sidebar .sidebar-menu.stasherMenu li a img
+{
+	margin-bottom:5px;
+	width:25px;
+}
+.manageUser
+{
+	float:left;
+	width:100%;
+}
+.right-side > .content-header.manageUser span.userImage
+{
+	float:left;	
+}
+.right-side > .content-header.manageUser h1
+{
+	font-size:20px;
+	margin-top:12px;
+}
+.manageUser span.userImage img
+{
+	width:25px;
+	float:left;
+	margin-top: 9px;
+}
+.manageUserForm span.userImage img
+{
+	margin-left:10px;
+	margin-top:23px;
+}
+.manageUser h1 span
+{
+	font-family: 'GothamLight';
+}
+.manageContent
+{
+	padding:0 0 20px 0;
+	float:left;
+	width:100%;
+}
+.manageUserInner
+{
+	border-bottom:1px solid #e6e7e8;
+	padding:18px 20px 15px;
+	font-size:12px;
+}
+.action a
+{
+	width:25px;
+	height:25px;
+	float:left;
+	background:#F0EFF0;
+	text-align:center;
+	margin-right:10px;
+}
+.action a img
+{
+	height:15px;
+	margin-top:5px;
+}
+.sidebarLogo
+{
+	bottom: 20px;
+    float: left;
+    position: absolute;
+    text-align: center;
+	width:100%;
+}
+.sidebarLogo img
+{
+	width:50%;
+}
+.childOuter
+{
+	margin-bottom:10px;
+	padding:0;
+}
+.childOuter h5
+{
+	margin-bottom:0;
+	margin-top:25px;
+}
+.childOuter span
+{
+	font-size:11px;
+}
+.avatar span img, .childPic img
+{
+	height:70px;
+	width:70px;
+	border-radius:50%;
+	border:1px solid #808184;	
+	float:left;
+	margin-right:10px;
+}
+.title
+{
+	text-transform:uppercase;
+	font-size:11px;
+}
+.sendMail button
+{
+	padding:5px 10px 3px 10px;
+	border:1px solid #808184;
+	border-radius:20px;
+	font-size:10px;
+	background:none;
+}
+.discardSave, .csv
+{
+	background:none;
+	border:1px solid #808184;
+	border-radius:20px;
+	padding:5px 25px 3px;
+	margin-left:10px;
+	margin-top:7px;
+	font-family: 'GothamMedium';
+	font-size:11px;
+	text-transform:uppercase;
+}
+.csv
+{
+	font-size:10px;
+	padding:5px 15px 3px 15px;
+	margin-top:14px;
+	margin-right:15px;
+}
+.missionOuter
+{
+	background:#F1F1F2;
+	border-radius:20px;
+	padding:20px;
+	margin-bottom:20px;
+}
+.manageUserInner .missionOuter:last-child
+{
+	margin-bottom:0;
+}
+.manageTitle
+{
+	color:#A6A8AB;
+	font-size:11px;
+	text-transform:uppercase;
+}
+.missionOuter .table
+{
+	margin-bottom:0;
+}
+.missionOuter label, .missionOuter h4
+{
+	width:100%;
+	font-family: 'GothamMedium';
+}
+.missionOuter h4
+{
+	font-size:15px;
+	margin:0;
+	color:#58595B;	
+}
+.missionOuter label
+{
+	font-size:10px;	
+	font-weight:400;
+	margin-bottom:0;
+}
+.missionOuter .table > thead > tr > th, .missionOuter .table > tbody > tr > th, .missionOuter .table > tfoot > tr > th, .missionOuter .table > thead > tr > td, .missionOuter .table > tbody > tr > td, .missionOuter .table > tfoot > tr > td
+{
+	border-top:none;
+}
+.missionInnerRight
+{
+	border-left:1px solid #e6e7e8;
+}
+.missionKnoxPending
+{
+	padding: 60px 20px;
+}
+.missionKnoxPending h3
+{
+	margin:5px 0 0 0;
+	font-size:20px;
+	color:#A6A8AB;
+	font-family: 'GothamMedium';
+}
+.missionKnoxPending span
+{
+	font-size:12px;
+	font-family: 'GothamLight';
+}
+.missionKnoxPending p
+{
+	font-size:12px;
+	font-family: 'GothamMedium';
+}
+.viewReports
+{
+	border-bottom:1px solid #e6e7e8;
+	padding:0;
+}
+.viewReports ul
+{
+	float:left;	
+	margin-bottom:0;
+	width:100%;
+}
+.viewReports ul li
+{
+	float:left;
+	padding:20px 25px 16px;
+	border-right:1px solid #e6e7e8;
+	font-family: 'GothamMedium';
+	font-size:10px;	
+}
+.viewReports .dropdown a
+{
+	color:#808184;
+}
+.viewReports .dropdown-menu
+{
+	padding:0;
+	margin:0;
+}
+.viewReports .dropdown-menu li
+{
+	border-right:none;
+	width:100%;
+	padding:0;	
+}
+.viewReports .dropdown-menu li a
+{	
+	padding:10px 15px 6px;
+}
+.sb-search {
+	position: relative;
+	margin-top: 4px;
+	width: 0%;
+	min-width: 30px;
+	height: 30px;
+	float: right;
+	overflow: hidden;
+	-webkit-transition: width 0.3s;
+	-moz-transition: width 0.3s;
+	transition: width 0.3s;
+	-webkit-backface-visibility: hidden;
+}
+.sb-search .sb-search-input
+{
+	border: none;
+}
+.sb-search-open .sb-search-input
+{
+	border: 1px solid #e6e7e8;
+}
+.sb-search-input {
+	position: absolute;
+	top: 0;
+	right: 0;
+	
+	outline: none;
+	background: #fbfbfb;
+	width: 100%;
+	height: 30px;
+	margin: 0;
+	z-index: 10;
+	padding:0 10px;
+	font-family: inherit;
+	font-size: 14px;
+	color: #2c3e50;
+}
+
+.sb-search-input::-webkit-input-placeholder {
+	color: #efb480;
+}
+
+.sb-search-input:-moz-placeholder {
+	color: #efb480;
+}
+
+.sb-search-input::-moz-placeholder {
+	color: #efb480;
+}
+
+.sb-search-input:-ms-input-placeholder {
+	color: #efb480;
+}
+
+.sb-icon-search,
+.sb-search-submit  {
+	width: 30px;
+	height: 30px;
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	line-height: 60px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.sb-search-submit {
+	background: #fbfbfb; /* IE needs this */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
+    filter: alpha(opacity=0); /* IE 5-7 */
+    opacity: 0;
+	color: transparent;
+	border: none;
+	outline: none;
+	z-index: -1;
+}
+
+.sb-icon-search {
+	color: #fff;
+	background:url(../images/searchIcon.svg) no-repeat center center;
+	z-index: 90;
+	font-size: 22px;
+	font-family: '';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+}
+
+.sb-icon-search:before {
+	/*content: "\e000";*/
+}
+
+/* Open state */
+.sb-search.sb-search-open,
+.no-js .sb-search {
+	width: 100%;
+}
+
+.sb-search.sb-search-open .sb-icon-search,
+.no-js .sb-search .sb-icon-search {
+	background:url(../images/searchIcon.svg) no-repeat center center;
+	color: #fff;
+	z-index: 11;
+}
+
+.sb-search.sb-search-open .sb-search-submit,
+.no-js .sb-search .sb-search-submit {
+	z-index: 90;
+}
+.viewReports .userDropdown
+{
+	width:250px;
+}
+.viewReports .userDropdown li
+{
+	padding:5px 10px;
+}
+.viewReports .userDropdown li a
+{
+	padding:0;
+}
+.viewReports .userDropdown li input
+{
+	border:1px solid #e6e7e8;
+	border-radius:20px;
+	width:100%;
+	padding:5px 5px 5px 30px;
+}
+.viewReports .userDropdown li span.userImg
+{
+	height:30px;
+	width:30px;
+	border-radius:50%;
+	border:1px solid #e6e7e8;
+	float:left;
+    overflow:hidden;
+}
+.viewReports .userDropdown li span.userImg img
+{
+	height:100%;
+	width:100%;
+}
+.viewReports .userDropdown li .outerSpan
+{
+	width:70%;
+	float:left;
+	margin-left:10px;
+}
+.dropdown-menu > li > a:hover
+{
+	background:none;
+	color:#808184;
+}
+.viewReports ul li.reportDate
+{
+	position:relative;
+	padding-bottom:14px;
+	width:220px;
+}
+input.datePickerReport
+{
+	border:none;
+	background:none;
+	color:#808184;
+	font-size:10px;
+	width:100%;
+}
+.viewReports ul li.reportDate span.caret
+{
+	position:absolute !important;
+	right:20%;
+	top:25px;
+	cursor:pointer;
+}
+.viewReports ul.userDropdown li.searchLi
+{
+	position:relative;
+}
+.viewReports ul.userDropdown li.searchLi span
+{
+	left: 20px;
+    position: absolute;
+    top: 10px;
+}
+.viewReports ul.userDropdown li.searchLi span img
+{
+	width:80%;
+}
+.allUserList
+{
+	background: #fff;
+    border: 1px solid #ddd;
+    float: left;
+    left: 0;
+    position: absolute;
+    top: 50px;
+    width: 250px;
+    z-index: 1;
+	display:none;
+}
+.allUserList ul
+{
+	list-style:none;
+	padding-left:0;
+}
+.allUserList ul li
+{
+	width:100%;
+	border-right:none;
+}
