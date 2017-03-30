@@ -597,8 +597,8 @@ INSERT INTO `tbl_sitesettings` (`id`, `var_name`, `var_value`, `status`) VALUES
 (2, 'TITLE', 'Stasher', ''),
 (3, 'FRONTTITLE', 'Welcome to stasher', ''),
 (4, 'ADMINTITLE', 'Welcome to Admin Panel', ''),
-(5, 'SITEURL', 'http://52.6.12.154/stasher', ''),
-(6, 'COPYRIGHT', '&copy; 2015', ''),
+(5, 'SITEURL', 'http://www.stasherapp.com', ''),
+(6, 'COPYRIGHT', '&copy; 2017', ''),
 (7, 'PARTNER_KEY', '4aa327f5ac661878d6178e2c2b44aa5a9a0708d2', '2'),
 (8, 'PARTNER_PASS', '7a383e494ac323569402b9f1fe591c1735906202', '2'),
 (9, 'DOCROOT', '/var/www/stasher/', '2');
