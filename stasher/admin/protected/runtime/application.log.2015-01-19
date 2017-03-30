@@ -12,7 +12,7 @@ Stack trace:
 #9 /var/www/thirst/index.php(13): CApplication->run()
 #10 {main}
 REQUEST_URI=/thirst/index.php/cmsAdmin/AdminVenueitem/happyHour?venue_id=1
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/adminVenueitem
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/adminVenueitem
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -23,7 +23,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/js/custom/happyHours.js
-HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenueitem/happyHour?venue_id=1
+HTTP_REFERER=http://52.6.12.154/thirst/index.php/cmsAdmin/AdminVenueitem/happyHour?venue_id=1
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -41,7 +41,7 @@ Stack trace:
 #4 /var/www/thirst/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/thirst/cmsAdmin/AdminMenu/savespirit
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/adminVenueitem
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/adminVenueitem
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -67,7 +67,7 @@ Stack trace:
 #10 /var/www/thirst/index.php(13): CApplication->run()
 #11 {main}
 REQUEST_URI=/thirst/cmsAdmin/category
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/dashboard
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/dashboard
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -183,7 +183,7 @@ Stack trace:
 #21 /var/www/thirst/index.php(13): CApplication->run()
 #22 {main}
 REQUEST_URI=/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/41
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/adminVenue
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/adminVenue
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -213,7 +213,7 @@ Stack trace:
 #21 /var/www/thirst/index.php(13): CApplication->run()
 #22 {main}
 REQUEST_URI=/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/41
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/adminVenue
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/adminVenue
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -259,7 +259,7 @@ Stack trace:
 #8 /var/www/thirst/index.php(13): CApplication->run()
 #9 {main}
 REQUEST_URI=/thirst/index.php/cmsAdmin/adminVenue/getEditIbeacon
-HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/41
+HTTP_REFERER=http://52.6.12.154/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/41
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -296,7 +296,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/css/images/ui-bg_flat_75_ffffff_40x100.png
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/dashboard
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/dashboard
 ---
 
 --------------------------------------------------------------------------------------------------------------------------

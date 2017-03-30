@@ -5,7 +5,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/uploads/venue_images/3/staff_profile/
-HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/3
+HTTP_REFERER=http://52.6.12.154/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/3
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -16,7 +16,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/uploads/venue_images/3/staff_profile/
-HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/3
+HTTP_REFERER=http://52.6.12.154/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/3
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -27,7 +27,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/uploads/venue_images/3/staff_profile/
-HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/3
+HTTP_REFERER=http://52.6.12.154/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/3
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -38,7 +38,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/uploads/venue_images/3/staff_profile/
-HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/3
+HTTP_REFERER=http://52.6.12.154/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/3
 ---
 
 --------------------------------------------------------------------------------------------------------------------------

@@ -23,7 +23,7 @@ Stack trace:
 #20 /var/www/thirst/index.php(13): CApplication->run()
 #21 {main}
 REQUEST_URI=/thirst/webService
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/user
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/user
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -80,7 +80,7 @@ Stack trace:
 #20 /var/www/thirst/index.php(13): CApplication->run()
 #21 {main}
 REQUEST_URI=/thirst/webService
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/adminVenue
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/adminVenue
 ---
 
 --------------------------------------------------------------------------------------------------------------------------

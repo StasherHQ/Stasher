@@ -1026,7 +1026,7 @@ in /var/www/thirst/index.php (13)
   first_name=Adi  
   last_name=Vora  
   full_name=Adi V.  
-  profile_image=http://54.225.115.65/thirst/uploads/default.png  
+  profile_image=http://52.6.12.154/thirst/uploads/default.png  
   access_token=8WiVk9_ilPVO  
   new_user=1  
   stay_sign_in=1  

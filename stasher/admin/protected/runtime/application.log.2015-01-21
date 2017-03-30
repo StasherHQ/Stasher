@@ -3020,7 +3020,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/css/images/ui-bg_dots-medium_80_ffff38_4x4.png
-HTTP_REFERER=http://54.225.115.65/thirst/css/date-time.css
+HTTP_REFERER=http://52.6.12.154/thirst/css/date-time.css
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -3885,7 +3885,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=404  
   name=Sa J.  
-  url=http://54.225.115.65/thirst/uploads/profile_1418284009.jpg  
+  url=http://52.6.12.154/thirst/uploads/profile_1418284009.jpg  
   note=  
   time=3 WEEKS AGO 
 ]  @ 
@@ -3980,7 +3980,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=132  
   name=Sa J.  
-  url=http://54.225.115.65/thirst/uploads/profile_1418284009.jpg  
+  url=http://52.6.12.154/thirst/uploads/profile_1418284009.jpg  
   note=SSdtIHQgdG8gSSDwn5Kl8J+YnPCfmKUgaW4gYSBzdGF0ZW1lbnQgaXNzdWVkIGlu  
   time=1 MONTH AGO 
 ]  @ 
@@ -4186,7 +4186,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=131  
   name=Sa J.  
-  url=http://54.225.115.65/thirst/uploads/profile_1418284009.jpg  
+  url=http://52.6.12.154/thirst/uploads/profile_1418284009.jpg  
   note=8J+RjfCfmInwn5KlIGluIGEgdGhlIGJlc3Qgd2F5IHRvIGdvIG91dCB0byBiZSBhIGxpdHRsZSBtb3JlIG9m  
   time=1 MONTH AGO 
 ]  @ 
@@ -4224,7 +4224,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=404  
   name=Sa J.  
-  url=http://54.225.115.65/thirst/uploads/profile_1418284009.jpg  
+  url=http://52.6.12.154/thirst/uploads/profile_1418284009.jpg  
   note=  
   time=3 WEEKS AGO 
 ]  @ 
@@ -4675,7 +4675,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=404  
   name=Sa J.  
-  url=http://54.225.115.65/thirst/uploads/profile_1418284009.jpg  
+  url=http://52.6.12.154/thirst/uploads/profile_1418284009.jpg  
   note=  
   time=3 WEEKS AGO 
 ]  @ 
@@ -5066,7 +5066,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=132  
   name=Sa J.  
-  url=http://54.225.115.65/thirst/uploads/profile_1418284009.jpg  
+  url=http://52.6.12.154/thirst/uploads/profile_1418284009.jpg  
   note=SSdtIHQgdG8gSSDwn5Kl8J+YnPCfmKUgaW4gYSBzdGF0ZW1lbnQgaXNzdWVkIGlu  
   time=1 MONTH AGO 
 ]  @ 
@@ -7059,7 +7059,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=456  
   name=Sn J.  
-  url=http://54.225.115.65/thirst/uploads/default.png  
+  url=http://52.6.12.154/thirst/uploads/default.png  
   note=  
   time=2 WEEKS AGO 
 ]  @ 

@@ -81,7 +81,7 @@ class PushnotificationHelper
     //Setup notification message
     $body = array();
     //$body['aps'] = array('alert' => 'Thirst Push Not to 123 dev.');
-    $body['aps']['notifurl'] = 'http://54.225.115.65/thirst';
+    $body['aps']['notifurl'] = 'http://52.6.12.154/thirst';
     $body['aps']['badge'] = 1;
     $body['aps']['alert']['body'] ='Thirst Push Notification to test.';        
     $body['aps']['alert']['orderId'] = 1; 

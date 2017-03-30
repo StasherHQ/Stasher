@@ -77,7 +77,7 @@ in /var/www/thirst/index.php (13)
   first_name=Sq   
   last_name=Jq  
   full_name=Sq  J.  
-  profile_image=http://54.225.115.65/thirst/uploads/profile_1421996440.jpg  
+  profile_image=http://52.6.12.154/thirst/uploads/profile_1421996440.jpg  
   access_token=FFKz8sCekmEt  
   new_user=1  
   stay_sign_in=1  
@@ -2075,7 +2075,7 @@ Stack trace:
 #18 /var/www/thirst/index.php(13): CApplication->run()
 #19 {main}
 REQUEST_URI=/thirst/index.php/cmsAdmin/AdminVenueitem
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/adminVenueitem
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/adminVenueitem
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -2111,7 +2111,7 @@ Stack trace:
 #18 /var/www/thirst/index.php(13): CApplication->run()
 #19 {main}
 REQUEST_URI=/thirst/index.php/cmsAdmin/AdminVenueitem
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/adminVenueitem
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/adminVenueitem
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -2355,7 +2355,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/css/images/ui-bg_dots-medium_80_ffff38_4x4.png
-HTTP_REFERER=http://54.225.115.65/thirst/css/date-time.css
+HTTP_REFERER=http://52.6.12.154/thirst/css/date-time.css
 ---
 
 --------------------------------------------------------------------------------------------------------------------------

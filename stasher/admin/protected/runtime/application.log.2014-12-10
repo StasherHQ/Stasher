@@ -1741,7 +1741,7 @@ in /var/www/thirst/index.php (13)
   first_name=Av  
   last_name=Acp  
   full_name=Av A.  
-  profile_image=http://54.225.115.65/thirst/uploads/default.png  
+  profile_image=http://52.6.12.154/thirst/uploads/default.png  
   access_token=uK~mCwUekkR8  
   new_user=1  
   stay_sign_in=1  
@@ -5162,7 +5162,7 @@ Stack trace:
 #4 /var/www/thirst/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/thirst/cmsAdmin/AdminMenu/savespirit
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/adminMenu
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/adminMenu
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -9462,7 +9462,7 @@ in /var/www/thirst/index.php (13)
   first_name=Ashay  
   last_name=I  
   full_name=Ashay I.  
-  profile_image=http://54.225.115.65/thirst/uploads/default.png  
+  profile_image=http://52.6.12.154/thirst/uploads/default.png  
   access_token=2~2ul0WHD6g_  
   new_user=1  
   stay_sign_in=1  
@@ -9552,7 +9552,7 @@ in /var/www/thirst/index.php (13)
 in /var/www/thirst/protected/controllers/api/DrinkController.php (2658)
 in /var/www/thirst/index.php (13)
 
-2014/12/10 08:40:27 [info] [---- In Drink controller------> Parameters are :  236 has send gift : 297  | note :  žée] In actionPlaceOrder Function
+2014/12/10 08:40:27 [info] [---- In Drink controller------> Parameters are :  236 has send gift : 297  | note :  ï¿½ï¿½e] In actionPlaceOrder Function
 in /var/www/thirst/protected/controllers/api/DrinkController.php (2659)
 in /var/www/thirst/index.php (13)
 
@@ -13201,7 +13201,7 @@ in /var/www/thirst/index.php (13)
   first_name=Alia  
   last_name=Alia  
   full_name=Alia A.  
-  profile_image=http://54.225.115.65/thirst/uploads/default.png  
+  profile_image=http://52.6.12.154/thirst/uploads/default.png  
   access_token=g3uM3y0UTYN9  
   new_user=1  
   stay_sign_in=1  
@@ -16673,7 +16673,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/uploads/venue_images/37/staff_profile/
-HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/37
+HTTP_REFERER=http://52.6.12.154/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/37
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -16684,7 +16684,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/css/images/ui-bg_flat_75_ffffff_40x100.png
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/promoCode
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/promoCode
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -16695,7 +16695,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/css/images/ui-icons_e1e463_256x240.png
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/promoCode
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/promoCode
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -16706,7 +16706,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/css/images/ui-bg_diagonals-small_50_93c3cd_40x40.png
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/promoCode
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/promoCode
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -16717,7 +16717,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/css/images/ui-bg_dots-small_35_35414f_2x2.png
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/promoCode
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/promoCode
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -16728,7 +16728,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/css/images/ui-bg_dots-medium_80_ffff38_4x4.png
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/promoCode
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/promoCode
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -16739,7 +16739,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/css/images/ui-bg_diagonals-small_75_ccd232_40x40.png
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/promoCode
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/promoCode
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -16750,7 +16750,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/css/images/ui-icons_454545_256x240.png
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/promoCode
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/promoCode
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -16761,7 +16761,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/css/images/ui-bg_diagonals-small_40_db4865_40x40.png
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/promoCode
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/promoCode
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -16784,7 +16784,7 @@ Stack trace:
 #4 /var/www/thirst/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/thirst/cmsAdmin/AdminMenu/savespirit
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/adminMenu
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/adminMenu
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -16797,7 +16797,7 @@ Stack trace:
 #4 /var/www/thirst/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/thirst/cmsAdmin/AdminMenu/savespirit
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/adminMenu
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/adminMenu
 ---
 
 --------------------------------------------------------------------------------------------------------------------------

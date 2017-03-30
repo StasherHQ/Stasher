@@ -559,7 +559,7 @@ in /var/www/thirst/index.php (13)
 in /var/www/thirst/protected/controllers/api/DrinkController.php (2681)
 in /var/www/thirst/index.php (13)
 
-2014/12/15 07:44:34 [info] [---- In Drink controller------> Parameters are :  210 has send gift : 370  | note :  žée] In actionPlaceOrder Function
+2014/12/15 07:44:34 [info] [---- In Drink controller------> Parameters are :  210 has send gift : 370  | note :  ï¿½ï¿½e] In actionPlaceOrder Function
 in /var/www/thirst/protected/controllers/api/DrinkController.php (2682)
 in /var/www/thirst/index.php (13)
 
@@ -834,7 +834,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=370  
   name=Nitin O.  
-  url=http://54.225.115.65/thirst/uploads/profile_1418364995.jpg  
+  url=http://52.6.12.154/thirst/uploads/profile_1418364995.jpg  
   note=  
   time=2 MINS AGO 
 ]  @ 
@@ -3414,7 +3414,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=327  
   name=Viraj R.  
-  url=http://54.225.115.65/thirst/uploads/profile_1418364363.jpg  
+  url=http://52.6.12.154/thirst/uploads/profile_1418364363.jpg  
   note=  
   time=3 DAYS AGO 
 ]  @ 
@@ -3715,7 +3715,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=360  
   name=Megha5;) O.  
-  url=http://54.225.115.65/thirst/uploads/profile_1417440978.jpg  
+  url=http://52.6.12.154/thirst/uploads/profile_1417440978.jpg  
   note=  
   time=7 HOURS AGO 
 ]  @ 
@@ -4454,7 +4454,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=327  
   name=Viraj R.  
-  url=http://54.225.115.65/thirst/uploads/profile_1418364363.jpg  
+  url=http://52.6.12.154/thirst/uploads/profile_1418364363.jpg  
   note=  
   time=3 DAYS AGO 
 ]  @ 
@@ -6337,7 +6337,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=373  
   name=Sachita O.  
-  url=http://54.225.115.65/thirst/uploads/profile_1415770528.jpg  
+  url=http://52.6.12.154/thirst/uploads/profile_1415770528.jpg  
   note=U2VuZGluZyB0d28gZHJpbmtzIA==  
   time=1 MIN AGO 
 ]  @ 
@@ -7206,7 +7206,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=373  
   name=Sachita O.  
-  url=http://54.225.115.65/thirst/uploads/profile_1415770528.jpg  
+  url=http://52.6.12.154/thirst/uploads/profile_1415770528.jpg  
   note=U2VuZGluZyB0d28gZHJpbmtzIA==  
   time=2 MINS AGO 
 ]  @ 
@@ -7525,7 +7525,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=373  
   name=Sachita O.  
-  url=http://54.225.115.65/thirst/uploads/profile_1415770528.jpg  
+  url=http://52.6.12.154/thirst/uploads/profile_1415770528.jpg  
   note=U2VuZGluZyB0d28gZHJpbmtzIA==  
   time=3 MINS AGO 
 ]  @ 
@@ -12923,7 +12923,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=327  
   name=Viraj R.  
-  url=http://54.225.115.65/thirst/uploads/profile_1418364363.jpg  
+  url=http://52.6.12.154/thirst/uploads/profile_1418364363.jpg  
   note=  
   time=3 DAYS AGO 
 ]  @ 

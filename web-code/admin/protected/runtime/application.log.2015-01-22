@@ -425,7 +425,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/css/images/ui-bg_dots-medium_80_ffff38_4x4.png
-HTTP_REFERER=http://54.225.115.65/thirst/css/date-time.css
+HTTP_REFERER=http://52.6.12.154/thirst/css/date-time.css
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -1398,7 +1398,7 @@ Stack trace:
 #4 /var/www/thirst/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/thirst/index.php/cmsAdmin/AdminVenueitem/deleteSection
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/adminVenueitem
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/adminVenueitem
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -1697,7 +1697,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/css/images/ui-bg_flat_75_ffffff_40x100.png
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/dashboard
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/dashboard
 ---
 
 --------------------------------------------------------------------------------------------------------------------------

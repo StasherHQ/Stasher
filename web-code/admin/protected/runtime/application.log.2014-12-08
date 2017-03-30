@@ -1492,7 +1492,7 @@ in /var/www/thirst/protected/controllers/api/SignupController.php (310)
   first_name=Megha  
   last_name=P  
   full_name=Megha P.  
-  profile_image=http://54.225.115.65/thirst/uploads/profile_1418019831.jpg  
+  profile_image=http://52.6.12.154/thirst/uploads/profile_1418019831.jpg  
   access_token=ISbx8wJkWNL0  
   new_user=1  
   stay_sign_in=1  
@@ -1720,7 +1720,7 @@ in /var/www/thirst/protected/controllers/api/SignupController.php (310)
   first_name=Ishanee   
   last_name=P  
   full_name=Ishanee  P.  
-  profile_image=http://54.225.115.65/thirst/uploads/default.png  
+  profile_image=http://52.6.12.154/thirst/uploads/default.png  
   access_token=0CDSIVQ1Y2uz  
   new_user=1  
   stay_sign_in=1  
@@ -1959,7 +1959,7 @@ in /var/www/thirst/protected/controllers/api/SignupController.php (310)
   first_name=Karan  
   last_name=K  
   full_name=Karan K.  
-  profile_image=http://54.225.115.65/thirst/uploads/profile_1418021094.jpg  
+  profile_image=http://52.6.12.154/thirst/uploads/profile_1418021094.jpg  
   access_token=0mHAtJdF0ah2  
   new_user=1  
   stay_sign_in=1  
@@ -2839,7 +2839,7 @@ in /var/www/thirst/index.php (13)
 in /var/www/thirst/protected/controllers/api/DrinkController.php (2624)
 in /var/www/thirst/index.php (13)
 
-2014/12/08 01:51:21 [info] [---- In Drink controller------> Parameters are :  210 has send gift : 286  | note :  žée] In actionPlaceOrder Function
+2014/12/08 01:51:21 [info] [---- In Drink controller------> Parameters are :  210 has send gift : 286  | note :  ï¿½ï¿½e] In actionPlaceOrder Function
 in /var/www/thirst/protected/controllers/api/DrinkController.php (2625)
 in /var/www/thirst/index.php (13)
 
@@ -3494,7 +3494,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/uploads/venue_images/20/staff_profile/venue_1413634905.png
-HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/20
+HTTP_REFERER=http://52.6.12.154/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/20
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -6777,7 +6777,7 @@ in /var/www/thirst/index.php (13)
 in /var/www/thirst/protected/controllers/api/DrinkController.php (2624)
 in /var/www/thirst/index.php (13)
 
-2014/12/08 02:36:04 [info] [---- In Drink controller------> Parameters are :  210 has send gift : 294  | note :  žée] In actionPlaceOrder Function
+2014/12/08 02:36:04 [info] [---- In Drink controller------> Parameters are :  210 has send gift : 294  | note :  ï¿½ï¿½e] In actionPlaceOrder Function
 in /var/www/thirst/protected/controllers/api/DrinkController.php (2625)
 in /var/www/thirst/index.php (13)
 
@@ -8276,7 +8276,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/uploads/venue_images/20/staff_profile/venue_1413634669.jpg
-HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/20
+HTTP_REFERER=http://52.6.12.154/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/20
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -8287,7 +8287,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/uploads/venue_images/20/staff_profile/venue_1413545701.jpg
-HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/20
+HTTP_REFERER=http://52.6.12.154/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/20
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -8349,7 +8349,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/uploads/venue_images/20/staff_profile/venue_1417791122.jpeg
-HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/20
+HTTP_REFERER=http://52.6.12.154/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/20
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -8360,7 +8360,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/uploads/venue_images/20/staff_profile/venue_1417791122.jpeg
-HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/20
+HTTP_REFERER=http://52.6.12.154/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/20
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -8371,7 +8371,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/uploads/venue_images/20/staff_profile/venue_1413634669.jpg
-HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/20
+HTTP_REFERER=http://52.6.12.154/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/20
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -8462,7 +8462,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/uploads/venue_images/1/staff_profile/venue_1417791341.jpg
-HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/1
+HTTP_REFERER=http://52.6.12.154/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/1
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -8482,7 +8482,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/uploads/venue_images/20/staff_profile/venue_1417791122.jpeg
-HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/20
+HTTP_REFERER=http://52.6.12.154/thirst/index.php/cmsAdmin/AdminVenue/editvenue/id/20
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -11188,7 +11188,7 @@ Stack trace:
 #4 /var/www/thirst/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/thirst/index.php/cmsAdmin/AdminVenue/closevenuegellary
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/adminVenue
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/adminVenue
 ---
 
 --------------------------------------------------------------------------------------------------------------------------

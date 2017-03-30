@@ -7,7 +7,7 @@ Stack trace:
 #4 /var/www/thirst/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/thirst/cmsAdmin/AdminMenu/savespirit
-HTTP_REFERER=http://54.225.115.65/thirst/cmsAdmin/adminVenueitem
+HTTP_REFERER=http://52.6.12.154/thirst/cmsAdmin/adminVenueitem
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -158,7 +158,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/js/custom/happyHours.js
-HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenueitem/happyHour?venue_id=1
+HTTP_REFERER=http://52.6.12.154/thirst/index.php/cmsAdmin/AdminVenueitem/happyHour?venue_id=1
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -169,7 +169,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/js/custom/happyHours.js
-HTTP_REFERER=http://54.225.115.65/thirst/index.php/cmsAdmin/AdminVenueitem/happyHour?venue_id=1
+HTTP_REFERER=http://52.6.12.154/thirst/index.php/cmsAdmin/AdminVenueitem/happyHour?venue_id=1
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -299,7 +299,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/css/images/ui-bg_dots-medium_80_ffff38_4x4.png
-HTTP_REFERER=http://54.225.115.65/thirst/css/date-time.css
+HTTP_REFERER=http://52.6.12.154/thirst/css/date-time.css
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -310,7 +310,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/css/images/ui-bg_dots-medium_80_ffff38_4x4.png
-HTTP_REFERER=http://54.225.115.65/thirst/css/date-time.css
+HTTP_REFERER=http://52.6.12.154/thirst/css/date-time.css
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -321,7 +321,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/css/images/ui-bg_dots-medium_80_ffff38_4x4.png
-HTTP_REFERER=http://54.225.115.65/thirst/css/date-time.css
+HTTP_REFERER=http://52.6.12.154/thirst/css/date-time.css
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -337,7 +337,7 @@ Stack trace:
 #2 /var/www/thirst/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/thirst/css/images/ui-bg_dots-medium_80_ffff38_4x4.png
-HTTP_REFERER=http://54.225.115.65/thirst/css/date-time.css
+HTTP_REFERER=http://52.6.12.154/thirst/css/date-time.css
 ---
 
 --------------------------------------------------------------------------------------------------------------------------
@@ -1907,7 +1907,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=445  
   name=Black C.  
-  url=http://54.225.115.65/thirst/uploads/default.png  
+  url=http://52.6.12.154/thirst/uploads/default.png  
   note=  
   time=2 WEEKS AGO 
 ]  @ 
@@ -2371,7 +2371,7 @@ in /var/www/thirst/index.php (13)
 in /var/www/thirst/protected/controllers/api/DrinkController.php (2706)
 in /var/www/thirst/index.php (13)
 
-2015/01/20 13:51:36 [info] [---- In Drink controller------> Parameters are :  23 has send gift : 461  | note :  žée] In actionPlaceOrder Function
+2015/01/20 13:51:36 [info] [---- In Drink controller------> Parameters are :  23 has send gift : 461  | note :  ï¿½ï¿½e] In actionPlaceOrder Function
 in /var/www/thirst/protected/controllers/api/DrinkController.php (2707)
 in /var/www/thirst/index.php (13)
 
@@ -2766,7 +2766,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=390  
   name=Purvi S.  
-  url=http://54.225.115.65/thirst/uploads/profile_1419272029.jpg  
+  url=http://52.6.12.154/thirst/uploads/profile_1419272029.jpg  
   note=WG94bw==  
   time=4 WEEKS AGO 
 ]  @ 
@@ -3322,7 +3322,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=390  
   name=Purvi S.  
-  url=http://54.225.115.65/thirst/uploads/profile_1419272029.jpg  
+  url=http://52.6.12.154/thirst/uploads/profile_1419272029.jpg  
   note=WG94bw==  
   time=4 WEEKS AGO 
 ]  @ 
@@ -3360,7 +3360,7 @@ in /var/www/thirst/index.php (13)
  Output Array is: 
  gift_id=390  
   name=Purvi S.  
-  url=http://54.225.115.65/thirst/uploads/profile_1419272029.jpg  
+  url=http://52.6.12.154/thirst/uploads/profile_1419272029.jpg  
   note=WG94bw==  
   time=4 WEEKS AGO 
 ]  @ 

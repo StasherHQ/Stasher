@@ -338,7 +338,7 @@
                                 </a>
                                 </div>
                                 <div class="pull-left closeBtn editCloseBtn">
-                                    <form id="frmAction" action="http://54.225.115.65/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
+                                    <form id="frmAction" action="http://52.6.12.154/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
                                     <input class="btn btn-small btn-flat" type="submit" value="X" onclick="return confirm('Are you sure want to delete this category?');">
                                     </form>
                                 </div>
@@ -373,7 +373,7 @@
                                 </a>
                                 </div>
                                 <div class="pull-left closeBtn editCloseBtn">
-                                    <form id="frmAction" action="http://54.225.115.65/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
+                                    <form id="frmAction" action="http://52.6.12.154/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
                                     <input class="btn btn-small btn-flat" type="submit" value="X" onclick="return confirm('Are you sure want to delete this category?');">
                                     </form>
                                 </div>
@@ -408,7 +408,7 @@
                                 </a>
                                 </div>
                                 <div class="pull-left closeBtn editCloseBtn">
-                                    <form id="frmAction" action="http://54.225.115.65/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
+                                    <form id="frmAction" action="http://52.6.12.154/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
                                     <input class="btn btn-small btn-flat" type="submit" value="X" onclick="return confirm('Are you sure want to delete this category?');">
                                     </form>
                                 </div>
@@ -443,7 +443,7 @@
                                 </a>
                                 </div>
                                 <div class="pull-left closeBtn editCloseBtn">
-                                    <form id="frmAction" action="http://54.225.115.65/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
+                                    <form id="frmAction" action="http://52.6.12.154/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
                                     <input class="btn btn-small btn-flat" type="submit" value="X" onclick="return confirm('Are you sure want to delete this category?');">
                                     </form>
                                 </div>
@@ -478,7 +478,7 @@
                                 </a>
                                 </div>
                                 <div class="pull-left closeBtn editCloseBtn">
-                                    <form id="frmAction" action="http://54.225.115.65/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
+                                    <form id="frmAction" action="http://52.6.12.154/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
                                     <input class="btn btn-small btn-flat" type="submit" value="X" onclick="return confirm('Are you sure want to delete this category?');">
                                     </form>
                                 </div>
@@ -513,7 +513,7 @@
                                 </a>
                                 </div>
                                 <div class="pull-left closeBtn editCloseBtn">
-                                    <form id="frmAction" action="http://54.225.115.65/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
+                                    <form id="frmAction" action="http://52.6.12.154/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
                                     <input class="btn btn-small btn-flat" type="submit" value="X" onclick="return confirm('Are you sure want to delete this category?');">
                                     </form>
                                 </div>
@@ -548,7 +548,7 @@
                                 </a>
                                 </div>
                                 <div class="pull-left closeBtn editCloseBtn">
-                                    <form id="frmAction" action="http://54.225.115.65/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
+                                    <form id="frmAction" action="http://52.6.12.154/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
                                     <input class="btn btn-small btn-flat" type="submit" value="X" onclick="return confirm('Are you sure want to delete this category?');">
                                     </form>
                                 </div>
@@ -583,7 +583,7 @@
                                 </a>
                                 </div>
                                 <div class="pull-left closeBtn editCloseBtn">
-                                    <form id="frmAction" action="http://54.225.115.65/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
+                                    <form id="frmAction" action="http://52.6.12.154/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
                                     <input class="btn btn-small btn-flat" type="submit" value="X" onclick="return confirm('Are you sure want to delete this category?');">
                                     </form>
                                 </div>
@@ -618,7 +618,7 @@
                                 </a>
                                 </div>
                                 <div class="pull-left closeBtn editCloseBtn">
-                                    <form id="frmAction" action="http://54.225.115.65/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
+                                    <form id="frmAction" action="http://52.6.12.154/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
                                     <input class="btn btn-small btn-flat" type="submit" value="X" onclick="return confirm('Are you sure want to delete this category?');">
                                     </form>
                                 </div>
@@ -653,7 +653,7 @@
                                 </a>
                                 </div>
                                 <div class="pull-left closeBtn editCloseBtn">
-                                    <form id="frmAction" action="http://54.225.115.65/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
+                                    <form id="frmAction" action="http://52.6.12.154/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
                                     <input class="btn btn-small btn-danger" type="submit" value="X" onclick="return confirm('Are you sure want to delete this category?');">
                                     </form>
                                 </div>
@@ -688,7 +688,7 @@
                                 </a>
                                 </div>
                                 <div class="pull-left closeBtn editCloseBtn">
-                                    <form id="frmAction" action="http://54.225.115.65/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
+                                    <form id="frmAction" action="http://52.6.12.154/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
                                     <input class="btn btn-small btn-danger" type="submit" value="X" onclick="return confirm('Are you sure want to delete this category?');">
                                     </form>
                                 </div>
@@ -723,7 +723,7 @@
                                 </a>
                                 </div>
                                 <div class="pull-left closeBtn editCloseBtn">
-                                    <form id="frmAction" action="http://54.225.115.65/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
+                                    <form id="frmAction" action="http://52.6.12.154/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
                                     <input class="btn btn-small btn-flat" type="submit" value="X" onclick="return confirm('Are you sure want to delete this category?');">
                                     </form>
                                 </div>
@@ -758,7 +758,7 @@
                                 </a>
                                 </div>
                                 <div class="pull-left closeBtn editCloseBtn">
-                                    <form id="frmAction" action="http://54.225.115.65/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
+                                    <form id="frmAction" action="http://52.6.12.154/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
                                     <input class="btn btn-small btn-flat" type="submit" value="X" onclick="return confirm('Are you sure want to delete this category?');">
                                     </form>
                                 </div>
@@ -793,7 +793,7 @@
                                 </a>
                                 </div>
                                 <div class="pull-left closeBtn editCloseBtn">
-                                    <form id="frmAction" action="http://54.225.115.65/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
+                                    <form id="frmAction" action="http://52.6.12.154/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
                                     <input class="btn btn-small btn-flat" type="submit" value="X" onclick="return confirm('Are you sure want to delete this category?');">
                                     </form>
                                 </div>
@@ -828,7 +828,7 @@
                                 </a>
                                 </div>
                                 <div class="pull-left closeBtn editCloseBtn">
-                                    <form id="frmAction" action="http://54.225.115.65/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
+                                    <form id="frmAction" action="http://52.6.12.154/thirst/index.php/cmsAdmin/category/deleteCategory/cat_id/1" method="post" name="frmAction">
                                     <input class="btn btn-small btn-flat" type="submit" value="X" onclick="return confirm('Are you sure want to delete this category?');">
                                     </form>
                                 </div>
