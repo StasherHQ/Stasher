@@ -17,13 +17,13 @@
 return array(
      'enableProfiling'=>true,
      'enableParamLogging' => true,
-			'connectionString' => 'mysql:host=localhost;dbname=stasher',
+			'connectionString' => 'mysql:host=localhost;dbname=db_stasher',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => 'oab',
+			'password' => 'bandit@Pride1',
 			'charset' => 'utf8',
       'initSQLs'=>array(
-                "SET time_zone = '-5:01'"
+                "SET time_zone = '-5:00'"
       ),
 		);
 ?>
