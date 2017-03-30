@@ -70,7 +70,11 @@ typedef enum{
 
 #define kREACHABILITYCHECKURL                                                 @"www.google.com"
 
-#define STASHER_BASE_URL                                                      @"http://54.225.115.65/stasher/api/"
+// #define STASHER_BASE_URL                                                      @"http://54.225.115.65/stasher/api/"
+
+// updated by bianca padilla on 3/29/17
+#define STASHER_BASE_URL                                                      @"http://52.6.12.154/api/"
+
 
 #define STASHER_ACCESS_TOKEN                                                  @"d4fhf576ggh895qqwh90"
 
