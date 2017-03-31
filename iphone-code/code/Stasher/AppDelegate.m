@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <FacebookSDK/FacebookSDK.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
 
 @interface AppDelegate ()
 
@@ -40,6 +40,9 @@ NSDictionary *returnDict;
             //[[UIApplication sharedApplication] registerForRemoteNotifications];
         }
     }
+    
+    [[FBSDKApplicationDelegate sharedInstance] application:application
+                             didFinishLaunchingWithOptions:launchOptions];
     
     return YES;
 }
@@ -127,7 +130,13 @@ NSDictionary *returnDict;
                           }];
          */
     }else{
-        return [FBSession.activeSession handleOpenURL:url];
+        BOOL handled = [[FBSDKApplicationDelegate sharedInstance] application:application
+                                                                      openURL:url
+                                                            sourceApplication:sourceApplication
+                                                                   annotation:annotation
+                        ];
+        // Add any custom logic here.
+        return handled;
     }
     return YES;
 }

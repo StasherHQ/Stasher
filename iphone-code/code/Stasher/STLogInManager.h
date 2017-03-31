@@ -25,7 +25,7 @@
 @property (nonatomic, weak) id <LogInManagerDelegate> delegate;
 
 + (STLogInManager*) sharedInstance ;
-- (BOOL)openSessionWithAllowLoginUI:(BOOL)allowLoginUI;
+- (BOOL)openSessionWithAllowLoginUI:(UIViewController* )viewController;
 - (void)updateUserDefaultsInLogInManagerWithDictionary:(NSDictionary*)logInCredentialsDict;
 - (BOOL)isUserLoggedIn;
 - (void)logOut;

@@ -120,7 +120,7 @@
 - (IBAction)LogInViaFacebookButtonPressed:(id)sender
 {
     [[STLogInManager sharedInstance] setDelegate:self];
-    [[STLogInManager sharedInstance] openSessionWithAllowLoginUI:YES];
+    [[STLogInManager sharedInstance] openSessionWithAllowLoginUI:self];
 }
 
 - (void) sendPaswordToEmailButtonPressed

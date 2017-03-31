@@ -136,7 +136,6 @@
 		8B0F3C641AF221C600206350 /* STAvatarsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B0F3C621AF221C600206350 /* STAvatarsViewController.xib */; };
 		8B0F3C681AF2251400206350 /* AvatarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B0F3C661AF2251400206350 /* AvatarCollectionViewCell.m */; };
 		8B0F3C691AF2251400206350 /* AvatarCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B0F3C671AF2251400206350 /* AvatarCollectionViewCell.xib */; };
-		8B26C0FE1A9F73180050F4FD /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B26C0FD1A9F73180050F4FD /* FacebookSDK.framework */; };
 		8B527BA01AC43C2A00C499C7 /* STTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B527B9E1AC43C2A00C499C7 /* STTutorialViewController.m */; };
 		8B527BA11AC43C2A00C499C7 /* STTutorialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B527B9F1AC43C2A00C499C7 /* STTutorialViewController.xib */; };
 		8BCF94CC1AB99C5D00B5DF17 /* STSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCF94CB1AB99C5D00B5DF17 /* STSettingsViewController.xib */; };
@@ -153,6 +152,10 @@
 		8BF467ED1AC19D7500076B18 /* STActivityDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF467EB1AC19D7500076B18 /* STActivityDetailsViewController.m */; };
 		8BF467EE1AC19D7500076B18 /* STActivityDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF467EC1AC19D7500076B18 /* STActivityDetailsViewController.xib */; };
 		8BFF5FA01AB72F1500658E95 /* STSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFF5F9E1AB72F1500658E95 /* STSettingsViewController.m */; };
+		9EA710941E7845A100D9F7F4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA710901E7845A100D9F7F4 /* Bolts.framework */; };
+		9EA710951E7845A100D9F7F4 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA710911E7845A100D9F7F4 /* FBSDKCoreKit.framework */; };
+		9EA710961E7845A100D9F7F4 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA710921E7845A100D9F7F4 /* FBSDKLoginKit.framework */; };
+		9EA710971E7845A100D9F7F4 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA710931E7845A100D9F7F4 /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -382,7 +385,6 @@
 		8B0F3C651AF2251400206350 /* AvatarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarCollectionViewCell.h; sourceTree = "<group>"; };
 		8B0F3C661AF2251400206350 /* AvatarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarCollectionViewCell.m; sourceTree = "<group>"; };
 		8B0F3C671AF2251400206350 /* AvatarCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AvatarCollectionViewCell.xib; sourceTree = "<group>"; };
-		8B26C0FD1A9F73180050F4FD /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../FacebookSDK.framework; sourceTree = "<group>"; };
 		8B527B9D1AC43C2A00C499C7 /* STTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTutorialViewController.h; sourceTree = "<group>"; };
 		8B527B9E1AC43C2A00C499C7 /* STTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTutorialViewController.m; sourceTree = "<group>"; };
 		8B527B9F1AC43C2A00C499C7 /* STTutorialViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STTutorialViewController.xib; sourceTree = "<group>"; };
@@ -408,6 +410,10 @@
 		8BF467EC1AC19D7500076B18 /* STActivityDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STActivityDetailsViewController.xib; sourceTree = "<group>"; };
 		8BFF5F9D1AB72F1500658E95 /* STSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSettingsViewController.h; sourceTree = "<group>"; };
 		8BFF5F9E1AB72F1500658E95 /* STSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSettingsViewController.m; sourceTree = "<group>"; };
+		9EA710901E7845A100D9F7F4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		9EA710911E7845A100D9F7F4 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		9EA710921E7845A100D9F7F4 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		9EA710931E7845A100D9F7F4 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -415,7 +421,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B26C0FE1A9F73180050F4FD /* FacebookSDK.framework in Frameworks */,
+				9EA710951E7845A100D9F7F4 /* FBSDKCoreKit.framework in Frameworks */,
+				9EA710971E7845A100D9F7F4 /* FBSDKShareKit.framework in Frameworks */,
+				9EA710961E7845A100D9F7F4 /* FBSDKLoginKit.framework in Frameworks */,
+				9EA710941E7845A100D9F7F4 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -884,7 +893,10 @@
 		34A11C781A19D6C60029AFDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8B26C0FD1A9F73180050F4FD /* FacebookSDK.framework */,
+				9EA710901E7845A100D9F7F4 /* Bolts.framework */,
+				9EA710911E7845A100D9F7F4 /* FBSDKCoreKit.framework */,
+				9EA710921E7845A100D9F7F4 /* FBSDKLoginKit.framework */,
+				9EA710931E7845A100D9F7F4 /* FBSDKShareKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1374,7 +1386,8 @@
 				TargetAttributes = {
 					3473E34A1A108C8A0095BB88 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = G7275HND69;
+						DevelopmentTeam = Y9ETQCSKC7;
+						ProvisioningStyle = Automatic;
 					};
 					3473E3631A108C8A0095BB88 = {
 						CreatedOnToolsVersion = 6.1;
@@ -1698,20 +1711,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Stasher Inc. (G7275HND69)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stasher Inc. (G7275HND69)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y9ETQCSKC7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/",
 					/Users/bhushan/Desktop/Bhushan/Stasher_All/Stasher_Code/Stasher_CurrentCode,
+					"$(PROJECT_DIR)/Stasher",
 				);
 				GCC_PREFIX_HEADER = "Stasher/Stasher-Prefix.pch";
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				INFOPLIST_FILE = Stasher/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.distribution.stasher;
 				PRODUCT_NAME = stasher;
-				PROVISIONING_PROFILE = "83a3217e-62ad-4f4a-8eb0-8df9812301d1";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1721,20 +1737,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Stasher Inc. (G7275HND69)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stasher Inc. (G7275HND69)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = Y9ETQCSKC7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/",
 					/Users/bhushan/Desktop/Bhushan/Stasher_All/Stasher_Code/Stasher_CurrentCode,
+					"$(PROJECT_DIR)/Stasher",
 				);
 				GCC_PREFIX_HEADER = "Stasher/Stasher-Prefix.pch";
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
 				INFOPLIST_FILE = Stasher/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.distribution.stasher;
 				PRODUCT_NAME = stasher;
-				PROVISIONING_PROFILE = "83a3217e-62ad-4f4a-8eb0-8df9812301d1";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

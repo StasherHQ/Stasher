@@ -8,7 +8,7 @@
 
 #import "STEntryViewController.h"
 #import "STBaseTabBarController.h"
-#import <FacebookSDK/FacebookSDK.h>
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import "STRegisterStepThreeViewController.h"
 @interface STEntryViewController ()
 
@@ -168,7 +168,7 @@
     [self.userTypeContainerView setHiddenAnimated:YES];
     [self.overlayView setHiddenAnimated:YES];
     [[STLogInManager sharedInstance] setDelegate:self];
-    [[STLogInManager sharedInstance] openSessionWithAllowLoginUI:YES];
+    [[STLogInManager sharedInstance] openSessionWithAllowLoginUI:self];
 }
 
 - (IBAction)userTypeContainerCancelButtonPressed:(id)sender
