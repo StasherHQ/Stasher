@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="200" id="AND-t9-Beu" customClass="STChildMissionCompleteCustomTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="125"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AND-t9-Beu" id="rDK-0U-yh0">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stasher_activemissionGrayBG" translatesAutoresizingMaskIntoConstraints="NO" id="k1I-Xy-bDt">
+                        <rect key="frame" x="6" y="21" width="304" height="75"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="75" id="VDJ-FJ-g08"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhp-Sl-Vyr">
+                        <rect key="frame" x="11" y="33" width="33" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yas-cN-gv1">
+                        <rect key="frame" x="11" y="49" width="242" height="42"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="42" id="VIh-Jn-Bda"/>
+                            <constraint firstAttribute="width" constant="242" id="dOd-rA-rL5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stasher_divider" translatesAutoresizingMaskIntoConstraints="NO" id="QOf-yb-fcA">
+                        <rect key="frame" x="0.0" y="118" width="320" height="5"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmt-0s-3rq">
+                        <rect key="frame" x="253" y="33" width="47" height="58"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="47" id="NtR-9F-uMC"/>
+                            <constraint firstAttribute="height" constant="58" id="PSl-8P-ZBo"/>
+                        </constraints>
+                        <inset key="titleEdgeInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" backgroundImage="Stasher_rewardIcon">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eMu-w3-MTJ">
+                        <rect key="frame" x="255" y="55" width="42" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="7ei-6h-mOs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stasher_RewardIcon" translatesAutoresizingMaskIntoConstraints="NO" id="5GC-MY-91p">
+                        <rect key="frame" x="266" y="54" width="20" height="22"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yas-cN-gv1" firstAttribute="top" secondItem="Xhp-Sl-Vyr" secondAttribute="bottom" id="8Hn-YJ-WQg"/>
+                    <constraint firstItem="cmt-0s-3rq" firstAttribute="top" secondItem="Xhp-Sl-Vyr" secondAttribute="bottom" constant="-16" id="9yu-q2-gLS"/>
+                    <constraint firstItem="yas-cN-gv1" firstAttribute="leading" secondItem="rDK-0U-yh0" secondAttribute="leadingMargin" constant="3" id="EvO-aY-XEK"/>
+                    <constraint firstItem="QOf-yb-fcA" firstAttribute="top" secondItem="k1I-Xy-bDt" secondAttribute="bottom" constant="22" id="FTj-2P-sfI"/>
+                    <constraint firstItem="Xhp-Sl-Vyr" firstAttribute="leading" secondItem="rDK-0U-yh0" secondAttribute="leadingMargin" constant="3" id="Fna-U2-C5a"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="k1I-Xy-bDt" secondAttribute="trailing" constant="2" id="HDn-7k-ejW"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="QOf-yb-fcA" secondAttribute="trailing" constant="-8" id="Pus-zf-BZO"/>
+                    <constraint firstItem="k1I-Xy-bDt" firstAttribute="leading" secondItem="rDK-0U-yh0" secondAttribute="leadingMargin" constant="-2" id="SaJ-u2-Z1F"/>
+                    <constraint firstItem="5GC-MY-91p" firstAttribute="centerY" secondItem="cmt-0s-3rq" secondAttribute="centerY" constant="3" id="e6u-b7-iBb"/>
+                    <constraint firstItem="5GC-MY-91p" firstAttribute="centerX" secondItem="cmt-0s-3rq" secondAttribute="centerX" constant="-0.5" id="fCi-Ly-lWu"/>
+                    <constraint firstItem="eMu-w3-MTJ" firstAttribute="centerY" secondItem="cmt-0s-3rq" secondAttribute="centerY" constant="3" id="kmI-ff-NkZ"/>
+                    <constraint firstItem="QOf-yb-fcA" firstAttribute="leading" secondItem="rDK-0U-yh0" secondAttribute="leadingMargin" constant="-8" id="mpU-jY-Oug"/>
+                    <constraint firstItem="eMu-w3-MTJ" firstAttribute="centerX" secondItem="cmt-0s-3rq" secondAttribute="centerX" constant="-0.5" id="ns5-Cq-JMZ"/>
+                    <constraint firstItem="k1I-Xy-bDt" firstAttribute="top" secondItem="rDK-0U-yh0" secondAttribute="topMargin" constant="13" id="oaO-b8-J3r"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="cmt-0s-3rq" secondAttribute="trailing" constant="12" id="rBn-Cc-kNb"/>
+                    <constraint firstItem="Xhp-Sl-Vyr" firstAttribute="top" secondItem="rDK-0U-yh0" secondAttribute="topMargin" constant="25" id="yyg-5y-Fs4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="buttonReward" destination="cmt-0s-3rq" id="umA-3P-NqB"/>
+                <outlet property="giftIconImgView" destination="5GC-MY-91p" id="dhk-eb-XZZ"/>
+                <outlet property="labelMissionInfo" destination="Xhp-Sl-Vyr" id="4lu-sU-YBX"/>
+                <outlet property="labelMissionTitle" destination="yas-cN-gv1" id="IxD-Dc-7jp"/>
+                <outlet property="labelRewardAmount" destination="eMu-w3-MTJ" id="5K9-7A-4IO"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="178"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Stasher_RewardIcon" width="20" height="22"/>
+        <image name="Stasher_activemissionGrayBG" width="294" height="79"/>
+        <image name="Stasher_rewardIcon" width="47" height="58"/>
+        <image name="stasher_divider" width="320" height="5"/>
+    </resources>
+</document>

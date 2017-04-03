@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="STParentPaymentViewController">
+            <connections>
+                <outlet property="ImgViewNoBankAcc" destination="onp-jc-LBy" id="6Ng-i8-xvM"/>
+                <outlet property="addBankAccountButton" destination="gYf-1w-2V5" id="3ks-4X-XE5"/>
+                <outlet property="addChildButton" destination="syg-o7-euz" id="i6K-TC-zvp"/>
+                <outlet property="childNamesListTableView" destination="XAf-9C-44l" id="c0t-XV-a9N"/>
+                <outlet property="constraintBankAccountsTableHeight" destination="LR8-42-pjs" id="x2k-56-GwV"/>
+                <outlet property="constraintHeightControlContainerView" destination="gnk-6V-7je" id="gbQ-Mb-psg"/>
+                <outlet property="containerScrollView" destination="Zi6-02-R0R" id="Om8-Qy-2lW"/>
+                <outlet property="controlsContainerView" destination="xuF-DA-WAq" id="Ssv-Gd-UIC"/>
+                <outlet property="labelHeadingMyCards" destination="saI-9e-Lmi" id="ms6-cF-y9g"/>
+                <outlet property="labelHeadingMyChildren" destination="j7w-Yj-9NE" id="0O5-e5-50l"/>
+                <outlet property="labelNoBankAcc" destination="mmp-UJ-Pzg" id="0no-Lq-tzs"/>
+                <outlet property="labelNoBankAccTitle" destination="zaq-gJ-AF9" id="zwT-de-mUT"/>
+                <outlet property="tableHeightConstraint" destination="yMV-Jm-lZb" id="W9u-ri-YaP"/>
+                <outlet property="tableViewBankAccounts" destination="J8X-iv-J4R" id="b2Y-iA-PYu"/>
+                <outlet property="view" destination="GSb-YV-b6l" id="uXP-bD-do0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="GSb-YV-b6l">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="531"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zi6-02-R0R">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="531"/>
+                    <subviews>
+                        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xuF-DA-WAq">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="2000"/>
+                            <subviews>
+                                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Bank Accounts:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="saI-9e-Lmi">
+                                    <rect key="frame" x="12" y="24" width="150" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NobankAC" translatesAutoresizingMaskIntoConstraints="NO" id="onp-jc-LBy">
+                                    <rect key="frame" x="265" y="24" width="70" height="70"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="70" id="Kuy-jq-nfk"/>
+                                        <constraint firstAttribute="width" constant="70" id="rr7-NW-J3g"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You do not have a bank account linked." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaq-gJ-AF9">
+                                    <rect key="frame" x="150" y="117" width="300" height="21"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="300" id="TBb-Ij-ugT"/>
+                                        <constraint firstAttribute="height" constant="21" id="kNS-nE-NZI"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please link an account now." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mmp-UJ-Pzg">
+                                    <rect key="frame" x="150" y="140" width="300" height="21"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="300" id="CPN-qL-AgZ"/>
+                                        <constraint firstAttribute="height" constant="21" id="dvr-ap-l55"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" style="plain" separatorStyle="none" rowHeight="60" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="XAf-9C-44l">
+                                    <rect key="frame" x="0.0" y="313" width="600" height="216"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="216" id="yMV-Jm-lZb"/>
+                                    </constraints>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="wX1-Vy-RcH"/>
+                                        <outlet property="delegate" destination="-1" id="kKK-K3-kLf"/>
+                                    </connections>
+                                </tableView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Children:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j7w-Yj-9NE">
+                                    <rect key="frame" x="12" y="297" width="97" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="syg-o7-euz">
+                                    <rect key="frame" x="12" y="294" width="576" height="49"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="49" id="KPY-LV-ylN"/>
+                                    </constraints>
+                                    <state key="normal" title="Add Child" backgroundImage="stasher_Registerbutton">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="addChildButtonPressed:" destination="-1" eventType="touchUpInside" id="Uno-s2-Up1"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYf-1w-2V5">
+                                    <rect key="frame" x="12" y="198" width="576" height="49"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="49" id="vOd-Zb-PhV"/>
+                                    </constraints>
+                                    <state key="normal" title="Add Bank Account" backgroundImage="stasher_Registerbutton">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="addBankAccountPressed:" destination="-1" eventType="touchUpInside" id="QTV-9m-DSB"/>
+                                    </connections>
+                                </button>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stasher_divider" translatesAutoresizingMaskIntoConstraints="NO" id="qor-d8-fJj">
+                                    <rect key="frame" x="0.0" y="267" width="600" height="5"/>
+                                </imageView>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="J8X-iv-J4R">
+                                    <rect key="frame" x="0.0" y="53" width="600" height="127"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="127" id="LR8-42-pjs"/>
+                                    </constraints>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="pE5-bA-VYx"/>
+                                        <outlet property="delegate" destination="-1" id="Uoe-yC-uge"/>
+                                    </connections>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="XAf-9C-44l" firstAttribute="leading" secondItem="xuF-DA-WAq" secondAttribute="leading" id="2Jh-7T-fKy"/>
+                                <constraint firstItem="gYf-1w-2V5" firstAttribute="top" secondItem="J8X-iv-J4R" secondAttribute="bottom" constant="18" id="33T-Fr-t86"/>
+                                <constraint firstItem="onp-jc-LBy" firstAttribute="top" secondItem="xuF-DA-WAq" secondAttribute="top" constant="24" id="4g0-sV-CZD"/>
+                                <constraint firstItem="saI-9e-Lmi" firstAttribute="top" secondItem="xuF-DA-WAq" secondAttribute="top" constant="24" id="6XX-aj-MUg"/>
+                                <constraint firstItem="j7w-Yj-9NE" firstAttribute="top" secondItem="qor-d8-fJj" secondAttribute="bottom" constant="25" id="6xD-et-Kdh"/>
+                                <constraint firstAttribute="centerX" secondItem="zaq-gJ-AF9" secondAttribute="centerX" id="7w1-gW-2PY"/>
+                                <constraint firstItem="J8X-iv-J4R" firstAttribute="leading" secondItem="xuF-DA-WAq" secondAttribute="leading" id="9ex-6m-cY3"/>
+                                <constraint firstAttribute="centerX" secondItem="mmp-UJ-Pzg" secondAttribute="centerX" id="Dkl-vx-dn6"/>
+                                <constraint firstItem="gYf-1w-2V5" firstAttribute="top" secondItem="mmp-UJ-Pzg" secondAttribute="bottom" constant="37" id="E45-A9-f51"/>
+                                <constraint firstItem="XAf-9C-44l" firstAttribute="top" secondItem="j7w-Yj-9NE" secondAttribute="bottom" constant="-5" id="FS0-iz-Vpc"/>
+                                <constraint firstItem="syg-o7-euz" firstAttribute="leading" secondItem="xuF-DA-WAq" secondAttribute="leading" constant="12" id="K3H-sM-ZmK"/>
+                                <constraint firstItem="mmp-UJ-Pzg" firstAttribute="top" secondItem="zaq-gJ-AF9" secondAttribute="bottom" constant="2" id="KLD-hV-RrT"/>
+                                <constraint firstAttribute="trailing" secondItem="qor-d8-fJj" secondAttribute="trailing" id="KZU-fs-wNq"/>
+                                <constraint firstAttribute="trailing" secondItem="XAf-9C-44l" secondAttribute="trailing" id="QOb-6I-Oh7"/>
+                                <constraint firstItem="syg-o7-euz" firstAttribute="top" secondItem="qor-d8-fJj" secondAttribute="bottom" constant="22" id="TDR-vl-KDL"/>
+                                <constraint firstItem="saI-9e-Lmi" firstAttribute="leading" secondItem="xuF-DA-WAq" secondAttribute="leading" constant="12" id="WAP-iJ-uYH"/>
+                                <constraint firstItem="zaq-gJ-AF9" firstAttribute="top" secondItem="onp-jc-LBy" secondAttribute="bottom" constant="23" id="a2d-xx-VlQ"/>
+                                <constraint firstItem="qor-d8-fJj" firstAttribute="top" secondItem="gYf-1w-2V5" secondAttribute="bottom" constant="20" id="gIa-S0-yNK"/>
+                                <constraint firstItem="J8X-iv-J4R" firstAttribute="top" secondItem="saI-9e-Lmi" secondAttribute="bottom" constant="8" id="gg7-3U-76a"/>
+                                <constraint firstAttribute="height" constant="2000" id="gnk-6V-7je"/>
+                                <constraint firstAttribute="trailing" secondItem="gYf-1w-2V5" secondAttribute="trailing" constant="12" id="hHc-lf-vVB"/>
+                                <constraint firstItem="gYf-1w-2V5" firstAttribute="leading" secondItem="xuF-DA-WAq" secondAttribute="leading" constant="12" id="hpq-UQ-Sn6"/>
+                                <constraint firstItem="j7w-Yj-9NE" firstAttribute="leading" secondItem="xuF-DA-WAq" secondAttribute="leading" constant="12" id="jB6-Bq-Wgs"/>
+                                <constraint firstAttribute="trailing" secondItem="J8X-iv-J4R" secondAttribute="trailing" id="lxH-RX-egl"/>
+                                <constraint firstAttribute="trailing" secondItem="syg-o7-euz" secondAttribute="trailing" constant="12" id="mDW-JH-ayo"/>
+                                <constraint firstAttribute="centerX" secondItem="onp-jc-LBy" secondAttribute="centerX" id="ukt-Co-5gi"/>
+                                <constraint firstItem="qor-d8-fJj" firstAttribute="leading" secondItem="xuF-DA-WAq" secondAttribute="leading" id="xIs-Gb-6VB"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="xuF-DA-WAq" firstAttribute="leading" secondItem="Zi6-02-R0R" secondAttribute="leading" id="Hgp-s3-0tH"/>
+                        <constraint firstAttribute="trailing" secondItem="xuF-DA-WAq" secondAttribute="trailing" id="fM2-Bq-0hX"/>
+                        <constraint firstAttribute="width" secondItem="xuF-DA-WAq" secondAttribute="width" id="h9I-Pu-wQJ"/>
+                        <constraint firstAttribute="bottom" secondItem="xuF-DA-WAq" secondAttribute="bottom" id="iVp-iA-uxD"/>
+                        <constraint firstItem="xuF-DA-WAq" firstAttribute="top" secondItem="Zi6-02-R0R" secondAttribute="top" id="oPH-PF-aUt"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Zi6-02-R0R" secondAttribute="bottom" id="27G-G2-yOG"/>
+                <constraint firstAttribute="trailing" secondItem="Zi6-02-R0R" secondAttribute="trailing" id="KIK-zz-IgV"/>
+                <constraint firstItem="Zi6-02-R0R" firstAttribute="leading" secondItem="GSb-YV-b6l" secondAttribute="leading" id="rue-lu-DrX"/>
+                <constraint firstItem="Zi6-02-R0R" firstAttribute="top" secondItem="GSb-YV-b6l" secondAttribute="top" id="tPi-jq-COf"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="101" y="231.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="NobankAC" width="55" height="55"/>
+        <image name="stasher_Registerbutton" width="295" height="49"/>
+        <image name="stasher_divider" width="320" height="5"/>
+    </resources>
+</document>

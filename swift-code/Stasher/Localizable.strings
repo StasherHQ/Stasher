@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  Stasher
+
+  Created by bhushan on 12/11/14.
+  Copyright (c) 2014 OAB. All rights reserved.
+*/
+
+
+/**
+ Registration Steps
+ */
+"Step 1 of 3"                               = "Step 1 of 3";
+
+"Step 2 of 3"                               = "Step 2 of 3";
+
+"Step 3 of 3"                               = "Step 3 of 3";
+
+"Step 1 of 2"                               = "Step 1 of 2";
+
+"Step 2 of 2"                               = "Step 2 of 2";
+

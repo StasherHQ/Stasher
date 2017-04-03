@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="57" id="u35-6H-ggV" customClass="STMyChildParentNamesCustomTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="57"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="u35-6H-ggV" id="NV8-Wg-JCL">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2HA-GO-IqY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MPi-Gb-9n0">
+                        <rect key="frame" x="0.0" y="1" width="320" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="7Xk-ER-cKi"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="stasher_input-field">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="2HA-GO-IqY" secondAttribute="bottom" constant="-8" id="6zI-Fr-DSX"/>
+                    <constraint firstItem="2HA-GO-IqY" firstAttribute="width" secondItem="MPi-Gb-9n0" secondAttribute="width" id="84N-4V-hm9"/>
+                    <constraint firstItem="2HA-GO-IqY" firstAttribute="leading" secondItem="NV8-Wg-JCL" secondAttribute="leadingMargin" constant="-8" id="Bcq-VM-oQV"/>
+                    <constraint firstAttribute="centerX" secondItem="MPi-Gb-9n0" secondAttribute="centerX" constant="-0.5" id="Duk-ub-BPm"/>
+                    <constraint firstItem="MPi-Gb-9n0" firstAttribute="top" secondItem="NV8-Wg-JCL" secondAttribute="topMargin" constant="-7" id="HIZ-xY-4oV"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="2HA-GO-IqY" secondAttribute="trailing" constant="-8" id="NVI-p8-VC9"/>
+                    <constraint firstItem="2HA-GO-IqY" firstAttribute="top" secondItem="NV8-Wg-JCL" secondAttribute="topMargin" constant="-8" id="Og1-gv-lBJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="childNameButton" destination="MPi-Gb-9n0" id="mQg-Ab-mJk"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="163.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="stasher_input-field" width="295" height="49"/>
+    </resources>
+</document>

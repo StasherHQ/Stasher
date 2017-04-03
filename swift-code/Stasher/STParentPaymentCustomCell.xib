@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="57" id="gqM-ds-WMh" customClass="STParentPaymentCustomCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="57"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gqM-ds-WMh" id="0GK-HE-IzZ">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v8C-Gw-mGK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xWp-ZB-iXv">
+                        <rect key="frame" x="0.0" y="1" width="320" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="oV1-lc-OoR"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="Stasher_paymentCellBTN">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstAttribute="centerX" secondItem="xWp-ZB-iXv" secondAttribute="centerX" constant="-0.5" id="7tP-6o-Jwc"/>
+                    <constraint firstItem="v8C-Gw-mGK" firstAttribute="leading" secondItem="0GK-HE-IzZ" secondAttribute="leadingMargin" constant="-8" id="BVN-xQ-V6B"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="v8C-Gw-mGK" secondAttribute="trailing" constant="-8" id="FrC-aB-sam"/>
+                    <constraint firstItem="v8C-Gw-mGK" firstAttribute="width" secondItem="xWp-ZB-iXv" secondAttribute="width" id="MAE-Ih-XgC"/>
+                    <constraint firstItem="v8C-Gw-mGK" firstAttribute="top" secondItem="0GK-HE-IzZ" secondAttribute="topMargin" constant="-8" id="Q26-Rk-gKS"/>
+                    <constraint firstItem="xWp-ZB-iXv" firstAttribute="top" secondItem="0GK-HE-IzZ" secondAttribute="topMargin" constant="-7" id="f4x-8C-bL6"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="v8C-Gw-mGK" secondAttribute="bottom" constant="-8" id="ub5-ve-Mr4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="childNameButton" destination="xWp-ZB-iXv" id="qLt-DO-0kd"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="163.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Stasher_paymentCellBTN" width="295" height="49"/>
+    </resources>
+</document>
